@@ -59,10 +59,10 @@ If you use this dataset in your research, please cite:
 
 ```
 @misc{ai-law-sentiment,
-  author = {YOUR NAME},
+  author = {Felipe Zhi Quan Chen},
   title  = {AI in Law: Public Sentiment Analysis Dataset},
   year   = {2026},
-  url    = {https://github.com/YOUR_USERNAME/ai-law-sentiment}
+  url    = {https://github.com/Felipe-ML-Projects/ai-law-sentiment}
 }
 ```
 
