@@ -4,14 +4,14 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-05-11
+## Latest snapshot — 2026-05-12
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 10 |
+| Total items analyzed | 96 |
 | Days running | 1 |
-| Historical avg. VADER score | -0.1065 |
-| Latest daily report | [View report](reports/2026-05-11_report.md) |
+| Historical avg. VADER score | +0.4765 |
+| Latest daily report | [View report](reports/2026-05-12_report.md) |
 
 ## Why this project?
 
@@ -59,10 +59,10 @@ If you use this dataset in your research, please cite:
 
 ```
 @misc{ai-law-sentiment,
-  author = {Felipe Zhi Quan Chen},
+  author = {YOUR NAME},
   title  = {AI in Law: Public Sentiment Analysis Dataset},
   year   = {2026},
-  url    = {https://github.com/Felipe-ML-Projects/ai-law-sentiment}
+  url    = {https://github.com/YOUR_USERNAME/ai-law-sentiment}
 }
 ```
 
@@ -72,4 +72,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-05-11 16:45 UTC by GitHub Actions._
+_Updated automatically on 2026-05-12 04:27 UTC by GitHub Actions._
