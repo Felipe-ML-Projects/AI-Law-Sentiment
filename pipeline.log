@@ -98,3 +98,100 @@
 2026-05-12 04:27:29,793 [INFO]   Avg compound   : +0.4765
 2026-05-12 04:27:29,793 [INFO]   Report saved   : reports/2026-05-12_report.md
 2026-05-12 04:27:29,794 [INFO] ============================================================
+2026-05-12 10:39:53,545 [INFO] ============================================================
+2026-05-12 10:39:53,545 [INFO] AI in Law Sentiment Pipeline — starting
+2026-05-12 10:39:53,545 [INFO] ============================================================
+2026-05-12 10:39:53,690 [INFO] === Starting daily collection ===
+2026-05-12 10:39:53,690 [INFO] RSS: Reuters Law
+2026-05-12 10:39:54,221 [INFO] RSS: Ars Technica Policy
+2026-05-12 10:39:54,837 [INFO] RSS: The Verge AI
+2026-05-12 10:39:55,482 [INFO] RSS: MIT Tech Review
+2026-05-12 10:39:56,114 [INFO] RSS: POLITICO Tech
+2026-05-12 10:39:56,704 [INFO] RSS: TechCrunch
+2026-05-12 10:39:57,282 [INFO] RSS: Wired AI
+2026-05-12 10:40:00,574 [INFO] RSS: LawFare
+2026-05-12 10:40:01,383 [INFO] RSS: Future of Life
+2026-05-12 10:40:03,021 [INFO] RSS: collected 3 relevant articles
+2026-05-12 10:40:03,021 [INFO] arXiv: querying 'AI regulation'
+2026-05-12 10:41:05,573 [INFO] arXiv: querying 'artificial intelligence law'
+2026-05-12 10:41:06,776 [INFO] arXiv: querying 'AI governance'
+2026-05-12 10:41:07,997 [INFO] arXiv: querying 'algorithmic accountability'
+2026-05-12 10:41:09,217 [INFO] arXiv: querying 'large language model policy'
+2026-05-12 10:41:26,064 [INFO] arXiv: collected 0 papers
+2026-05-12 10:41:26,225 [WARNING] Reddit search failed r/law 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:26,845 [WARNING] Reddit search failed r/law 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:27,465 [WARNING] Reddit search failed r/law 'AI Act': received 401 HTTP response
+2026-05-12 10:41:28,087 [WARNING] Reddit search failed r/law 'AI governance': received 401 HTTP response
+2026-05-12 10:41:28,711 [WARNING] Reddit search failed r/law 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:29,335 [WARNING] Reddit search failed r/AIPolicy 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:29,973 [WARNING] Reddit search failed r/AIPolicy 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:30,597 [WARNING] Reddit search failed r/AIPolicy 'AI Act': received 401 HTTP response
+2026-05-12 10:41:31,219 [WARNING] Reddit search failed r/AIPolicy 'AI governance': received 401 HTTP response
+2026-05-12 10:41:31,837 [WARNING] Reddit search failed r/AIPolicy 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:32,473 [WARNING] Reddit search failed r/MachineLearning 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:33,091 [WARNING] Reddit search failed r/MachineLearning 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:33,719 [WARNING] Reddit search failed r/MachineLearning 'AI Act': received 401 HTTP response
+2026-05-12 10:41:34,338 [WARNING] Reddit search failed r/MachineLearning 'AI governance': received 401 HTTP response
+2026-05-12 10:41:34,957 [WARNING] Reddit search failed r/MachineLearning 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:35,727 [WARNING] Reddit search failed r/artificial 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:36,348 [WARNING] Reddit search failed r/artificial 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:36,967 [WARNING] Reddit search failed r/artificial 'AI Act': received 401 HTTP response
+2026-05-12 10:41:37,586 [WARNING] Reddit search failed r/artificial 'AI governance': received 401 HTTP response
+2026-05-12 10:41:38,206 [WARNING] Reddit search failed r/artificial 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:38,832 [WARNING] Reddit search failed r/ChatGPT 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:39,454 [WARNING] Reddit search failed r/ChatGPT 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:40,075 [WARNING] Reddit search failed r/ChatGPT 'AI Act': received 401 HTTP response
+2026-05-12 10:41:40,695 [WARNING] Reddit search failed r/ChatGPT 'AI governance': received 401 HTTP response
+2026-05-12 10:41:41,315 [WARNING] Reddit search failed r/ChatGPT 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:41,938 [WARNING] Reddit search failed r/singularity 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:42,559 [WARNING] Reddit search failed r/singularity 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:43,182 [WARNING] Reddit search failed r/singularity 'AI Act': received 401 HTTP response
+2026-05-12 10:41:43,803 [WARNING] Reddit search failed r/singularity 'AI governance': received 401 HTTP response
+2026-05-12 10:41:44,423 [WARNING] Reddit search failed r/singularity 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:45,047 [WARNING] Reddit search failed r/legaladvice 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:45,662 [WARNING] Reddit search failed r/legaladvice 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:46,285 [WARNING] Reddit search failed r/legaladvice 'AI Act': received 401 HTTP response
+2026-05-12 10:41:46,904 [WARNING] Reddit search failed r/legaladvice 'AI governance': received 401 HTTP response
+2026-05-12 10:41:47,523 [WARNING] Reddit search failed r/legaladvice 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:48,141 [WARNING] Reddit search failed r/LegalTech 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:48,760 [WARNING] Reddit search failed r/LegalTech 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:49,383 [WARNING] Reddit search failed r/LegalTech 'AI Act': received 401 HTTP response
+2026-05-12 10:41:50,003 [WARNING] Reddit search failed r/LegalTech 'AI governance': received 401 HTTP response
+2026-05-12 10:41:50,623 [WARNING] Reddit search failed r/LegalTech 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:51,247 [WARNING] Reddit search failed r/OpenAI 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:51,870 [WARNING] Reddit search failed r/OpenAI 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:52,916 [WARNING] Reddit search failed r/OpenAI 'AI Act': received 401 HTTP response
+2026-05-12 10:41:53,540 [WARNING] Reddit search failed r/OpenAI 'AI governance': received 401 HTTP response
+2026-05-12 10:41:54,165 [WARNING] Reddit search failed r/OpenAI 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:54,789 [WARNING] Reddit search failed r/privacy 'AI regulation': received 401 HTTP response
+2026-05-12 10:41:55,546 [WARNING] Reddit search failed r/privacy 'artificial intelligence law': received 401 HTTP response
+2026-05-12 10:41:56,173 [WARNING] Reddit search failed r/privacy 'AI Act': received 401 HTTP response
+2026-05-12 10:41:56,799 [WARNING] Reddit search failed r/privacy 'AI governance': received 401 HTTP response
+2026-05-12 10:41:57,421 [WARNING] Reddit search failed r/privacy 'AI legislation': received 401 HTTP response
+2026-05-12 10:41:57,922 [INFO] Reddit: collected 0 posts
+2026-05-12 10:41:57,922 [INFO] Regulations.gov: querying 'artificial intelligence'
+2026-05-12 10:41:59,136 [INFO] Regulations.gov: querying 'AI regulation'
+2026-05-12 10:42:00,245 [INFO] Regulations.gov: querying 'machine learning'
+2026-05-12 10:42:01,352 [INFO] Regulations.gov: collected 0 documents
+2026-05-12 10:42:01,354 [INFO] Total unique items collected: 3
+2026-05-12 10:42:01,354 [INFO] Saved raw data → data/raw/2026-05-12.json
+2026-05-12 10:42:02,498 [INFO] Analyzing 3 items...
+2026-05-12 10:42:02,500 [INFO] Analysis complete.
+2026-05-12 10:42:02,504 [INFO] Saved analyzed data → data/processed/2026-05-12_analyzed.json
+2026-05-12 10:42:02,504 [INFO] Saved analyzed data → data/processed/2026-05-12_analyzed.csv
+2026-05-12 10:42:03,907 [INFO] Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-05-12 10:42:04,118 [INFO] generated new fontManager
+2026-05-12 10:42:04,411 [INFO] Saved → reports/plots/2026-05-12_sentiment_dist.png
+2026-05-12 10:42:04,887 [INFO] Saved → reports/plots/2026-05-12_wordcloud.png
+2026-05-12 10:42:04,962 [INFO] Saved → reports/plots/2026-05-12_stance.png
+2026-05-12 10:42:04,971 [INFO] Report saved → reports/2026-05-12_report.md
+2026-05-12 10:42:04,972 [INFO] README updated → README.md
+2026-05-12 10:42:04,973 [INFO] ============================================================
+2026-05-12 10:42:04,973 [INFO] Pipeline complete.
+2026-05-12 10:42:04,973 [INFO]   Items analyzed : 3
+2026-05-12 10:42:04,973 [INFO]   Positive       : 1
+2026-05-12 10:42:04,973 [INFO]   Neutral        : 1
+2026-05-12 10:42:04,974 [INFO]   Negative       : 1
+2026-05-12 10:42:04,974 [INFO]   Avg compound   : +0.0859
+2026-05-12 10:42:04,974 [INFO]   Report saved   : reports/2026-05-12_report.md
+2026-05-12 10:42:04,974 [INFO] ============================================================
