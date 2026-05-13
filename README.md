@@ -4,14 +4,14 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-05-12
+## Latest snapshot — 2026-05-13
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 3 |
-| Days running | 1 |
-| Historical avg. VADER score | +0.0859 |
-| Latest daily report | [View report](reports/2026-05-12_report.md) |
+| Total items analyzed | 99 |
+| Days running | 2 |
+| Historical avg. VADER score | +0.4773 |
+| Latest daily report | [View report](reports/2026-05-13_report.md) |
 
 ## Why this project?
 
@@ -72,4 +72,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-05-12 10:42 UTC by GitHub Actions._
+_Updated automatically on 2026-05-13 10:38 UTC by GitHub Actions._
