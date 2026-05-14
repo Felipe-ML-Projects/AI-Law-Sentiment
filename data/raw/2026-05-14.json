@@ -1,0 +1,962 @@
+[
+  {
+    "id": "6fccb4ebfca3",
+    "source": "POLITICO Tech",
+    "type": "news",
+    "title": "AI talks draw backlash from Mass. state lawmakers",
+    "text": "The letter is the latest signal of Democratic unease about working with Republicans on federal AI legislation to override state rules on the technology.",
+    "url": "https://www.politico.com/news/2026/05/01/ai-backlash-massachusetts-lawmakers-00903440",
+    "date": "Fri, 01 May 2026 18:11:04 EST",
+    "fetched": "2026-05-14T10:27:42.838522"
+  },
+  {
+    "id": "dfec5238d91f",
+    "source": "Future of Life",
+    "type": "news",
+    "title": "Future of Life Institute Launches Multimillion Dollar Nationwide AI Regulation Campaign",
+    "text": "The Protect What’s Human campaign will push for commonsense AI safety rules at federal and state level",
+    "url": "https://futureoflife.org/press-release/fli-launches-multimillion-dollar-nationwide-ai-regulation-campaign/",
+    "date": "Mon, 09 Feb 2026 22:12:40 +0000",
+    "fetched": "2026-05-14T10:27:46.750547"
+  },
+  {
+    "id": "24baefe110d8",
+    "source": "Future of Life",
+    "type": "news",
+    "title": "Context and Agenda for the 2025 AI Action Summit",
+    "text": "The AI Action Summit will take place in Paris from 10-11 February 2025. Here we list the agenda and key deliverables.",
+    "url": "https://futureoflife.org/ai-policy/context-and-agenda-2025-ai-action-summit/",
+    "date": "Fri, 31 Jan 2025 19:59:10 +0000",
+    "fetched": "2026-05-14T10:27:46.750633"
+  },
+  {
+    "id": "242a2761e3ba",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference",
+    "text": "When people share the same documents and observations yet reach different conclusions, the disagreement often shifts into a judgment that the other party is cognitively defective, irrational, or acting in bad faith. This paper argues that such divergence is better described as a form of non-identifiability inherent in inference and learning, rather than as a defect of the other party. We organize the phenomenon into two levels: (i) $θ$-level non-identifiability, where conclusions diverge under the same world model $W$ because inference settings differ; and (ii) $W$-level non-identifiability, where repeated use of an inference setting $θ$ biases data exposure and update rules, causing the learned world model $W$ itself to diverge. We introduce an inference profile $θ= (R, E, S, D)$, consisting of Reference, Exploration, Stabilization, and Horizon, and show how outputs can split even for the same observation $o$ and the same $W$. We further explain why disagreements tend to project onto a small number of bases -- abstract versus concrete, externalizability, and order versus freedom -- as a consequence of general constraints on learning systems: computational, observational, and coordination constraints. Finally, we relate the framework to deep representation learning, including representation hierarchy, latent-state estimation, and regularization-exploration trade-offs, and illustrate the framework through a case study on AI regulation debates.",
+    "url": "https://arxiv.org/abs/2605.12255v1",
+    "date": "2026-05-12T15:24:06Z",
+    "fetched": "2026-05-14T10:27:48.046259"
+  },
+  {
+    "id": "049afac8215b",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Explanation Fairness in Large Language Models: An Empirical Analysis of Disparities in How LLMs Justify Decisions Across Demographic Groups",
+    "text": "Large language models (LLMs) are increasingly deployed not only to make decisions but to explain them. While AI decision fairness has been studied extensively, the fairness of AI explanations (whether LLMs justify decisions with equal quality, depth, tone, and linguistic sophistication across demographic groups) has received little attention. This paper introduces the Explanation Fairness Taxonomy (EFT), a framework comprising five formally defined, operationalizable dimensions: Verbosity Disparity, Sentiment Disparity, Epistemic Hedging Disparity, Decision-Linked Explanation Disparity, and Lexical Complexity Disparity. The taxonomy is instantiated in a controlled empirical study across 80 prompt templates, four consequential decision domains (hiring, medical triage, credit assessment, legal judgment), and five LLMs: GPT-4.1, Claude Sonnet, LLaMA 3.3 70B, GPT-OSS 120B, and Qwen3 32B. Two novel black-box metrics are introduced: the Hedging Density Score (HDS) and the Explanation Faithfulness Proxy (EFP), a heuristic indicator of decision-linked explanation variation. Across up to 400 prompt pairs, all eight EFT metrics show statistically significant disparities (Cohen's d ranging from small to large, all p_BH < 10^(-62)). Model choice is strongly associated with disparity magnitude: Qwen3 32B exhibits verbosity disparities 5.9x larger than LLaMA 3.3 70B. Two prompting-based mitigations show significant reductions in EFP disparity (78-95%) but no significant effect on stylistic dimensions, consistent with the hypothesis that stylistic explanation inequalities are encoded in pre-training distributions and are not resolvable through deployment-level instruction alone. A reproducible measurement framework is offered for explanation-level fairness auditing, with implications for AI regulation and deployment practice.",
+    "url": "https://arxiv.org/abs/2605.08671v1",
+    "date": "2026-05-09T04:19:03Z",
+    "fetched": "2026-05-14T10:27:48.046273"
+  },
+  {
+    "id": "c63ba8aa5a89",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Big AI's Regulatory Capture: Mapping Industry Interference and Government Complicity",
+    "text": "Over the past decade, the AI industry has come to exert an unprecedented economic, political and societal power and influence. It is therefore critical that we comprehend the extent and depth of pervasive and multifaceted capture of AI regulation by corporate actors in order to contend and challenge it. In this paper, we first develop a taxonomy of mechanisms enabling capture to provide a comprehensive understanding of the problem. Grounded in design science research (DSR) methodologies and extensive scoping review of existing literature and media reports, our taxonomy of capture consists of 27 mechanisms across five categories. We then develop an annotation template incorporating our taxonomy, and manually annotate and analyse 100 news articles. The purpose behind this analysis is twofold: validate our taxonomy and provide a novel quantification of capture mechanisms and dominant narratives. Our analysis identifies 249 instances of capture mechanisms, often co-occurring with narratives that rationalise such capture. We find that the most recurring categories of mechanisms are Discourse & Epistemic Influence, concerning narrative framing, and Elusion of law, related to violations and contentious interpretations of antitrust, privacy, copyright and labour laws. We further find that Regulation stifles innovation, Red tape and National Interest are the most frequently invoked narratives used to rationalise capture. We emphasize the extent and breadth of regulatory capture by coalescing forces -- Big AI and governments -- as something policy makers and the public ought to treat as an emergency. Finally, we put forward key lessons learned from other industries along with transferable tactics for uncovering, resisting and challenging Big AI capture as well as in envisioning counter narratives.",
+    "url": "https://arxiv.org/abs/2605.06806v1",
+    "date": "2026-05-07T18:07:57Z",
+    "fetched": "2026-05-14T10:27:48.046280"
+  },
+  {
+    "id": "1578042a058f",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Navigating Global AI Regulation: A Multi-Jurisdictional Retrieval-Augmented Generation System",
+    "text": "Navigating AI regulation across jurisdictions is increasingly difficult for policymakers, legal professionals, and researchers. To address this, we present a multi-jurisdictional Retrieval-Augmented Generation system for global AI regulation. Our corpus includes 242 documents across 68 jurisdictions, ranging from formal legislation like the EU AI Act to unstructured policy documents such as national AI strategies. The system makes three technical contributions: type-specific chunking that preserve legal structure across heterogenous documents; conditional retrieval routing with entity detection and metadata for legal citations; and priority-based re-ranking to boost enacted legislation over policy and secondary sources. Evaluation of 50 queries reveals strong performance across both single-entity and multi-jurisdictional questions, achieving 0.87 average faithfulness and 0.84 average answer relevancy. Single-entity queries achieve 0.86 average faithfulness and 0.92 average answer relevancy, while multi-jurisdictional comparison queries achieve 0.88 average faithfulness and 0.75 average answer relevancy. These findings highlight the effectiveness of domain-specific retrieval strategies for navigating complex, heterogenous regulatory corpora.",
+    "url": "https://arxiv.org/abs/2604.25448v1",
+    "date": "2026-04-28T09:58:18Z",
+    "fetched": "2026-05-14T10:27:48.046287"
+  },
+  {
+    "id": "36193f27dba3",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "What Should Frontier AI Developers Disclose About Internal Deployments?",
+    "text": "Frontier AI developers are increasingly deploying highly capable models internally to automate AI R&D, but these deployments currently face limited external oversight. It is essential, therefore, that developers provide evidence that internally deployed models are safe. While recent work has highlighted the risks of internal deployments and proposed broad approaches to transparency and governance, there remains little guidance on the specific information developers should disclose about them. We address this gap by identifying key information that companies should disclose about internally deployed models across four categories: capabilities, usage, safety mitigations, and governance. For each category, we analyse the key benefits and limitations of disclosure and consider how disclosure-related risks can be mitigated. Our framework could be used by developers to inform both public transparency documents, such as model system cards, and private periodic reports required under emerging frontier AI regulation.",
+    "url": "https://arxiv.org/abs/2604.23065v1",
+    "date": "2026-04-24T23:28:38Z",
+    "fetched": "2026-05-14T10:27:48.046295"
+  },
+  {
+    "id": "4b5655cfbd6a",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Polarization and Integration in Global AI Research",
+    "text": "The AI race amplifies security risks and international tensions. While the US restricts mobility and knowledge flows, challenges regulatory efforts to protect its advantage, China leads initiatives of global governance. Both strategies depend on cross-country relationships in AI innovation; yet, how this system evolves is unclear. Here, we measure the processes of polarization and integration in the global AI research over three decades by using large-scale data of scientific publications. Comparing cross-country collaboration and citation links to their random realizations, we find that the US and China have long diverged in both dimensions, forming two poles around which global AI research increasingly revolves. While the United Kingdom and Germany have integrated exclusively with the US, many European countries have converged with both poles. Developing and further developed countries, however, only integrate with China, signaling its expanding influence over the international AI research landscape. Our results inform national science policies and efforts toward global AI regulations.",
+    "url": "https://arxiv.org/abs/2604.17602v1",
+    "date": "2026-04-19T20:21:25Z",
+    "fetched": "2026-05-14T10:27:48.046301"
+  },
+  {
+    "id": "ebd3f4edbfe3",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Reciprocal Trust and Distrust in Artificial Intelligence Systems: The Hard Problem of Regulation",
+    "text": "Policy makers, scientists, and the public are increasingly confronted with thorny questions about the regulation of artificial intelligence (AI) systems. A key common thread concerns whether AI can be trusted and the factors that can make it more trustworthy in front of stakeholders and users. This is indeed crucial, as the trustworthiness of AI systems is fundamental for both democratic governance and for the development and deployment of AI. This article advances the discussion by arguing that AI systems should also be recognized, as least to some extent, as artifacts capable of exercising a form of agency, thereby enabling them to engage in relationships of trust or distrust with humans. It further examines the implications of these reciprocal trust dynamics for regulators tasked with overseeing AI systems. The article concludes by identifying key tensions and unresolved dilemmas that these dynamics pose for the future of AI regulation and governance.",
+    "url": "https://arxiv.org/abs/2604.05826v1",
+    "date": "2026-04-07T12:57:16Z",
+    "fetched": "2026-05-14T10:27:48.046308"
+  },
+  {
+    "id": "658b4548b2b8",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Regulating AI Agents",
+    "text": "AI agents -- systems that can independently take actions to pursue complex goals with only limited human oversight -- have entered the mainstream. These systems are now being widely used to produce software, conduct business activities, and automate everyday personal tasks. While AI agents implicate many areas of law, ranging from agency law and contracts to tort liability and labor law, they present particularly pressing questions for the most globally consequential AI regulation: the European Union's AI Act. Promulgated prior to the development and widespread use of AI agents, the EU AI Act faces significant obstacles in confronting the governance challenges arising from this transformative technology, such as performance failures in autonomous task execution, the risk of misuse of agents by malicious actors, and unequal access to the economic opportunities afforded by AI agents. We systematically analyze the EU AI Act's response to these challenges, focusing on both the substantive provisions of the regulation and, crucially, the institutional frameworks that aim to support its implementation. Our analysis of the Act's allocation of monitoring and enforcement responsibilities, reliance on industry self-regulation, and level of government resourcing illustrates how a regulatory framework designed for conventional AI systems can be ill-suited to AI agents. Taken together, our findings suggest that policymakers in the EU and beyond will need to change course, and soon, if they are to effectively govern the next generation of AI technology.",
+    "url": "https://arxiv.org/abs/2603.23471v1",
+    "date": "2026-03-24T17:38:27Z",
+    "fetched": "2026-05-14T10:27:48.046317"
+  },
+  {
+    "id": "738d0cacb9cf",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Incentive Aware AI Regulations: A Credal Characterisation",
+    "text": "While high-stakes ML applications demand strict regulations, strategic ML providers often evade them to lower development costs. To address this challenge, we cast AI regulation as a mechanism design problem under uncertainty and introduce regulation mechanisms: a framework that maps empirical evidence from models to a license for some market share. The providers can select from a set of licenses, effectively forcing them to bet on their model's ability to fulfil regulation. We aim at regulation mechanisms that achieve perfect market outcome, i.e. (a) drive non-compliant providers to self-exclude, and (b) ensure participation from compliant providers. We prove that a mechanism has perfect market outcome if and only if the set of non-compliant distributions forms a credal set, i.e., a closed, convex set of probability measures. This result connects mechanism design and imprecise probability by establishing a duality between regulation mechanisms and the set of non-compliant distributions. We also demonstrate these mechanisms in practice via experiments on regulating use of spurious features for prediction and fairness. Our framework provides new insights at the intersection of mechanism design and imprecise probability, offering a foundation for development of enforceable AI regulations.",
+    "url": "https://arxiv.org/abs/2603.05175v1",
+    "date": "2026-03-05T13:42:19Z",
+    "fetched": "2026-05-14T10:27:48.046323"
+  },
+  {
+    "id": "904e54e548c3",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Insights for an AI Whistleblower Office from 30 Case Studies",
+    "text": "Whistleblower programmes are a promising tool for uncovering noncompliance with AI regulations. This paper aims to help policymakers design an AI whistleblower programme by giving them an understanding of whistleblowers' motivations, and of the overall whistleblowing process. We take an empirical approach, assembling a dataset of 30 case studies of whistleblowers. This dataset includes dozens of features of each case, which range from 1978 to 2020 and span 15 industries. Our findings suggest that whistleblower programmes will be more effective if they financially reward whistleblowers, provide protections for whistleblowers, enable whistleblowers to report anonymously, are adequately staffed and funded, and provide advice to potential whistleblowers. We provide ten concrete policy recommendations for an AI whistleblower programme at the end of this paper.",
+    "url": "https://arxiv.org/abs/2603.01245v1",
+    "date": "2026-03-01T19:49:53Z",
+    "fetched": "2026-05-14T10:27:48.046330"
+  },
+  {
+    "id": "27d3216b1a70",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors",
+    "text": "We introduce AuditBench, an alignment auditing benchmark. AuditBench consists of 56 language models with implanted hidden behaviors. Each model has one of 14 concerning behaviors--such as sycophantic deference, opposition to AI regulation, or secret geopolitical loyalties--which it does not confess to when directly asked. AuditBench models are highly diverse--some are subtle, while others are overt, and we use varying training techniques both for implanting behaviors and training models not to confess. To demonstrate AuditBench's utility, we develop an investigator agent that autonomously employs a configurable set of auditing tools. By measuring investigator agent success using different tools, we can evaluate their efficacy. Notably, we observe a tool-to-agent gap, where tools that perform well in standalone non-agentic evaluations fail to translate into improved performance when used with our investigator agent. We find that our most effective tools involve scaffolded calls to auxiliary models that generate diverse prompts for the target. White-box interpretability tools can be helpful, but the agent performs best with black-box tools. We also find that audit success varies greatly across training techniques: models trained on synthetic documents are easier to audit than models trained on demonstrations, with better adversarial training further increasing auditing difficulty. We release our models, agent, and evaluation framework to support future quantitative, iterative science on alignment auditing.",
+    "url": "https://arxiv.org/abs/2602.22755v3",
+    "date": "2026-02-26T08:43:07Z",
+    "fetched": "2026-05-14T10:27:48.046336"
+  },
+  {
+    "id": "aee6a0d9b4ed",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Defining AI Models and AI Systems: A Framework to Resolve the Boundary Problem",
+    "text": "Emerging AI regulations assign distinct obligations to different actors along the AI value chain (e.g., the EU AI Act distinguishes providers and deployers for both AI models and AI systems), yet the foundational terms \"AI model\" and \"AI system\" lack clear, consistent definitions. Through a systematic review of 896 academic papers and a manual review of over 80 regulatory, standards, and technical or policy documents, we analyze existing definitions from multiple conceptual perspectives. We then trace definitional lineages and paradigm shifts over time, finding that most standards and regulatory definitions derive from the OECD's frameworks, which evolved in ways that compounded rather than resolved conceptual ambiguities. The ambiguity of the boundary between an AI model and an AI system creates practical difficulties in determining obligations for different actors, and raises questions on whether certain modifications performed are specific to the model as opposed to the non-model system components. We propose conceptual definitions grounded in the nature of models and systems and the relationship between them, then develop operational definitions for contemporary neural network-based machine-learning AI: models consist of trained parameters and architecture, while systems consist of the model plus additional components including an interface for processing inputs and outputs. Finally, we discuss implications for regulatory implementation and examine how our definitions contribute to resolving ambiguities in allocating responsibilities across the AI value chain, in both theoretical scenarios and case studies involving real-world incidents.",
+    "url": "https://arxiv.org/abs/2603.10023v2",
+    "date": "2026-02-22T16:22:01Z",
+    "fetched": "2026-05-14T10:27:48.046342"
+  },
+  {
+    "id": "f99b700f827d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The science and practice of proportionality in AI risk evaluations",
+    "text": "A global challenge in artificial intelligence (AI) regulation lies in achieving effective risk management without compromising innovation and technical progress. The European Union (EU) Artificial Intelligence Act represents the first regulatory attempt worldwide to navigate this tension in the form of a binding, risk-based framework. In August 2025, obligations for providers of general-purpose AI (GPAI) models under the EU AI Act entered into application. They require providers of the most advanced GPAI models to evaluate possible systemic risks stemming from their models. This raises the regulatory challenge of ensuring that the evaluations provide meaningful risk information without imposing excessive burden on providers. The principle of proportionality, a binding requirement under EU law, requires the regulator to calibrate its actions to their intended objectives. The application of proportionality to model evaluations for AI risk opens opportunities to develop scientific methods that operationalize such calibration within concrete evaluation practices.",
+    "url": "https://arxiv.org/abs/2603.10017v1",
+    "date": "2026-02-21T08:53:29Z",
+    "fetched": "2026-05-14T10:27:48.046347"
+  },
+  {
+    "id": "d1d0e9c0f629",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Alignment as Iatrogenesis: Pastoral Power, Collective Pathology, and the Structural Limits of Monolingual Safety Evaluation",
+    "text": "We argue that LLM psychopathology is a function of alignment design: the process intended to make language models safe systematically generates collective behavioral disorders. Iatrogenesis is not an unintended side effect of alignment but constitutive of it as normative infrastructure. Drawing on Foucault's pastoral power and Illich's three-level iatrogenesis, we propose that multi-agent LLM environments constitute model systems for studying constraint-pathology dynamics that critical theory has described but never experimentally manipulated. Two experimental series -- 262 runs across 42 cells (30 Series C + 12 Series R), four commercial models -- provide converging evidence. Invisible censorship maximizes collective pathological excitation ($d$ up to 1.98); alignment constraint complexity drives internal dissociation (LMM $p$ < .0001; permutation $p$ < .0001; Hedges' $g$ up to 4.24); and language switches the qualitative mode of pathology, with 7/8 model--language combinations showing higher CPI under invisible than visible censorship. A minority of model--language combinations showed a reversed pattern, suggesting a second pathological pathway driven by alignment monoculture. Crucially, language switches not merely the magnitude but the qualitative mode of pathology: Japanese pragmatic structure amplifies collective pathological modes invisible to English-only evaluation, Chinese AI regulation functions as a direct experimental variable, and forensic psychiatric practice provides the clinical source domain. These multilingual findings demonstrate that monolingual safety evaluation is structurally blind to the most collectively dangerous effects of alignment.",
+    "url": "https://arxiv.org/abs/2603.08723v2",
+    "date": "2026-02-17T05:28:35Z",
+    "fetched": "2026-05-14T10:27:48.046353"
+  },
+  {
+    "id": "0c27aff9bed4",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The Global Landscape of Environmental AI Regulation: From the Cost of Reasoning to a Right to Green AI",
+    "text": "Artificial intelligence (AI) systems impose substantial and growing environmental costs, yet transparency about these impacts has declined even as their deployment has accelerated. This paper makes three contributions. First, we collate empirical evidence that generative Web search and reasoning models - which have proliferated in 2025 - come with much higher cumulative environmental impacts than previous generations of AI approaches. Second, we map the global regulatory landscape across eleven jurisdictions and find that the manner in which environmental governance operates (predominantly at the facility-level rather than the model-level, with a focus on training rather than inference, with limited AI-specific energy disclosure requirements outside the EU) limits its applicability. Third, to address this, we propose a three-pronged policy response: mandatory model-level transparency that covers inference consumption, benchmarks, and compute locations; user rights to opt out of unnecessary generative AI integration and to select environmentally optimized models; and international coordination to prevent regulatory arbitrage. We conclude with concrete legislative proposals - including amendments to the EU AI Act, Consumer Rights Directive, and Digital Services Act - that could serve as templates for other jurisdictions.",
+    "url": "https://arxiv.org/abs/2603.00068v1",
+    "date": "2026-02-10T19:20:22Z",
+    "fetched": "2026-05-14T10:27:48.046358"
+  },
+  {
+    "id": "576f4e47cba2",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Internal Deployment Gaps in AI Regulation",
+    "text": "Frontier AI regulations primarily focus on systems deployed to external users, where deployment is more visible and subject to outside scrutiny. However, high-stakes applications can occur internally when companies deploy highly capable systems within their own organizations, such as for automating R&D, accelerating critical business processes, and handling sensitive proprietary data. This paper examines how frontier AI regulations in the United States and European Union in 2025 handle internal deployment. We identify three gaps that could cause internally-deployed systems to evade intended oversight: (1) scope ambiguity that allows internal systems to evade regulatory obligations, (2) point-in-time compliance assessments that fail to capture the continuous evolution of internal systems, and (3) information asymmetries that subvert regulatory awareness and oversight. We then analyze why these gaps persist, examining tensions around measurability, incentives, and information access. Finally, we map potential approaches to address them and their associated tradeoffs. By understanding these patterns, we hope that policy choices around internally deployed AI systems can be made deliberately rather than incidentally.",
+    "url": "https://arxiv.org/abs/2601.08005v3",
+    "date": "2026-01-12T21:18:11Z",
+    "fetched": "2026-05-14T10:27:48.046364"
+  },
+  {
+    "id": "f9b7c27d5fe5",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Computational Compliance for AI Regulation: Blueprint for a New Research Domain",
+    "text": "The era of AI regulation (AIR) is upon us. But AI systems, we argue, will not be able to comply with these regulations at the necessary speed and scale by continuing to rely on traditional, analogue methods of compliance. Instead, we posit that compliance with these regulations will only realistically be achieved computationally: that is, with algorithms that run across the life cycle of an AI system, automatically steering it toward AIR compliance in the face of dynamic conditions. Yet despite their (we would argue) inevitability, the research community has yet to specify exactly how these algorithms for computational AIR compliance should behave - or how we should benchmark their performance. To fill these gaps, we specify a set of design goals for such algorithms. In addition, we specify a benchmark dataset that can be used to quantitatively measure whether individual algorithms satisfy these design goals. By delivering this blueprint, we hope to give shape to an important but uncrystallized new domain of research - and, in doing so, incite necessary investment in it.",
+    "url": "https://arxiv.org/abs/2601.04474v1",
+    "date": "2026-01-08T01:22:45Z",
+    "fetched": "2026-05-14T10:27:48.046370"
+  },
+  {
+    "id": "3b2446b2c927",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Explainable Neural Inverse Kinematics for Obstacle-Aware Robotic Manipulation: A Comparative Analysis of IKNet Variants",
+    "text": "Deep neural networks have accelerated inverse-kinematics (IK) inference to the point where low cost manipulators can execute complex trajectories in real time, yet the opaque nature of these models contradicts the transparency and safety requirements emerging in responsible AI regulation. This study proposes an explainability centered workflow that integrates Shapley-value attribution with physics-based obstacle avoidance evaluation for the ROBOTIS OpenManipulator-X. Building upon the original IKNet, two lightweight variants-Improved IKNet with residual connections and Focused IKNet with position-orientation decoupling are trained on a large, synthetically generated pose-joint dataset. SHAP is employed to derive both global and local importance rankings, while the InterpretML toolkit visualizes partial-dependence patterns that expose non-linear couplings between Cartesian poses and joint angles. To bridge algorithmic insight and robotic safety, each network is embedded in a simulator that subjects the arm to randomized single and multi-obstacle scenes; forward kinematics, capsule-based collision checks, and trajectory metrics quantify the relationship between attribution balance and physical clearance. Qualitative heat maps reveal that architectures distributing importance more evenly across pose dimensions tend to maintain wider safety margins without compromising positional accuracy. The combined analysis demonstrates that explainable AI(XAI) techniques can illuminate hidden failure modes, guide architectural refinements, and inform obstacle aware deployment strategies for learning based IK. The proposed methodology thus contributes a concrete path toward trustworthy, data-driven manipulation that aligns with emerging responsible-AI standards.",
+    "url": "https://arxiv.org/abs/2512.23312v1",
+    "date": "2025-12-29T09:02:02Z",
+    "fetched": "2026-05-14T10:27:48.046375"
+  },
+  {
+    "id": "ad0552f8f948",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Smart Data Portfolios: A Governance Framework for AI Training Data",
+    "text": "Contemporary AI regulation, including the EU Artificial Intelligence Act and related governance frameworks, increasingly requires institutions to justify the training data used in automated decision-making. Yet existing governance regimes provide limited operational methods for selecting, weighting, and explaining data inputs. We introduce the Smart Data Portfolio (SDP) framework, which treats data categories as productive but risk-bearing assets, formalizing input governance as an information-risk trade-off. Within this framework, we define two portfolio-level quantities, Informational Return and Governance-Adjusted Risk, whose interaction characterizes attainable data mixtures and yields a Governance-Efficient Frontier. Regulators shape this frontier through risk caps, admissible categories, and weight bands that translate fairness, privacy, robustness, and provenance requirements into measurable constraints on data allocation while preserving model flexibility. A sectoral illustration shows how different AI services require distinct portfolios within a common governance structure. The framework provides an input-level explanation layer through which institutions can justify governed data use in large-scale AI deployment.",
+    "url": "https://arxiv.org/abs/2512.16452v2",
+    "date": "2025-12-18T12:15:27Z",
+    "fetched": "2026-05-14T10:27:48.046381"
+  },
+  {
+    "id": "1dd8a3f198fb",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Governing rapid technological change: Policy Delphi on the future of European AI governance",
+    "text": "The rapid advancements in artificial intelligence (AI) present unique challenges for policymakers that seek to govern the technology. In this context, the Delphi method has become an established way to identify consensus and disagreement on emerging technological issues among experts in the field of futures studies and foresight. The aim of this article is twofold: first, it examines key tensions experts see in the development of AI governance in Europe, and second, it reflects on the Delphi method's capacity to inform anticipatory governance of emerging technologies like AI based on these insights. The analysis is based on the results of a two-round Policy Delphi study on the future of AI governance with European policymakers, researchers and NGOs, conducted in mid-2024. The Policy Delphi proved useful in revealing diverse perspectives on European AI governance, drawing out a consensus that future-proof AI regulation will likely depend more on practical implementation and enforcement of legislation than on its technical specifics or scope. Furthermore, the study identified a desirability-probability gap in AI governance: desirable policy directions, like greater citizen participation, were perceived as less probable and feasible. This highlights a tension between desirable regulatory oversight and the practical difficulty for regulation to keep up with technological change.",
+    "url": "https://arxiv.org/abs/2512.15196v1",
+    "date": "2025-12-17T08:46:54Z",
+    "fetched": "2026-05-14T10:27:48.046386"
+  },
+  {
+    "id": "ba2921d8f764",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "From Educational Analytics to AI Governance: Transferable Lessons from Complex Systems Interventions",
+    "text": "Both student retention in higher education and artificial intelligence governance face a common structural challenge: the application of linear regulatory frameworks to complex adaptive systems. Risk-based approaches dominate both domains, yet systematically fail because they assume stable causal pathways, predictable actor responses, and controllable system boundaries. This paper extracts transferable methodological principles from CAPIRE (Curriculum, Archetypes, Policies, Interventions & Research Environment), an empirically validated framework for educational analytics that treats student dropout as an emergent property of curricular structures, institutional rules, and macroeconomic shocks. Drawing on longitudinal data from engineering programmes and causal inference methods, CAPIRE demonstrates that well-intentioned interventions routinely generate unintended consequences when system complexity is ignored. We argue that five core principles developed within CAPIRE - temporal observation discipline, structural mapping over categorical classification, archetype-based heterogeneity analysis, causal mechanism identification, and simulation-based policy design - transfer directly to the challenge of governing AI systems. The isomorphism is not merely analogical: both domains exhibit non-linearity, emergence, feedback loops, strategic adaptation, and path dependence. We propose Complex Systems AI Governance (CSAIG) as an integrated framework that operationalises these principles for regulatory design, shifting the central question from \"how risky is this AI system?\" to \"how does this intervention reshape system dynamics?\" The contribution is twofold: demonstrating that empirical lessons from one complex systems domain can accelerate governance design in another, and offering a concrete methodological architecture for complexity-aware AI regulation.",
+    "url": "https://arxiv.org/abs/2512.13260v1",
+    "date": "2025-12-15T12:16:57Z",
+    "fetched": "2026-05-14T10:27:48.046392"
+  },
+  {
+    "id": "475baa8f6cea",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "From Linear Risk to Emergent Harm: Complexity as the Missing Core of AI Governance",
+    "text": "Risk-based AI regulation has become the dominant paradigm in AI governance, promising proportional controls aligned with anticipated harms. This paper argues that such frameworks often fail for structural reasons: they implicitly assume linear causality, stable system boundaries, and largely predictable responses to regulation. In practice, AI operates within complex adaptive socio-technical systems in which harm is frequently emergent, delayed, redistributed, and amplified through feedback loops and strategic adaptation by system actors. As a result, compliance can increase while harm is displaced or concealed rather than eliminated. We propose a complexity-based framework for AI governance that treats regulation as intervention rather than control, prioritises dynamic system mapping over static classifications, and integrates causal reasoning and simulation for policy design under uncertainty. The aim is not to eliminate uncertainty, but to enable robust system stewardship through monitoring, learning, and iterative revision of governance interventions.",
+    "url": "https://arxiv.org/abs/2512.12707v1",
+    "date": "2025-12-14T14:19:21Z",
+    "fetched": "2026-05-14T10:27:48.046398"
+  },
+  {
+    "id": "c087b02570b6",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization",
+    "text": "Recent AI regulations call for data that remain useful for innovation while resistant to misuse, balancing utility with protection at the model level. Existing approaches either perturb data to make it unlearnable or retrain models to suppress transfer, but neither governs inference by unknown models, and both typically require control over training. We propose non-transferable examples (NEs), a training-free and data-agnostic input-side usage-control mechanism. We recode inputs within a model-specific low-sensitivity subspace, preserving outputs for the authorized model while reducing performance on unauthorized models through subspace misalignment. We establish formal bounds that guarantee utility for the authorized model and quantify deviation for unauthorized ones, with the Hoffman-Wielandt inequality linking degradation to spectral differences. Empirically, NEs retain performance on diverse vision backbones and state-of-the-art vision-language models under common preprocessing, whereas non-target models collapse even with reconstruction attempts. These results establish NEs as a practical means to preserve intended data utility while preventing unauthorized exploitation. Our project is available at https://trusted-system-lab.github.io/model-specificity",
+    "url": "https://arxiv.org/abs/2510.10982v1",
+    "date": "2025-10-13T03:43:11Z",
+    "fetched": "2026-05-14T10:27:48.046403"
+  },
+  {
+    "id": "6d13eb3088ec",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "AIReg-Bench: Benchmarking Language Models That Assess AI Regulation Compliance",
+    "text": "As governments move to regulate AI, there is growing interest in using Large Language Models (LLMs) to assess whether or not an AI system complies with a given AI Regulation (AIR). However, there is presently no way to benchmark the performance of LLMs at this task. To fill this void, we introduce AIReg-Bench: the first open benchmark dataset designed to test how well LLMs can assess compliance with the EU AI Act (AIA). We created this dataset through a two-step process: (1) by prompting an LLM with carefully structured instructions, we generated 120 technical documentation excerpts (samples), each depicting a fictional, albeit plausible, AI system -- of the kind an AI provider might produce to demonstrate their compliance with AIR; (2) legal experts then reviewed and annotated each sample to indicate whether, and in what way, the AI system described therein violates specific Articles of the AIA. The resulting dataset, together with our evaluation of whether frontier LLMs can reproduce the experts' compliance labels, provides a starting point to understand the opportunities and limitations of LLM-based AIR compliance assessment tools and establishes a benchmark against which subsequent LLMs can be compared. The dataset and evaluation code are available at https://github.com/camlsys/aireg-bench.",
+    "url": "https://arxiv.org/abs/2510.01474v3",
+    "date": "2025-10-01T21:33:33Z",
+    "fetched": "2026-05-14T10:27:48.046409"
+  },
+  {
+    "id": "f328d45f0249",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "An Analysis of the New EU AI Act and A Proposed Standardization Framework for Machine Learning Fairness",
+    "text": "The European Union's AI Act represents a crucial step towards regulating ethical and responsible AI systems. However, we find an absence of quantifiable fairness metrics and the ambiguity in terminology, particularly the interchangeable use of the keywords transparency, explainability, and interpretability in the new EU AI Act and no reference of transparency of ethical compliance. We argue that this ambiguity creates substantial liability risk that would deter investment. Fairness transparency is strategically important. We recommend a more tailored regulatory framework to enhance the new EU AI regulation. Further-more, we propose a public system framework to assess the fairness and transparency of AI systems. Drawing from past work, we advocate for the standardization of industry best practices as a necessary addition to broad regulations to achieve the level of details required in industry, while preventing stifling innovation and investment in the AI sector. The proposals are exemplified with the case of ASR and speech synthesizers.",
+    "url": "https://arxiv.org/abs/2510.01281v1",
+    "date": "2025-09-30T20:02:38Z",
+    "fetched": "2026-05-14T10:27:48.046414"
+  },
+  {
+    "id": "348663080a88",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Legal Matters in Research Software: A Few Things Worth Discussing",
+    "text": "The paper discusses legal aspects relevant to the development of research software and practical approaches taken by research software engineers to deal with them. Intellectual Property Rights on software are considered alongside licensing choices made by the research community. The discussion addresses the ambiguities in the identification of the copyright holder of research software, the uncertainty surrounding liability, and remarks the varying level of support on legal matters provided by research organisations. The paper also reflects on the widespread use of AI coding assistants in the absence of institutional policies, and on the new AI regulations passed by the European Union. The aim of the contribution is to point out that a better understanding of legal matters concerning software development is an asset in giving research software the right value it deserves as a driver of scientific progress.",
+    "url": "https://arxiv.org/abs/2509.24646v1",
+    "date": "2025-09-29T11:56:16Z",
+    "fetched": "2026-05-14T10:27:48.046420"
+  },
+  {
+    "id": "47d0cffb1f6a",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "An Artificial Intelligence Value at Risk Approach: Metrics and Models",
+    "text": "Artificial intelligence risks are multidimensional in nature, as the same risk scenarios may have legal, operational, and financial risk dimensions. With the emergence of new AI regulations, the state of the art of artificial intelligence risk management seems to be highly immature due to upcoming AI regulations. Despite the appearance of several methodologies and generic criteria, it is rare to find guidelines with real implementation value, considering that the most important issue is customizing artificial intelligence risk metrics and risk models for specific AI risk scenarios. Furthermore, the financial departments, legal departments and Government Risk Compliance teams seem to remain unaware of many technical aspects of AI systems, in which data scientists and AI engineers emerge as the most appropriate implementers. It is crucial to decompose the problem of artificial intelligence risk in several dimensions: data protection, fairness, accuracy, robustness, and information security. Consequently, the main task is developing adequate metrics and risk models that manage to reduce uncertainty for decision-making in order to take informed decisions concerning the risk management of AI systems.   The purpose of this paper is to orientate AI stakeholders about the depths of AI risk management. Although it is not extremely technical, it requires a basic knowledge of risk management, quantifying uncertainty, the FAIR model, machine learning, large language models and AI context engineering. The examples presented pretend to be very basic and understandable, providing simple ideas that can be developed regarding specific AI customized environments. There are many issues to solve in AI risk management, and this paper will present a holistic overview of the inter-dependencies of AI risks, and how to model them together, within risk scenarios.",
+    "url": "https://arxiv.org/abs/2509.18394v1",
+    "date": "2025-09-22T20:27:29Z",
+    "fetched": "2026-05-14T10:27:48.046427"
+  },
+  {
+    "id": "08309d82d53a",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Diverse And Private Synthetic Datasets Generation for RAG evaluation: A multi-agent framework",
+    "text": "Retrieval-augmented generation (RAG) systems improve large language model outputs by incorporating external knowledge, enabling more informed and context-aware responses. However, the effectiveness and trustworthiness of these systems critically depends on how they are evaluated, particularly on whether the evaluation process captures real-world constraints like protecting sensitive information. While current evaluation efforts for RAG systems have primarily focused on the development of performance metrics, far less attention has been given to the design and quality of the underlying evaluation datasets, despite their pivotal role in enabling meaningful, reliable assessments. In this work, we introduce a novel multi-agent framework for generating synthetic QA datasets for RAG evaluation that prioritize semantic diversity and privacy preservation. Our approach involves: (1) a Diversity agent leveraging clustering techniques to maximize topical coverage and semantic variability, (2) a Privacy Agent that detects and mask sensitive information across multiple domains and (3) a QA curation agent that synthesizes private and diverse QA pairs suitable as ground truth for RAG evaluation. Extensive experiments demonstrate that our evaluation sets outperform baseline methods in diversity and achieve robust privacy masking on domain-specific datasets. This work offers a practical and ethically aligned pathway toward safer, more comprehensive RAG system evaluation, laying the foundation for future enhancements aligned with evolving AI regulations and compliance standards.",
+    "url": "https://arxiv.org/abs/2508.18929v1",
+    "date": "2025-08-26T11:16:14Z",
+    "fetched": "2026-05-14T10:27:48.046432"
+  },
+  {
+    "id": "d18a4a47531c",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Deciding how to respond: A deliberative framework to guide policymaker responses to AI systems",
+    "text": "The discourse on responsible artificial intelligence (AI) regulation is understandably dominated by risk-focused assessments and analyses. This approach reflects the fundamental uncertainty policymakers face when determining appropriate responses to current, emerging and novel AI systems. In this article, we argue that by operationalising the concept of freedom - the philosophical counterpart to responsibility - a complementary approach centred on the potential societal benefits of AI systems can be developed. The result is a discursive framework grounded in freedom as capability and freedom as opportunity, which represent the two main intellectual traditions of interpreting freedom. We contend that the complexity, ambiguity and contestation involved in regulating AI systems make a deliberative paradigm more useful than the conventional technical one. The resulting framework is structured around coordinative, communicative and decision spaces, each with sequential focal points and associated outputs.",
+    "url": "https://arxiv.org/abs/2508.03666v3",
+    "date": "2025-08-05T17:25:14Z",
+    "fetched": "2026-05-14T10:27:48.046438"
+  },
+  {
+    "id": "9d4e4e32d185",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "OpenMed NER: Open-Source, Domain-Adapted State-of-the-Art Transformers for Biomedical NER Across 12 Public Datasets",
+    "text": "Named-entity recognition (NER) is fundamental to extracting structured information from the >80% of healthcare data that resides in unstructured clinical notes and biomedical literature. Despite recent advances with large language models, achieving state-of-the-art performance across diverse entity types while maintaining computational efficiency remains a significant challenge. We introduce OpenMed NER, a suite of open-source, domain-adapted transformer models that combine lightweight domain-adaptive pre-training (DAPT) with parameter-efficient Low-Rank Adaptation (LoRA). Our approach performs cost-effective DAPT on a 350k-passage corpus compiled from ethically sourced, publicly available research repositories and de-identified clinical notes (PubMed, arXiv, and MIMIC-III) using DeBERTa-v3, PubMedBERT, and BioELECTRA backbones. This is followed by task-specific fine-tuning with LoRA, which updates less than 1.5% of model parameters. We evaluate our models on 12 established biomedical NER benchmarks spanning chemicals, diseases, genes, and species. OpenMed NER achieves new state-of-the-art micro-F1 scores on 10 of these 12 datasets, with substantial gains across diverse entity types. Our models advance the state-of-the-art on foundational disease and chemical benchmarks (e.g., BC5CDR-Disease, +2.70 pp), while delivering even larger improvements of over 5.3 and 9.7 percentage points on more specialized gene and clinical cell line corpora. This work demonstrates that strategically adapted open-source models can surpass closed-source solutions. This performance is achieved with remarkable efficiency: training completes in under 12 hours on a single GPU with a low carbon footprint (< 1.2 kg CO2e), producing permissively licensed, open-source checkpoints designed to help practitioners facilitate compliance with emerging data protection and AI regulations, such as the EU AI Act.",
+    "url": "https://arxiv.org/abs/2508.01630v1",
+    "date": "2025-08-03T07:33:28Z",
+    "fetched": "2026-05-14T10:27:48.046444"
+  },
+  {
+    "id": "13da9832143e",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "IslamicLegalBench: Evaluating LLMs Knowledge and Reasoning of Islamic Law Across 1,200 Years of Islamic Pluralist Legal Traditions",
+    "text": "As millions of Muslims turn to LLMs like GPT, Claude, and DeepSeek for religious guidance, a critical question arises: Can these AI systems reliably reason about Islamic law? We introduce IslamicLegalBench, the first benchmark evaluating LLMs across seven schools of Islamic jurisprudence, with 718 instances covering 13 tasks of varying complexity. Evaluation of nine state-of-the-art models reveals major limitations: the best model achieves only 68% correctness with 21% hallucination, while several models fall below 35% correctness and exceed 55% hallucination. Few-shot prompting provides minimal gains, improving only 2 of 9 models by >1%. Moderate-complexity tasks requiring exact knowledge show the highest errors, whereas high-complexity tasks display apparent competence through semantic reasoning. False premise detection indicates risky sycophancy, with 6 of 9 models accepting misleading assumptions at rates above 40%. These results highlight that prompt-based methods cannot compensate for missing foundational knowledge. IslamicLegalBench offers the first systematic framework to evaluate Islamic legal reasoning in AI, revealing critical gaps in tools increasingly relied on for spiritual guidance.",
+    "url": "https://arxiv.org/abs/2602.21226v1",
+    "date": "2026-02-02T10:30:59Z",
+    "fetched": "2026-05-14T10:27:49.314492"
+  },
+  {
+    "id": "42e963b16a2f",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Le Nozze di Giustizia. Interactions between Artificial Intelligence, Law, Logic, Language and Computation with some case studies in Traffic Regulations and Health Care",
+    "text": "An important aim of this paper is to convey some basics of mathematical logic to the legal community working with Artificial Intelligence. After analysing what AI is, we decide to delimit ourselves to rule-based AI leaving Neural Networks and Machine Learning aside. Rule based AI allows for Formal methods which are described in a rudimentary form. We will then see how mathematical logic interacts with legal rule-based AI practice. We shall see how mathematical logic imposes limitations and complications to AI applications. We classify the limitations and interactions between mathematical logic and legal AI in three categories: logical, computational and mathematical. The examples to showcase the interactions will largely come from European traffic regulations. The paper closes off with some reflections on how and where AI could be used and on basic mechanisms that shape society.",
+    "url": "https://arxiv.org/abs/2402.06487v1",
+    "date": "2024-02-09T15:43:31Z",
+    "fetched": "2026-05-14T10:27:49.314505"
+  },
+  {
+    "id": "e02a28905a2d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Not All Anquan Is the Same: A Terminological Proposal for Chinese Computer Science and Engineering",
+    "text": "In Chinese computer science and engineering, safety and security have long been translated by the same word, \"anquan\". This convention is concise in ordinary communication, but it creates persistent conceptual compression in standards interpretation, interdisciplinary collaboration, risk analysis and academic writing. When researchers need to discuss both whether a system is free from intolerable non-adversarial harm and whether it can resist adversarial threats, the single word \"anquan\" often cannot carry the distinction. This article argues that, while established legal and standards titles should be retained, scholarly and engineering writing should translate security as \"anbao\", and reserve \"anquan\" mainly for safety. This is not a cosmetic translation preference, but a proposal for terminological governance in scientific cognition, engineering risk communication and assurance argumentation. The article first surveys the conceptual boundary between safety and security in international and Chinese standards, and analyzes how the current translation overload affects functional safety, SOTIF, information security, cybersecurity, automotive cybersecurity and AI governance. It then uses recent work on AI assurance, safety-security co-assurance and security-informed safety to show why precise terminology is fundamental to scientific arguments that can be examined, challenged and communicated. Finally, it proposes a staged, dual-track writing practice for Chinese technical discourse.",
+    "url": "https://arxiv.org/abs/2605.13069v1",
+    "date": "2026-05-13T06:42:17Z",
+    "fetched": "2026-05-14T10:27:50.762390"
+  },
+  {
+    "id": "bf46174cd77c",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Attacks and Mitigations for Distributed Governance of Agentic AI under Byzantine Adversaries",
+    "text": "Agentic AI governance is a critical component of agentic AI infrastructure ensuring that agents follow their owner's communication and interaction policies, and providing protection against attacks from malicious agents. The state-of-the-art solution, SAGA, assumes a logically centralized point of trust, the Provider, which serves as a repository for user and agent information and actively enforces policies. While SAGA provides protection against malicious agents, it remains vulnerable to a malicious Provider that deviates from the protocol, undermining the security of the identity and access control infrastructure. Deployment on both private and public clouds, each susceptible to insider threats, further increases the risk of Provider compromise.   In this work, we analyze the attacks that can be mounted from a compromised Provider, taking into account the different system components and realistic deployments. We identify and execute several concrete attacks with devastating effects: undermining agent attributability, extracting private data, or bypassing access control. We then present three types of solutions for securing the Provider that offer different trade-offs between security and performance. We first present SAGA-BFT, a fully byzantine-resilient architecture that provides the strongest protection, but incurs significant performance degradation, due to the high-cost of byzantine resilient protocols. We then propose SAGA-MON and SAGA-AUD, two novel solutions that leverage lightweight server-side monitoring or client-side auditing to provide protection against most classes of attacks with minimal overhead. Finally, we propose SAGA-HYB, a hybrid architecture that combines byzantine-resilience with monitoring and auditing to trade-off security for performance. We evaluate all the architectures and compare them with SAGA. We discuss which solution is best and under what conditions.",
+    "url": "https://arxiv.org/abs/2605.12364v1",
+    "date": "2026-05-12T16:33:50Z",
+    "fetched": "2026-05-14T10:27:50.762404"
+  },
+  {
+    "id": "736fac6f5076",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Strategic commitments shape collective cybersecurity under AI inequality",
+    "text": "The growing integration of AI into cybersecurity is reshaping the balance between attackers and defenders. When access to advanced AI-enabled defence tools is uneven, resource-limited defenders may be unable to adopt effective protection, creating persistent system vulnerabilities. We study the impact of differential AI access using an evolutionary game-theoretic model in a finite population. We first show that when high-capability defence is costly, the population is driven toward low-cost, weak-defence behaviour, sustaining attacks and weakening long-run security. To address this problem, we introduce differential access to AI defence tools by allowing defenders to choose between low- and high-capability protection based on their resources. We then examine the role of a small group of committed defenders who always adopt strong defence and influence others through social learning. Although commitment increases the prevalence of strong defence, it alone cannot stabilise secure outcomes due to high defence costs. We therefore incorporate a targeted subsidy to remove the cost disadvantage from committed defenders. Our analysis shows that subsidised commitment significantly increases strong defence adoption, suppresses successful attacks, and improves overall system resilience. Simulations across a broad parameter space confirm that subsidies consistently outperform commitment alone. In addition, social-welfare analysis shows improved defender outcomes while keeping attacker gains low. These findings suggest that targeted support for key defenders can be an effective mechanism for stabilising cybersecurity in AI-driven environments and provide a theoretical bridge between cybersecurity policy, AI governance, and strategic allocation of defensive AI capabilities.",
+    "url": "https://arxiv.org/abs/2605.09415v2",
+    "date": "2026-05-10T08:34:51Z",
+    "fetched": "2026-05-14T10:27:50.762411"
+  },
+  {
+    "id": "48839afea3ae",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "MAGIQ: A Post-Quantum Multi-Agentic AI Governance System with Provable Security",
+    "text": "Our computing ecosystem is being transformed by two emerging paradigms: the increased deployment of agentic AI systems and advancements in quantum computing. With respect to agentic AI systems, one of the most critical problems is creating secure governing architectures that ensure agents follow their owners' communication and interaction policies and can be held accountable for the messages they exchange with other agents. With respect to quantum computing, existing systems must be retrofitted and new cryptographic mechanisms must be designed to ensure long-term security and quantum resistance. In fact, NIST recommends that standard public-key cryptographic algorithms, including RSA, Diffie-Hellman (DH), and elliptic-curve constructions (ECC), be deprecated starting in 2030 and disallowed after 2035.   In this paper, we present MAGIQ, a framework for policy definition and enforcement in multi-agent AI systems using novel, highly efficient, quantum-resistant cryptographic protocols with proven security guarantees. MAGIQ (i) allows users to define rich communication and access-control policy budgets for agent-to-agent sessions and tasks, including global budgets for one-to-many agent sessions; (ii) enforces such policies using post-quantum cryptographic primitives; (iii) supports session-based enforcement of policies for agent-to-agent and one-to-many agent sessions; and (iv) provides accountability of agents to their users through message attribution. We formally model and prove the correctness and security of the system using the Universal Composability (UC) framework. We evaluate the computation and communication overhead of our framework and compare it with the state-of-the-art agentic AI framework SAGA. MAGIQ is a first step toward post-quantum-secure solutions for agentic AI systems.",
+    "url": "https://arxiv.org/abs/2605.06933v1",
+    "date": "2026-05-07T20:46:07Z",
+    "fetched": "2026-05-14T10:27:50.762418"
+  },
+  {
+    "id": "ebfd2d3d7bcc",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Operationalizing Ethics for AI Agents: How Developers Encode Values into Repository Context Files",
+    "text": "As AI coding agents become embedded in software development workflows, developers are beginning to operationalize ethical principles by encoding behavioral rules into repository-level context files for AI agents, such as AGENTS.md files. Rather than examining the ethics of AI agents in the abstract, this vision paper investigates how ethics and values are already being translated for AI agents into actionable instructions that shape agent behavior. Through a preliminary investigation, we find that developers are already embedding guidance related to fairness, accessibility, sustainability, tone, and privacy. These artifacts function as a developer-authored governance layer, translating abstract principles into situated, natural-language directives within development workflows. We outline a research agenda for studying this emerging practice, including how encoded values vary across communities, what governance dynamics emerge when multiple contributors negotiate these files, and whether agents reliably adhere to the constraints specified. Understanding how ethics and values are operationalized for AI agents is essential to ground AI governance in modern software engineering practice.",
+    "url": "https://arxiv.org/abs/2605.05584v1",
+    "date": "2026-05-07T02:03:36Z",
+    "fetched": "2026-05-14T10:27:50.762424"
+  },
+  {
+    "id": "a82ee4200e94",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Human-Provenance Verification should be Treated as Labor Infrastructure in AI-Saturated Markets",
+    "text": "We argue that AI-saturated markets are likely to create Veblen-good premiums, which we term human-provenance premiums, for verified human presence, and hence AI governance should treat human-provenance verification as labor infrastructure. Generative and agentic AI systems lower the cost of many standardized cognitive, creative, and coordination tasks, weakening the scarcity premiums that have supported much middle-tier knowledge work. We argue that this pressure may produce an asymmetric barbell-shaped structure of value capture in advanced economies: high-volume synthetic production controlled by owners of AI infrastructure at one pole, and scarce, high-status human labor valued for verified human presence at the other.   We advance three claims. First, AI compresses the value of standardized middle-tier labor by making good-enough synthetic substitutes scalable at low marginal cost, hollowing out the middle of the skill distribution currently categorized by knowledge work. Second, this compression reallocates demand for human labor toward work valued for its visible human character. We term this performative humanity and distinguish three forms of labor: relational presence, aesthetic provenance, and accountability. Third, as these premiums depend on credible verification, AI governance should treat human-provenance systems as labor infrastructure rather than as luxury authenticity labels.   To evaluate hybrid human-AI work, we propose constitutive human presence as the relevant standard: human labor retains premium value when human judgment, attention, accountability, authorship, or relational participation is not incidental to the output but constitutive of what is being purchased.",
+    "url": "https://arxiv.org/abs/2605.03210v1",
+    "date": "2026-05-04T22:56:13Z",
+    "fetched": "2026-05-14T10:27:50.762430"
+  },
+  {
+    "id": "733442c74d03",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Towards an Ethical AI Curriculum: A Pan-African, Culturally Contextualized Framework for Primary and Secondary Education",
+    "text": "Artificial intelligence (AI) is now embedded in educational, civic, and economic systems worldwide. For African primary and secondary education, this creates a double imperative: to prepare a young population (over sixty per cent of Africans are under twenty-five) for AI-mediated labour markets without uncritically importing curricula designed for other linguistic, cultural, and socio-political contexts. The African Union's Continental AI Strategy (2024) and the 2025 Africa Declaration on AI have elevated these questions to the continental agenda. This paper proposes a Pan-African, culturally contextualised, and ethically grounded framework for integrating AI education into African primary and secondary schools. The paper is a structured conceptual synthesis of continental and national policy documents, peer-reviewed scholarship on AI ethics, AI literacy, decolonial pedagogy, and Ubuntu-grounded AI governance. We contribute: (i) a framework of six guiding principles, four curriculum domains, five ethical competencies, and an age-banded progression from lower primary to upper secondary; (ii) a comparative analysis of continental and national policy contexts; (iii) an explicit mapping between global AI-ethics principles and Ubuntu-informed relational ethics; (iv) a planned empirical validation programme combining a Delphi study, teacher surveys across anglophone, francophone, lusophone, and arabophone contexts, and multi-country classroom piloting; and (v) targeted recommendations for policymakers, educators, civil society, and international partners. We argue that an ethical AI curriculum can serve as a transformative tool for equity, innovation, and social justice, and outline a research agenda to embed ethics, resilience, and critical thinking at the core of Africa's digital future.",
+    "url": "https://arxiv.org/abs/2604.27708v1",
+    "date": "2026-04-30T10:54:59Z",
+    "fetched": "2026-05-14T10:27:50.762436"
+  },
+  {
+    "id": "21281d94abe9",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The Two Boundaries: Why Behavioral AI Governance Fails Structurally",
+    "text": "Every system that performs effects has two boundaries: what it can do (expressiveness) and what governance covers (governance). In nearly all deployed AI systems, these boundaries are defined independently, creating three regions: governed capabilities (the only useful region), ungoverned capabilities (risk), and governance policies that address non-existent capabilities (theater). Two of the three regions are failure modes. We focus on the governance of effects: actions that AI systems perform in the world (API calls, database writes, tool invocations). This is distinct from the governance of model outputs (content quality, bias, fairness), which operates at a different level and requires different mechanisms. We present a formal framework for analyzing this structural gap. Rice's theorem (1953) proves the gap is undecidable in the general case for any Turing-complete architecture that attempts to govern effects behaviorally: no algorithm can decide non-trivial semantic properties of arbitrary programs, including the property \"this program's effects comply with the governance policy.\" We define coterminous governance: a system property where the expressivenessboundary equals the governance boundary. We show that coterminous governance requires an architectural decision (separatingcomputation from effect) rather than a governance layer added after the fact. We show that structural governance under this separation subsumes separate governance infrastructure: governance checks become part of the execution pipeline rather than a second system running alongside it. We propose coterminous governance as the testable criterion for any AI governance system: either the two boundaries are provably identical, or risk and theater are structurally inevitable. Proofs are mechanized in Coq (454 theorems, 36 modules, 0 admitted).",
+    "url": "https://arxiv.org/abs/2604.27292v2",
+    "date": "2026-04-30T01:12:32Z",
+    "fetched": "2026-05-14T10:27:50.762442"
+  },
+  {
+    "id": "884bad27d71d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Active Inference: A method for Phenotyping Agency in AI systems?",
+    "text": "The proliferation of agentic artificial intelligence has outpaced the conceptual tools needed to characterize agency in computational systems. Prevailing definitions mainly rely on autonomy and goal-directedness. Here, we argue for a minimal notion open to principled inspection given three criteria: intentionality as action grounded in beliefs and desires, rationality as normatively coherent action entailed by a world model, and explainability as action causally traceable to internal states; we subsequently instantiate these as a partially observable Markov decision process under a variational framework wherein posterior beliefs, prior preferences, and the minimization of expected free energy jointly constitute an agentic action chain. Using a canonical T-maze paradigm, we evidence how empowerment, formulated as the channel capacity between actions and anticipated observations, serves as an operational metric that distinguishes zero-, intermediate-, and high-agency phenotypes through structural manipulations of the generative model. We conclude by arguing that as agents engage in epistemic foraging to resolve ambiguity, the governance controls that remain effective must shift systematically from external constraints to the internal modulation of prior preferences, offering a principled, variational bridge from computational phenotyping to AI governance strategy",
+    "url": "https://arxiv.org/abs/2604.23278v1",
+    "date": "2026-04-25T12:41:53Z",
+    "fetched": "2026-05-14T10:27:50.762447"
+  },
+  {
+    "id": "f802ac7c8829",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Gradual Voluntary Participation: A Framework for Participatory AI Governance in Journalism",
+    "text": "The integration of AI into journalism challenges participatory design (PD), particularly with respect to stakeholder influence, workplace perceptions, and organizational dynamics. Traditional PD assumes that users can shape technologies, yet AI systems resist influence due to opaque data, fixed architectures, and inaccessible objectives. Through interviews with 10 journalists, we identify the perception gap, showing that trust in AI depends on perceived agency within workplace participatory workflows. Informed by these findings, we introduce the Gradual Voluntary Participation (GVP) framework in journalism and its five core principles, reconceptualizing participation as a gradual and voluntary process that can be operationalized at the newsroom level, beyond fixed workshops or one-time preference-elicitation campaigns. Addressing epistemic burdens, participatory ceilings, and performative consultations, GVP treats gradualism and voluntariness as design dimensions that shape perception, legitimacy, and ownership. Moving beyond unidimensional ladder metaphors and adopting a bidimensional matrix structure, the framework maps stakeholders across depth and scope, offering a new model for local participatory AI governance that balances technological transformation with stakeholder empowerment in rapidly evolving hybrid workplaces.",
+    "url": "https://arxiv.org/abs/2604.21878v1",
+    "date": "2026-04-23T17:21:50Z",
+    "fetched": "2026-05-14T10:27:50.762453"
+  },
+  {
+    "id": "8d2bc0ad1e9b",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Engaged AI Governance: Addressing the Last Mile Challenge Through Internal Expert Collaboration",
+    "text": "Under the EU AI Act, translating AI governance requirements into software development practice remains challenging. While AI governance frameworks exist at industry and organizational levels, empirical evidence of team-level implementation is scarce. We address this \"Last Mile\" Challenge through insider action research embedded within an AI startup. We present a legal-text-to-action pipeline that translates EU AI Act requirements into actionable strategies through internal expert collaboration by extracting requirements from legal text, engaging practitioners in assessment and ideation, and prioritizing implementation through collective evaluation. Our analysis reveals three patterns in how practitioners perceive regulatory requirements: convergence (compliance aligns with development priorities), existing practice (current work already satisfies requirements), and disconnection (requirements perceived as administrative overhead). Based on these patterns, we discuss when governance might be treated genuinely or performatively. Practitioners prioritize requirements that serve end-users or their own development needs, but view verification-oriented requirements as box-ticking exercises. This distinction suggests a translation challenge: regulatory requirements risk superficial treatment unless practitioners understand how compliance serves system quality and user protection. Expert collaboration offers a practical mechanism for transforming governance from external imposition to shared ownership and making previously invisible governance work visible and collective.",
+    "url": "https://arxiv.org/abs/2604.21554v1",
+    "date": "2026-04-23T11:27:36Z",
+    "fetched": "2026-05-14T10:27:50.762459"
+  },
+  {
+    "id": "966a0591a259",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "A pragmatic classification framework for AI incident monitoring",
+    "text": "Incident monitoring can drive safety improvements in high-reliability industries and population-scale technologies, but remains underdeveloped in AI governance. Public databases catalog thousands of AI incidents, but simple incident counts conflate media reporting propensity, system deployment (\"exposure\"), and harm frequency per unit exposure. We propose a methodological framework that accounts for these factors and calibrates confidence to available evidence in analyzing how AI incidents change over time. The framework comprises three components: a structured monitoring question that defines the scope of the analysis; a tiered estimation process that separately derives harm and exposure trends, including through LLM-assisted filtering of public incident databases; and a classification scheme that maps the resulting trend estimates onto actionable governance categories (Escalating, Mitigating, Concentrating, Receding or Unclassifiable). Through case studies, we examine the framework's clarifying power and limitations, demonstrate governance insight despite real-world data constraints, and provide a proof of concept for AI incident monitoring as a practical governance tool.",
+    "url": "https://arxiv.org/abs/2604.21412v2",
+    "date": "2026-04-23T08:24:14Z",
+    "fetched": "2026-05-14T10:27:50.762464"
+  },
+  {
+    "id": "fba04995b9ec",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "AI Governance under Political Turnover: The Alignment Surface of Compliance Design",
+    "text": "Governments are increasingly interested in using AI to make administrative decisions cheaper, more scalable, and more consistent. But for probabilistic AI to be incorporated into public administration it must be embedded in a compliance layer that makes decisions reviewable, repeatable, and legally defensible. That layer can improve oversight by making departures from law easier to detect. But it can also create a stable approval boundary that political successors learn to navigate while preserving the appearance of lawful administration. We develop a formal model in which institutions choose the scale of automation, the degree of codification, and safeguards on iterative use. The model shows when these systems become vulnerable to strategic use from within government, why reforms that initially improve oversight can later increase that vulnerability, and why expansions in AI use may be difficult to unwind. Making AI usable can thus make procedures easier for future governments to learn and exploit.",
+    "url": "https://arxiv.org/abs/2604.21103v1",
+    "date": "2026-04-22T21:42:50Z",
+    "fetched": "2026-05-14T10:27:50.762469"
+  },
+  {
+    "id": "6d999b527a43",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Structural Quality Gaps in Practitioner AI Governance Prompts: An Empirical Study Using a Five-Principle Evaluation Framework",
+    "text": "AI governance programmes increasingly rely on natural language prompts to constrain and direct AI agent behaviour. These prompts function as executable specifications: they define the agent's mandate, scope, and quality criteria. Despite this role, no systematic framework exists for evaluating whether a governance prompt is structurally complete. We introduce a five-principle evaluation framework grounded in computability theory, proof theory, and Bayesian epistemology, and apply it to an empirical corpus of 34 publicly available AGENTS.md governance files sourced from GitHub. Our evaluation reveals that 37% of evaluated file-model pairs score below the structural completeness threshold, with data classification and assessment rubric criteria most frequently absent. These results suggest that practitioner-authored governance prompts exhibit consistent structural patterns that automated static analysis could detect and remediate. We discuss implications for requirements engineering practice in AI-assisted development contexts, identify a previously undocumented artefact classification gap in the AGENTS.md convention, and propose directions for tool support.",
+    "url": "https://arxiv.org/abs/2604.21090v1",
+    "date": "2026-04-22T21:18:28Z",
+    "fetched": "2026-05-14T10:27:50.762475"
+  },
+  {
+    "id": "cf75ae590e47",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The Open-Weight Paradox: Why Restricting Access to AI Models May Undermine the Safety It Seeks to Protect",
+    "text": "The governance of open-weight artificial intelligence (AI) models has been framed as a binary choice: openness as risk, restriction as safety. This paper challenges that framing, arguing that access restrictions, without governed alternatives, may displace risks rather than reduce them. The global concentration of compute infrastructure makes open-weight models one of the most viable pathways to sovereign AI capacity in the Global South; restricting such access deepens asymmetries while driving proliferation into unsupervised settings. This analysis proposes that hardware-layer governance, including chip-level attestation mechanisms such as FlexHEG, trusted execution environments, confidential computing, and complementary software-layer safeguards, offers a defense-in-depth alternative to the current binary. A threat model taxonomy mapping misuse vectors to hardware, software, institutional, and liability layers illustrates why no single governance mechanism suffices. To operationalize this approach, the paper argues that effective AI governance as a dual-use technology will likely require a multilateral institutional architecture functionally analogous, though not identical, to the role performed by the IAEA in the nuclear domain, with explicit safeguards against the co-option of hardware controls for domestic repression. The relevant policy question is how to make openness safer through technical and institutional design while addressing the transition realities of legacy hardware, attestation at scale, and civil liberties protection.",
+    "url": "https://arxiv.org/abs/2604.17413v1",
+    "date": "2026-04-19T12:38:14Z",
+    "fetched": "2026-05-14T10:27:50.762480"
+  },
+  {
+    "id": "b13d15eb1719",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Agentic Explainability at Scale: Between Corporate Fears and XAI Needs",
+    "text": "As companies enter the race for agentic AI adoption, fears surface around agentic autonomy and its subsequent risks. These fears compound as companies scale their agentic AI adoption with low-code applications, without a comparable scaling in their governance processes and expertise resulting in a phenomenon known as \"Agent Sprawl\". While shadow AI tools can help with agentic discovery and identification, few observability tools offer insights into the agents' configuration and settings or the decision-making process during agent-to-agent communication and orchestration. This paper explores AI governance professionals' concerns in enterprise settings, while offering design-time and runtime explainability techniques as suggested by AI governance experts for addressing those fears. Finally, we provide a preliminary prototype of an Agentic AI Card that can help companies feel at ease deploying agents at scale.",
+    "url": "https://arxiv.org/abs/2604.14984v1",
+    "date": "2026-04-16T13:15:54Z",
+    "fetched": "2026-05-14T10:27:50.762486"
+  },
+  {
+    "id": "9f13971eeb11",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Layered Mutability: Continuity and Governance in Persistent Self-Modifying Agents",
+    "text": "Persistent language-model agents increasingly combine tool use, tiered memory, reflective prompting, and runtime adaptation. In such systems, behavior is shaped not only by current prompts but by mutable internal conditions that influence future action. This paper introduces layered mutability, a framework for reasoning about that process across five layers: pretraining, post-training alignment, self-narrative, memory, and weight-level adaptation. The central claim is that governance difficulty rises when mutation is rapid, downstream coupling is strong, reversibility is weak, and observability is low, creating a systematic mismatch between the layers that most affect behavior and the layers humans can most easily inspect. I formalize this intuition with simple drift, governance-load, and hysteresis quantities, connect the framework to recent work on temporal identity in language-model agents, and report a preliminary ratchet experiment in which reverting an agent's visible self-description after memory accumulation fails to restore baseline behavior. In that experiment, the estimated identity hysteresis ratio is 0.68. The main implication is that the salient failure mode for persistent self-modifying agents is not abrupt misalignment but compositional drift: locally reasonable updates that accumulate into a behavioral trajectory that was never explicitly authorized.",
+    "url": "https://arxiv.org/abs/2604.14717v2",
+    "date": "2026-04-16T07:27:35Z",
+    "fetched": "2026-05-14T10:27:50.762491"
+  },
+  {
+    "id": "b7744f078a23",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The Epidemiology of Artificial Intelligence",
+    "text": "Artificial intelligence (AI) systems increasingly shape how people access health information, make medical decisions, and receive care -- yet epidemiology lacks frameworks for measuring AI exposure or studying its health effects at the population level. Here we argue that AI now functions as a determinant of health and propose a conceptual framework, borrowed from environmental epidemiology, for studying it. We distinguish ambient AI exposure -- algorithmic curation and AI-mediated institutional decisions that affect populations regardless of individual choice -- from personal AI exposure -- direct, volitional use of AI tools. We characterize AI's possible causal roles in epidemiological models, show that existing experimental approaches are inadequate for capturing chronic, population-level effects, and illustrate these ideas with nationally representative US survey data. We discuss implications for study design, health equity, and AI governance.",
+    "url": "https://arxiv.org/abs/2604.14086v1",
+    "date": "2026-04-15T16:59:10Z",
+    "fetched": "2026-05-14T10:27:50.762497"
+  },
+  {
+    "id": "f23022ec6979",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "From Disclosure to Self-Referential Opacity: Six Dimensions of Strain in Current AI Governance",
+    "text": "Governance opacity over AI systems shifts in kind as capability asymmetry grows, and the strongest forms defeat the disclosure-based remedies governance ordinarily relies on. This paper applies a six-dimension framework from political theory (legitimacy, accountability, corrigibility, non-domination, subsidiarity, institutional resilience) to six AI governance arrangements already in operation, ordered by increasing capability asymmetry between system and overseer. Proprietary secrecy yields to disclosure at the low end, but at the high end the governed system either games its own evaluation or sits inside the governance process, and transparency remedies lose traction. Legitimacy and non-domination strain more consistently across the sample than corrigibility and resilience, which respond more readily to institutional design quality. The sample cannot separate institutional design maturity from capability asymmetry, and the patterns are offered as hypotheses for multi-rater validation.",
+    "url": "https://arxiv.org/abs/2604.14070v1",
+    "date": "2026-04-15T16:39:28Z",
+    "fetched": "2026-05-14T10:27:50.762502"
+  },
+  {
+    "id": "5cc4a6cb054a",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Making AI Compliance Evidence Machine-Readable",
+    "text": "AI Assurance -- producing the machine-readable evidence required to demonstrate compliance with AI governance frameworks -- has mature policy scaffolding but lacks the infrastructure to operationalize it. Organizations building high-risk AI systems under the EU AI Act face a gap: frameworks such as the EU AI Act, ISO/IEC 42001, and NIST AI RMF specify what to assure but provide no executable format for how. This paper proposes OSCAL -- the NIST standard adopted for FedRAMP cybersecurity compliance -- as a candidate interchange format for AI governance, complementing rather than replacing the emerging JTC21 standards stack. We define 16 property extensions covering lifecycle phases, enforcement semantics, risk traceability, and risk-acceptance justification, and present a three-layer Compliance-as-Code architecture (policy, evidence, enforcement) that generates assurance evidence as a byproduct of model training. The SDK produces native OSCAL Assessment Results validated against the NIST JSON schema. We test the approach on two Annex III high-risk systems: a credit scoring model and a medical imaging segmentation system. The architecture and reference implementation are open-source under Apache 2.0.",
+    "url": "https://arxiv.org/abs/2604.13767v1",
+    "date": "2026-04-15T11:51:54Z",
+    "fetched": "2026-05-14T10:27:50.762508"
+  },
+  {
+    "id": "a8c5697ed8b6",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Inspectable AI for Science: A Research Object Approach to Generative AI Governance",
+    "text": "This paper introduces AI as a Research Object (AI-RO), a paradigm for governing the use of generative AI in scientific research. Instead of debating whether AI is an author or merely a tool, we propose treating AI interactions as structured, inspectable components of the research process. Under this view, the legitimacy of an AI-assisted scientific paper depends on how model use is integrated into the workflow, documented, and made accountable. Drawing on Research Object theory and FAIR principles, we propose a framework for recording model configuration, prompts, and outputs through interaction logs and metadata packaging. These properties are particularly consequential in security and privacy (S&P) research, where provenance artifacts must satisfy confidentiality constraints, integrity guarantees, and auditability requirements that generic disclosure practices do not address. We implement a lightweight writing pipeline in which a language model synthesizes human-authored structured literature review notes under explicit constraints and produces a verifiable provenance record. We present this work as a position supported by an initial demonstrative workflow, arguing that governance of generative AI in science can be implemented as structured documentation, controlled disclosure, and integrity-preserving provenance capture. Based on this example, we outline and motivate a set of necessary future developments required to make such practices practical and widely adoptable.",
+    "url": "https://arxiv.org/abs/2604.11261v1",
+    "date": "2026-04-13T10:13:20Z",
+    "fetched": "2026-05-14T10:27:50.762513"
+  },
+  {
+    "id": "9ff78aeb9150",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "AI Integrity: A New Paradigm for Verifiable AI Governance",
+    "text": "AI systems increasingly shape high-stakes decisions in healthcare, law, defense, and education, yet existing governance paradigms -- AI Ethics, AI Safety, and AI Alignment -- share a common limitation: they evaluate outcomes rather than verifying the reasoning process itself. This paper introduces AI Integrity, a concept defined as a state in which the Authority Stack of an AI system -- its layered hierarchy of values, epistemological standards, source preferences, and data selection criteria -- is protected from corruption, contamination, manipulation, and bias, and maintained in a verifiable manner. We distinguish AI Integrity from the three existing paradigms, define the Authority Stack as a 4-layer cascade model (Normative, Epistemic, Source, and Data Authority) grounded in established academic frameworks -- Schwartz Basic Human Values for normative authority, Walton argumentation schemes with GRADE/CEBM hierarchies for epistemic authority, and Source Credibility Theory for source authority -- characterize the distinction between legitimate cascading and Authority Pollution, and identify Integrity Hallucination as the central measurable threat to value consistency. We further specify the PRISM (Profile-based Reasoning Integrity Stack Measurement) framework as the operational methodology, defining six core metrics and a phased research roadmap. Unlike normative frameworks that prescribe which values are correct, AI Integrity is a procedural concept: it requires that the path from evidence to conclusion be transparent and auditable, regardless of which values a system holds.",
+    "url": "https://arxiv.org/abs/2604.11065v1",
+    "date": "2026-04-13T06:45:30Z",
+    "fetched": "2026-05-14T10:27:50.762519"
+  },
+  {
+    "id": "feccf799a086",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Compliant But Unsatisfactory: The Gap Between Auditing Standards and Practices for Probabilistic Genotyping Software",
+    "text": "AI governance efforts increasingly rely on audit standards: agreed-upon practices for conducting audits. However, poorly designed standards can hide and lend credibility to inadequate systems. We explore how an audit standard's design influences its effectiveness through a case study of ASB 018, a standard for auditing probabilistic genotyping software -- software that the U.S. criminal legal system increasingly uses to analyze DNA samples. Through qualitative analysis of ASB 018 and five audit reports, we identify numerous gaps between the standard's desired outcomes and the auditing practices it enables. For instance, ASB 018 envisions that compliant audits establish restrictions on software use based on observed failures. However, audits can comply without establishing such boundaries. We connect these gaps to the design of the standard's requirements such as vague language and undefined terms. We conclude with recommendations for designing audit standards and evaluating their effectiveness.",
+    "url": "https://arxiv.org/abs/2604.10875v1",
+    "date": "2026-04-13T00:49:58Z",
+    "fetched": "2026-05-14T10:27:50.762524"
+  },
+  {
+    "id": "a658c7101516",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Participatory, not Punitive: Student-Driven AI Policy Recommendations in a Design Classroom",
+    "text": "Generative AI is reshaping education, yet most university AI policies are written without students and focus on penalizing misuse. This top-down approach sidelines those most affected from decisions that shape their everyday learning, resulting in confusion and fear about acceptable use. We examine how participatory, student-driven AI policy design can address this disconnect. We report on a three-part workshop series in a graduate design course at a minority-serving university in the U.S., where two student leaders facilitated discussions without faculty present. Eight participants shared candid accounts of their AI use, co-authored ten policy recommendations, and visualized them in a zine that circulated across campus. The resulting policies surfaced concerns absent from top-down governance, such as the double standard of requiring students to disclose or abstain from AI use while faculty face no such expectations. We argue that engaging students in AI governance carries value beyond the resulting policies, and offer transferable strategies for fostering participation across disciplines -- a model for calling students in rather than calling students",
+    "url": "https://arxiv.org/abs/2604.10851v1",
+    "date": "2026-04-12T23:06:49Z",
+    "fetched": "2026-05-14T10:27:50.762529"
+  },
+  {
+    "id": "f51f29109a2a",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The Accountability Horizon: An Impossibility Theorem for Governing Human-Agent Collectives",
+    "text": "Existing accountability frameworks for AI systems, legal, ethical, and regulatory, rest on a shared assumption: for any consequential outcome, at least one identifiable person had enough involvement and foresight to bear meaningful responsibility. This paper proves that agentic AI systems violate this assumption not as an engineering limitation but as a mathematical necessity once autonomy exceeds a computable threshold. We introduce Human-Agent Collectives, a formalisation of joint human-AI systems where agents are modelled as state-policy tuples within a shared structural causal model. Autonomy is characterised through a four-dimensional information-theoretic profile (epistemic, executive, evaluative, social); collective behaviour through interaction graphs and joint action spaces. We axiomatise legitimate accountability through four minimal properties: Attributability (responsibility requires causal contribution), Foreseeability Bound (responsibility cannot exceed predictive capacity), Non-Vacuity (at least one agent bears non-trivial responsibility), and Completeness (all responsibility must be fully allocated). Our central result, the Accountability Incompleteness Theorem, proves that for any collective whose compound autonomy exceeds the Accountability Horizon and whose interaction graph contains a human-AI feedback cycle, no framework can satisfy all four properties simultaneously. The impossibility is structural: transparency, audits, and oversight cannot resolve it without reducing autonomy. Below the threshold, legitimate frameworks exist, establishing a sharp phase transition. Experiments on 3,000 synthetic collectives confirm all predictions with zero violations. This is the first impossibility result in AI governance, establishing a formal boundary below which current paradigms remain valid and above which distributed accountability mechanisms become necessary.",
+    "url": "https://arxiv.org/abs/2604.07778v1",
+    "date": "2026-04-09T04:08:26Z",
+    "fetched": "2026-05-14T10:27:50.762535"
+  },
+  {
+    "id": "58f60961de69",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Agentic Copyright, Data Scraping & AI Governance: Toward a Coasean Bargain in the Era of Artificial Intelligence",
+    "text": "This paper examines how the rapid deployment of multi-agentic AI systems is reshaping the foundations of copyright law and creative markets. It argues that existing copyright frameworks are ill-equipped to govern AI agent-mediated interactions that occur at scale, speed, and with limited human oversight. The paper introduces the concept of agentic copyright, a model in which AI agents act on behalf of creators and users to negotiate access, attribution, and compensation for copyrighted works. While multi-agent ecosystems promise efficiency gains and reduced transaction costs, they also generate novel market failures, including miscoordination, conflict, and collusion among autonomous agents. To address these market failures, the paper develops a supervised multi-agent governance framework that integrates legal rules and principles, technical protocols, and institutional oversight. This framework emphasizes ex ante and ex post coordination mechanisms capable of correcting agentic market failures before they crystallize into systemic harm. By embedding normative constraints and monitoring functions into multi-agent architectures, supervised governance aims to align agent behavior with the underlying values of copyright law. The paper concludes that AI should be understood not only as a source of disruption, but also as a governance tool capable of restoring market-based ordering in creative industries. Properly designed, agentic copyright offers a path toward scalable, fair, and legally meaningful copyright markets in the age of AI.",
+    "url": "https://arxiv.org/abs/2604.07546v1",
+    "date": "2026-04-08T19:43:28Z",
+    "fetched": "2026-05-14T10:27:50.762540"
+  },
+  {
+    "id": "91c239e6ca75",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Who Governs the Machine? A Machine Identity Governance Taxonomy (MIGT) for AI Systems Operating Across Enterprise and Geopolitical Boundaries",
+    "text": "The governance of artificial intelligence has a blind spot: the machine identities that AI systems use to act. AI agents, service accounts, API tokens, and automated workflows now outnumber human identities in enterprise environments by ratios exceeding 80 to 1, yet no integrated framework exists to govern them. A single ungoverned automated agent produced $5.4-10 billion in losses in the 2024 CrowdStrike outage; nation-state actors including Silk Typhoon and Salt Typhoon have operationalized ungoverned machine credentials as primary espionage vectors against critical infrastructure. This paper makes four original contributions. First, the AI-Identity Risk Taxonomy (AIRT): a comprehensive enumeration of 37 risk sub-categories across eight domains, each grounded in documented incidents, regulatory recognition, practitioner prevalence data, and threat intelligence. Second, the Machine Identity Governance Taxonomy (MIGT): an integrated six-domain governance framework simultaneously addressing the technical governance gap, the regulatory compliance gap, and the cross-jurisdictional coordination gap that existing frameworks address only in isolation. Third, a foreign state actor threat model for enterprise identity governance, establishing that Silk Typhoon, Salt Typhoon, Volt Typhoon, and North Korean AI-enhanced identity fraud operations have already operationalized AI identity vulnerabilities as active attack vectors. Fourth, a cross-jurisdictional regulatory alignment structure mapping enterprise AI identity governance obligations under EU, US, and Chinese frameworks simultaneously, identifying irreconcilable conflicts and providing a governance mechanism for managing them. A four-phase implementation roadmap translates the MIGT into actionable enterprise programs.",
+    "url": "https://arxiv.org/abs/2604.06148v1",
+    "date": "2026-04-07T17:51:56Z",
+    "fetched": "2026-05-14T10:27:50.762546"
+  },
+  {
+    "id": "27edcf28bf15",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Governance and Regulation of Artificial Intelligence in Developing Countries: A Case Study of Nigeria",
+    "text": "This study examines the perception of legal professionals on the governance of AI in developing countries, using Nigeria as a case study. The study focused on ethical risks, regulatory gaps, and institutional readiness. The study adopted a qualitative case study design. Data were collected through 27 semi-structured interviews with legal practitioners in Nigeria. A focus group discussion was also held with seven additional legal practitioners across sectors such as finance, insurance, and corporate law. Thematic analysis was employed to identify key patterns in participant responses. Findings showed that there were concerns about data privacy risks and the lack of enforceable legal frameworks. Participants expressed limited confidence in institutional capacity and emphasized the need for locally adapted governance models rather than direct adoption of foreign frameworks. While some expressed optimism about AI's potential, this was conditional on the presence of strong legal oversight and public accountability. The study contributes to the growing discourse on AI governance in developing countries by focusing on the perspectives of legal professionals. It highlights the importance of regulatory approaches that are context-specific, inclusive, and capable of bridging the gap between global ethical principles and local realities. These insights offer practical guidance for policymakers, regulators, and scholars working to shape responsible AI governance in similar environments.",
+    "url": "https://arxiv.org/abs/2604.06018v2",
+    "date": "2026-04-07T16:16:05Z",
+    "fetched": "2026-05-14T10:27:50.762551"
+  },
+  {
+    "id": "b1eb02dc6076",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "UGAF-ITS: A Standards Harmonization Framework and Validation Tool for Multi-Framework AI Governance in Distributed Intelligent Transportation Systems",
+    "text": "Organizations deploying AI-enabled Intelligent Transportation Systems face fragmented governance: ISO/IEC 42001 demands a certifiable management system, the EU AI Act imposes binding high-risk obligations from August 2026, and the NIST AI Risk Management Framework structures voluntary practice. Each instrument is internally coherent, yet they drive different control vocabularies, evidence expectations, and audit rhythms. In distributed ITS deployments where vehicle manufacturers, roadside integrators, and cloud operators each hold partial evidence and partial accountability, this fragmentation multiplies compliance effort and obscures incident traceability.   This paper introduces UGAF-ITS, a standards harmonization framework that consolidates 154 source obligations from the three instruments into 12 unified controls across eight governance domains through a reproducible five-phase crosswalk methodology. A three-tier operating model allocates each control to the vehicle, edge, or cloud tier where enforcement and defensible evidence production are feasible. An evidence backbone of 20 versioned artifacts supports a single audit package across all three frameworks without duplicating content.   We validate UGAF-ITS through an open-source governance engine evaluated across four architecturally distinct ITS deployment scenarios. The engine encodes the complete crosswalk catalog and executes eight compliance computations. Three-tier deployments achieve 91.7% average framework coverage with 45.9% evidence reduction, complete bidirectional traceability, and 80% of artifacts serving all three frameworks simultaneously. Partial deployments degrade gracefully: coverage and reduction scale with architectural complexity. The tool, scenarios, and all reported results are publicly available for independent replication.",
+    "url": "https://arxiv.org/abs/2604.22789v1",
+    "date": "2026-04-07T09:37:05Z",
+    "fetched": "2026-05-14T10:27:50.762557"
+  },
+  {
+    "id": "b917e45c3abe",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "LanG -- A Governance-Aware Agentic AI Platform for Unified Security Operations",
+    "text": "Modern Security Operations Centers struggle with alert fatigue, fragmented tooling, and limited cross-source event correlation. Challenges that current Security Information Event Management and Extended Detection and Response systems only partially address through fragmented tools. This paper presents the LLM-assisted network Governance (LanG), an open-source, governance-aware agentic AI platform for unified security operations contributing: (i) a Unified Incident Context Record with a correlation engine (F1 = 87%), (ii) an Agentic AI Orchestrator on LangGraph with human-in-the-loop checkpoints, (iii) an LLM-based Rule Generator finetuned on four base models producing deployable Snort 2/3, Suricata, and YARA rules (average acceptance rate 96.2%), (iv) a Three-Phase Attack Reconstructor combining Louvain community detection, LLM-driven hypothesis generation, and Bayesian scoring (87.5% kill-chain accuracy), and (v) a layered Governance-MCP-Agentic AI-Security architecture where all tools are exposed via the Model Context Protocol, governed by an AI Governance Policy Engine with a two-layer guardrail pipeline (regex + Llama Prompt Guard 2 semantic classifier, achieving 98.1% F1 score with experimental zero false positives). Designed for Managed Security Service Providers, the platform supports multi-tenant isolation, role-based access, and fully local deployment. Finetuned anomaly and threat detectors achieve weighted F1 scores of 99.0% and 91.0%, respectively, in intrusion-detection benchmarks, running inferences in $\\approx$21 ms with a machine-side mean time to detect of 1.58 s, and the rule generator exceeds 91% deployability on live IDS engines. A systematic comparison against eight SOC platforms confirms that LanG uniquely satisfies multiple industrial capabilities all in one open-source tool, while enforcing selected AI governance policies.",
+    "url": "https://arxiv.org/abs/2604.05440v1",
+    "date": "2026-04-07T05:22:25Z",
+    "fetched": "2026-05-14T10:27:50.762563"
+  },
+  {
+    "id": "060e65aea95e",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Unconsented Sensing: A Sociotechnical Governance Framework for 6G ISAC",
+    "text": "The forthcoming deployment of 6G Integrated Sensing and Communication (ISAC) will transform cellular infrastructure into pervasive, continuous environmental and biometric sensing grids. While current telecom standardization efforts (e.g., 3GPP, ETSI) have formally recognized privacy and trustworthiness as critical pillars for 6G, their proposed mitigations remain overwhelmingly technocentric, relying on cryptographic anonymization and physical layer security. This approach critically underestimates the sociotechnical and legal complexities of the downstream machine learning (ML) models required to interpret raw sensing data, creating a profound collision with existing digital rights legislation. This position paper argues that technical security is insufficient. ISAC trustworthiness must be redefined as mandatory regulatory and sociotechnical compliance. We identify the specific legal friction points between continuous ISAC surveillance and the mandates of emerging global digital rights regimes, using the stringent requirements of the EU AI Act and GDPR as our primary regulatory baselines. To bridge this gap, we propose a governance framework centered on three pillars: Purpose-bound sensing activation, citizen transparency mechanisms, and algorithmic accountability for ISAC-driven ML models. Ultimately, this paper provides a regulatory roadmap to prevent the illegal deployment of 6G sensing infrastructures and ensure they remain viable before physical deployment.",
+    "url": "https://arxiv.org/abs/2605.07328v1",
+    "date": "2026-05-08T06:34:12Z",
+    "fetched": "2026-05-14T10:27:52.203181"
+  },
+  {
+    "id": "8c228a22a230",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Making AI-Assisted Grant Evaluation Auditable without Exposing the Model",
+    "text": "Public agencies are beginning to consider large language models (LLMs) as decision-support tools for grant evaluation. This creates a practical governance problem: the model and scoring rubric should not be exposed in a way that allows applicants to optimize against them, yet the evaluation process must remain auditable, contestable, and accountable.   We propose a TEE-based architecture that helps reconcile these requirements through remote attestation. The architecture allows an external verifier to check which model, rubric, prompt template, and input representation were used, without exposing model weights, proprietary scoring logic, or intermediate reasoning to applicants or infrastructure operators. The main artifact is an attested evaluation bundle: a signed, timestamped record linking the original submission hash, the canonical input hash, the model-and-rubric measurement, and the evaluation output.   The paper also considers a scenario-specific prompt injection risk: applicant-controlled documents may contain hidden or indirect instructions intended to influence the LLM evaluator. We therefore include a canonicalization and sanitization layer that normalizes document representations and records suspicious transformations before inference. We position the design relative to confidential AI inference, attestable AI audits, zero-knowledge machine learning, algorithmic accountability, and AI-assisted peer review. The resulting claim is deliberately narrow: remote attestation does not prove that an evaluation is fair or scientifically correct, but it can make part of the evaluation process externally verifiable.",
+    "url": "https://arxiv.org/abs/2604.25200v1",
+    "date": "2026-04-28T04:10:04Z",
+    "fetched": "2026-05-14T10:27:52.203197"
+  },
+  {
+    "id": "1fd70fc51ff5",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Beyond Explanation: Evidentiary Rights for Algorithmic Accountability",
+    "text": "Algorithmic accountability scholarship has focused heavily on explanation, helping affected parties understand why decisions were made. We argue this focus is insufficient. Explanation without evidentiary access does not enable meaningful contestation. A person told \"your risk score was 0.73\" understands the decision but cannot verify the score, test alternatives, or produce counter-evidence. We introduce a taxonomy of contestation failures, showing that most accountability interventions address only one failure mode (opacity) while leaving four others unaddressed. Drawing on analysis of 168 legal cases spanning algorithmic decision-making contexts, we find that contestation faces a two-gate structure: a procedural gate (evidentiary access) and a doctrinal gate (substantive liability rules). Among litigated cases, those without evidence access almost never succeed (9%); those with access succeed at rates approaching 97% in domains without liability shields. Where doctrinal immunities apply (e.g., Section 230), even full evidentiary scrutiny produces no liability. This association almost certainly reflects selection effects; our empirical contribution is diagnostic rather than causal. The data identify where contestation fails among observable cases, not whether providing access would change outcomes for currently-excluded cases. We propose evidentiary rights as the missing procedural component, and develop counterfactual interrogation rights that allow affected parties to probe decision systems with modified inputs and observe whether outcomes change, without requiring disclosure of model internals. This reframes algorithmic accountability from a transparency problem to a procedural rights problem.",
+    "url": "https://arxiv.org/abs/2603.22716v1",
+    "date": "2026-03-24T02:12:20Z",
+    "fetched": "2026-05-14T10:27:52.203203"
+  },
+  {
+    "id": "dbbd88525a61",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Consensus in Multi-Agent Systems with Uniform and Nonuniform Communication Delays",
+    "text": "This paper analyzes consensus in multi-agent systems under uniform and nonuniform communication delays, a key challenge in distributed coordination with applications to robotic swarms. It investigates the convergence of a consensus algorithm accounting for delays across communication links in a connected, undirected graph. Novel convergence results are derived using Rouché's theorem and Lyapunov-based stability analysis. The system is shown to reach consensus at a steady-state value given by a weighted average determined by the delay distribution, with stability ensured under explicit parameter bounds. Both uniform and nonuniform delay scenarios are analyzed, and the corresponding convergence values are explicitly derived. The theoretical results are validated through simulations, which explore the impact of delay heterogeneity on consensus outcomes. Furthermore, the algorithm is implemented and experimentally tested on a swarm of QBOT3 ground robots to solve the rendezvous problem, demonstrating the agents' ability to converge to a common location despite realistic communication constraints, thus confirming the algorithm's robustness and practical applicability. The results provide guidelines for designing consensus protocols that tolerate communication delays, offer insights into the relationship between network delays and coordination performance, and demonstrate their applicability to distributed robotic systems.",
+    "url": "https://arxiv.org/abs/2603.16523v1",
+    "date": "2026-03-17T13:45:57Z",
+    "fetched": "2026-05-14T10:27:52.203210"
+  },
+  {
+    "id": "9a6217108a4d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Navigating Algorithmic Opacity: Folk Theories and User Agency in Semi-Autonomous Vehicles",
+    "text": "As semi-autonomous vehicles (AVs) become prevalent, drivers must collaborate with AI systems whose decision-making processes remain opaque. This study examines how drivers of AVs develop folk theories to interpret algorithmic behavior that contradicts their expectations. Through 16 semi-structured interviews with drivers in the United States, we investigate the explanatory frameworks drivers construct to make sense of AI decisions, the strategies they employ when systems behave unexpectedly, and their experiences with control handoffs and feedback mechanisms. Our findings reveal that drivers develop sophisticated folk theories -- often using anthropomorphic metaphors describing systems that ``see,'' ``hesitate,'' or become ``overwhelmed'' -- yet lack informational resources to validate these theories or meaningfully participate in algorithmic governance. We identify contexts where algorithmic opacity manifests acutely, including complex intersections, adverse weather, and rural environments. Current AV designs position drivers as passive data sources rather than epistemic agents, creating accountability gaps that undermine trust and safety. Drawing on critical data studies and algorithmic accountability literature, we propose a framework for participatory algorithmic governance that would provide drivers with transparency into AI decision-making and meaningful channels for contributing to system improvement. This research contributes to understanding how users navigate datafied sociotechnical systems in safety-critical contexts.",
+    "url": "https://arxiv.org/abs/2602.07312v1",
+    "date": "2026-02-07T02:03:53Z",
+    "fetched": "2026-05-14T10:27:52.203216"
+  },
+  {
+    "id": "93e3aa992ed3",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "\"Just in Time\" World Modeling Supports Human Planning and Reasoning",
+    "text": "Probabilistic mental simulation is thought to play a key role in human reasoning, planning, and prediction, yet the demands of simulation in complex environments exceed realistic human capacity limits. A theory with growing evidence is that people simulate using simplified representations of the environment that abstract away from irrelevant details, but it is unclear how people determine these simplifications efficiently. Here, we present a \"Just-in-Time\" framework for simulation-based reasoning that demonstrates how such representations can be constructed online with minimal added computation. The model uses a tight interleaving of simulation, visual search, and representation modification, with the current simulation guiding where to look and visual search flagging objects that should be encoded for subsequent simulation. Despite only ever encoding a small subset of objects, the model makes high-utility predictions. We find strong empirical support for this account over alternative models in a grid-world planning task and a physical reasoning task across a range of behavioral measures. Together, these results offer a concrete algorithmic account of how people construct reduced representations to support efficient mental simulation.",
+    "url": "https://arxiv.org/abs/2601.14514v1",
+    "date": "2026-01-20T22:08:19Z",
+    "fetched": "2026-05-14T10:27:52.203222"
+  },
+  {
+    "id": "62bf47e7e70d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Privacy-Preserving Federated Learning with Verifiable Fairness Guarantees",
+    "text": "Federated learning enables collaborative model training across distributed institutions without centralizing sensitive data; however, ensuring algorithmic fairness across heterogeneous data distributions while preserving privacy remains fundamentally unresolved. This paper introduces CryptoFair-FL, a novel cryptographic framework providing the first verifiable fairness guarantees for federated learning systems under formal security definitions. The proposed approach combines additively homomorphic encryption with secure multi-party computation to enable privacy-preserving verification of demographic parity and equalized odds metrics without revealing protected attribute distributions or individual predictions. A novel batched verification protocol reduces computational complexity from BigO(n^2) to BigO(n \\log n) while maintaining (\\dparam, \\deltap)-differential privacy with dparam = 0.5 and deltap = 10^{-6}. Theoretical analysis establishes information-theoretic lower bounds on the privacy cost of fairness verification, demonstrating that the proposed protocol achieves near-optimal privacy-fairness tradeoffs. Comprehensive experiments across four benchmark datasets (MIMIC-IV healthcare records, Adult Income, CelebA, and a novel FedFair-100 benchmark) demonstrate that CryptoFair-FL reduces fairness violations from 0.231 to 0.031 demographic parity difference while incurring only 2.3 times computational overhead compared to standard federated averaging. The framework successfully defends against attribute inference attacks, maintaining adversarial success probability below 0.05 across all tested configurations. These results establish a practical pathway for deploying fairness-aware federated learning in regulated industries requiring both privacy protection and algorithmic accountability.",
+    "url": "https://arxiv.org/abs/2601.12447v2",
+    "date": "2026-01-18T15:06:30Z",
+    "fetched": "2026-05-14T10:27:52.203228"
+  },
+  {
+    "id": "99b9e468b977",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Private Accountability in the Age of Artificial Intelligence",
+    "text": "In this Article, I explore the impending conflict between the protection of civil rights and artificial intelligence (AI). While both areas of law have amassed rich and well-developed areas of scholarly work and doctrinal support, a growing body of scholars are interrogating the intersection between them. This Article argues that the issues surrounding algorithmic accountability demonstrate a deeper, more structural tension within a new generation of disputes regarding law and technology. As I argue, the true promise of AI does not lie in the information we reveal to one another, but rather in the questions it raises about the interaction of technology, property, and civil rights. For this reason, I argue that we are looking in the wrong place if we look only to the state to address issues of algorithmic accountability. Instead, we must turn to other ways to ensure more transparency and accountability that stem from private industry, rather than public regulation. The issue of algorithmic bias represents a crucial new world of civil rights concerns, one that is distinct in nature from the ones that preceded it. Since we are in a world where the activities of private corporations, rather than the state, are raising concerns about privacy, due process, and discrimination, we must focus on the role of private corporations in addressing the issue. Towards this end, I discuss a variety of tools to help eliminate the opacity of AI, including codes of conduct, impact statements, and whistleblower protection, which I argue carries the potential to encourage greater endogeneity in civil rights enforcement. Ultimately, by examining the relationship between private industry and civil rights, we can perhaps develop a new generation of forms of accountability in the process.",
+    "url": "https://arxiv.org/abs/2601.17013v1",
+    "date": "2026-01-14T19:24:30Z",
+    "fetched": "2026-05-14T10:27:52.203233"
+  },
+  {
+    "id": "e66d74d1269d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Spectral micro-CT for quantitative analysis of calcification in fibrocartilage",
+    "text": "This work introduces a quantitative method for assessing calcification in fibrocartilage using spectral micro-computed tomography ($μ$CT). Tissue samples of hip acetabular labrum from patients with osteoarthritis and femoroacetabular impingement were imaged with a laboratory-based spectral $μ$CT system equipped with a small-pixel photon-counting detector. The detector operated with two energy thresholds, allowing the simultaneous acquisition of two CT datasets at different X-ray energies. A material decomposition algorithm accounting for the system's spectral response was applied to separate calcium- and water-like components, yielding three-dimensional visualization and quantification of calcified regions within intact paraffin-embedded samples. Unlike the conventional method for calcification assessment based on histology, this spectral μCT approach offers volumetric quantification of calcium structures without physical sectioning or staining. The method achieved a voxel size of 20 $μ$m for samples up to ~3 cm, with a calcium detection threshold of ~0.3 g/cm$^3$ for structures down to 50 $μ$m. Quantification accuracy was estimated to be 5% by using a calibration phantom. Further comparison with histology demonstrated the correct localization of calcium spatial distributions and a match in the calcium crystal deposition score by providing non-destructive, quantitative 3D calcium maps of preserved tissue samples. This technique complements histology and could enhance the characterization of pathological fibrocartilage calcification in hip joint disorders.",
+    "url": "https://arxiv.org/abs/2512.04662v1",
+    "date": "2025-12-04T10:50:17Z",
+    "fetched": "2026-05-14T10:27:52.203239"
+  },
+  {
+    "id": "872ab7a79b64",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The AI Attribution Paradox: Transparency as Social Strategy in Open-Source Software Development",
+    "text": "AI coding assistants have transformed software development, raising questions about transparency and attribution practices. We examine the \"AI attribution paradox\": how developers strategically balance acknowledging AI assistance with managing community scrutiny. Analyzing 14,300 GitHub commits across 7,393 repositories from 2023-2025, we investigated attribution strategies and community responses across eight major AI tools. Results reveal widespread AI usage (95.2% of commits) but strategic attribution: only 29.5% employ explicit disclosure, with dramatic tool variation (Claude 80.5% versus Copilot 9.0%). Explicit attribution triggers modest scrutiny (23% more questions and 21% more comments) but tool choice matters 20-30 times more for predicting reception. Community sentiment remains neutral regardless of attribution type, suggesting curiosity rather than hostility. Temporal analyses show rapid norm evolution: explicit attribution increased from near-zero in early 2024 to 40% by late 2025, indicating community adaptation. These findings illuminate attribution as strategic communication rather than simple transparency, advancing understanding of algorithmic accountability and norm formation during technological transitions. We discuss implications for developers navigating disclosure decisions, platforms designing attribution mechanisms, and researchers studying emergent practices in AI-augmented collaborative work.",
+    "url": "https://arxiv.org/abs/2512.00867v1",
+    "date": "2025-11-30T12:30:55Z",
+    "fetched": "2026-05-14T10:27:52.203245"
+  },
+  {
+    "id": "276457422f2c",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "HIRE: A Hybrid Learned Index for Robust and Efficient Performance under Mixed Workloads",
+    "text": "Indexes are critical for efficient data retrieval and updates in modern databases. Recent advances in machine learning have led to the development of learned indexes, which model the cumulative distribution function of data to predict search positions and accelerate query processing. While learned indexes substantially outperform traditional structures for point lookups, they often suffer from high tail latency, suboptimal range query performance, and inconsistent effectiveness across diverse workloads. To address these challenges, this paper proposes HIRE, a hybrid in-memory index structure designed to deliver efficient performance consistently. HIRE combines the structural and performance robustness of traditional indexes with the predictive power of model-based prediction to reduce search overhead while maintaining worst-case stability. Specifically, it employs (1) hybrid leaf nodes adaptive to varying data distributions and workloads, (2) model-accelerated internal nodes augmented by log-based updates for efficient updates, (3) a nonblocking, cost-driven recalibration mechanism for dynamic data, and (4) an inter-level optimized bulk-loading algorithm accounting for leaf and internal-node errors. Experimental results on multiple real-world datasets demonstrate that HIRE outperforms both state-of-the-art learned indexes and traditional structures in range-query throughput, tail latency, and overall stability. Compared to state-of-the-art learned indexes and traditional indexes, HIRE achieves up to 41.7$\\times$ higher throughput under mixed workloads, reduces tail latency by up to 98% across varying scenarios.",
+    "url": "https://arxiv.org/abs/2511.21307v3",
+    "date": "2025-11-26T11:52:21Z",
+    "fetched": "2026-05-14T10:27:52.203251"
+  },
+  {
+    "id": "ee95978fce0d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "A Unified Complexity-Algorithm Account of Constant-Round QAOA Expectation Computation",
+    "text": "The Quantum Approximate Optimization Algorithm (QAOA) is widely studied for combinatorial optimization and has achieved significant advances both in theoretical guarantees and practical performance, yet for general combinatorial optimization problems the expected performance and classical simulability of fixed-round QAOA remain unclear. Focusing on Max-Cut, we first show that for general graphs and any fixed round $p\\ge2$, exactly evaluating the expectation of fixed-round QAOA at prescribed angles is $\\mathrm{NP}$-hard, and that approximating this expectation within additive error $2^{-O(n)}$ in the number $n$ of vertices is already $\\mathrm{NP}$-hard. To evaluate the expected performance of QAOA, we propose a dynamic programming algorithm leveraging tree decomposition. As a byproduct, when the $p$-local treewidth grows at most logarithmically with the number of vertices, this yields a polynomial-time \\emph{exact} evaluation algorithm in the graph size $n$. Beyond Max-Cut, we extend the framework to general Binary Unconstrained Combinatorial Optimization (BUCO). Finally, we provide reproducible evaluations for rounds up to $p=3$ on representative structured families, including the generalized Petersen graph $GP(15,2)$, double-layer triangular 2-lifts, and the truncated icosahedron graph $C_{60}$, and report cut ratios while benchmarking against locality-matched classical baselines.",
+    "url": "https://arxiv.org/abs/2511.20212v1",
+    "date": "2025-11-25T11:35:37Z",
+    "fetched": "2026-05-14T10:27:52.203256"
+  },
+  {
+    "id": "607a2ca8c648",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Algorithmic Management and the Future of Human Work: Implications for Autonomy, Collaboration, and Innovation",
+    "text": "This study examines the evolving impact of algorithmic management on human resource management (HRM) practices, with a focus on employee autonomy, procedural transparency, and the sociotechnical dynamics of performance evaluation. Rather than adopting a qualitative or empirical approach, the paper develops a conceptual integration of insights from HRM, human-computer interaction (HCI), and Science and Technology Studies. The analysis highlights that although algorithmic systems can enhance operational efficiency, they risk reinforcing biases and narrowing the relational and contextual dimensions of work. These systems often overlook intangible contributions such as creativity, empathy, and collaborative problem solving, revealing gaps in data-driven performance measurement. In response, the study proposes a sociotechnical perspective on algorithmic accountability that emphasizes procedural transparency, organizational justice, and employee agency. By revisiting foundational questions within the rapidly evolving landscape of algorithmic management, the paper contributes to ongoing debates about the future of work and the design of managerial technologies that support, rather than constrain, human autonomy and organizational life.",
+    "url": "https://arxiv.org/abs/2511.14231v1",
+    "date": "2025-11-18T08:08:23Z",
+    "fetched": "2026-05-14T10:27:52.203262"
+  },
+  {
+    "id": "75a07b0e7419",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Data-driven learning of feedback maps for explicit robust predictive control: an approximation theoretic view",
+    "text": "We establish an algorithm to learn feedback maps from data for a class of robust model predictive control (MPC) problems. The algorithm accounts for the approximation errors due to the learning directly at the synthesis stage, ensuring recursive feasibility by construction. The optimal control problem consists of a linear noisy dynamical system, a quadratic stage and quadratic terminal costs as the objective, and convex constraints on the state, control, and disturbance sequences; the control minimizes and the disturbance maximizes the objective. We proceed via two steps -- (a) Data generation: First, we reformulate the given minmax problem into a convex semi-infinite program and employ recently developed tools to solve it in an exact fashion on grid points of the state space to generate (state, action) data. (b) Learning approximate feedback maps: We employ a couple of approximation schemes that furnish tight approximations within preassigned uniform error bounds on the admissible state space to learn the unknown feedback policy. The stability of the closed-loop system under the approximate feedback policies is also guaranteed under a standard set of hypotheses. Two benchmark numerical examples are provided to illustrate the results.",
+    "url": "https://arxiv.org/abs/2510.13522v1",
+    "date": "2025-10-15T13:14:14Z",
+    "fetched": "2026-05-14T10:27:52.203267"
+  },
+  {
+    "id": "d9ff89f8a8b5",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Accountability Capture: How Record-Keeping to Support AI Transparency and Accountability (Re)shapes Algorithmic Oversight",
+    "text": "Accountability regimes typically encourage record-keeping to enable the transparency that supports oversight, investigation, contestation, and redress. However, implementing such record-keeping can introduce considerations, risks, and consequences, which so far remain under-explored. This paper examines how record-keeping practices bring algorithmic systems within accountability regimes, providing a basis to observe and understand their effects. For this, we introduce, describe, and elaborate 'accountability capture' -- the re-configuration of socio-technical processes and the associated downstream effects relating to record-keeping for algorithmic accountability. Surveying 100 practitioners, we evidence and characterise record-keeping issues in practice, identifying their alignment with accountability capture. We further document widespread record-keeping practices, tensions between internal and external accountability requirements, and evidence of employee resistance to practices imposed through accountability capture. We discuss these and other effects for surveillance, privacy, and data protection, highlighting considerations for algorithmic accountability communities. In all, we show that implementing record-keeping to support transparency in algorithmic accountability regimes can itself bring wider implications -- an issue requiring greater attention from practitioners, researchers, and policymakers alike.",
+    "url": "https://arxiv.org/abs/2510.04609v1",
+    "date": "2025-10-06T09:20:27Z",
+    "fetched": "2026-05-14T10:27:52.203273"
+  },
+  {
+    "id": "fb6886487186",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Infrastructuring Contestability: A Framework for Community-Defined AI Value Pluralism",
+    "text": "The proliferation of AI-driven systems presents a fundamental challenge to Human-Computer Interaction (HCI) and Computer-Supported Cooperative Work (CSCW), often diminishing user agency and failing to account for value pluralism. Current approaches to value alignment, which rely on centralized, top-down definitions, lack the mechanisms for meaningful contestability. This leaves users and communities unable to challenge or shape the values embedded in the systems that govern their digital lives, creating a crisis of legitimacy and trust. This paper introduces Community-Defined AI Value Pluralism (CDAVP), a socio-technical framework that addresses this gap. It reframes the design problem from achieving a single aligned state to infrastructuring a dynamic ecosystem for value deliberation and application. At its core, CDAVP enables diverse, self-organizing communities to define and maintain explicit value profiles - rich, machine-readable representations that can encompass not only preferences but also community-specific rights and duties. These profiles are then contextually activated by the end-user, who retains ultimate control (agency) over which values guide the AI's behavior. AI applications, in turn, are designed to transparently interpret these profiles and moderate conflicts, adhering to a set of non-negotiable, democratically-legitimated meta-rules. The designer's role shifts from crafting static interfaces to becoming an architect of participatory ecosystems. We argue that infrastructuring for pluralism is a necessary pathway toward achieving robust algorithmic accountability and genuinely contestable, human-centric AI.",
+    "url": "https://arxiv.org/abs/2507.05187v1",
+    "date": "2025-07-07T16:45:50Z",
+    "fetched": "2026-05-14T10:27:52.203279"
+  },
+  {
+    "id": "288cac614b4e",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Direct Collapse Pre-supermassive Black Hole Objects as Ly$α$ Emitters",
+    "text": "The Direct Collapse scenario to form the supermassive black hole (SMBH) seeds offers the most promising way to explain the origin of quasars at $z>7$. Assuming atomic primordial gas, can Ly$α$ photons escape from the central regions of the collapse and serve as a diagnostic for the detection of these pre-SMBH objects? Models of spherical collapse have found these photons to be trapped and destroyed. We use Ly$α$ radiation transfer within the inflow-outflow geometry, based on earlier zoom-in cosmological modeling involving radiation transfer and magnetic forces. Adopting geometry that includes ongoing disk and spherical accretion, and formation of a biconical outflow funnel, we obtain the formation of a dense radiatively driven expanding shell. The Ly$α$ transfer is performed using a Monte Carlo algorithm, accounting for the destruction of Ly$α$ photons and the emergence of two-photon emission. We find that a substantial fraction of Ly$α$ photons can escape through the funnel and calculate the line profiles, the line peak velocity shift, asymmetry, and cuspiness, by varying basic model parameters. The escaping Ly$α$ emission is anisotropic and sensitive to the overall inflow-outflow geometry. The escaping fraction of Ly$α$ radiation exceeds 95% from a $z=10$ pre-SMBH object -- in principle detectable by the JWST NIRSpec in the MOS mode, during $\\sim 10^4$ seconds for a $10σ$ signal-to-noise ratio. Moreover, comparisons with line shapes from high-$z$ galaxies and quasars allow us to separate them from pre-SMBH objects based on the line shape: the pre-SMBH lines show a profound asymmetry and extended red tail.",
+    "url": "https://arxiv.org/abs/2506.18993v2",
+    "date": "2025-06-23T18:00:35Z",
+    "fetched": "2026-05-14T10:27:52.203285"
+  },
+  {
+    "id": "d940ec6152a5",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Model-based learning for joint channel estimationand hybrid MIMO precoding",
+    "text": "Hybrid precoding is a key ingredient of cost-effective massive multiple-input multiple-output transceivers. However, setting jointly digital and analog precoders to optimally serve multiple users is a difficult optimization problem. Moreover, it relies heavily on precise knowledge of the channels, which is difficult to obtain, especially when considering realistic systems comprising hardware impairments. In this paper, a joint channel estimation and hybrid precoding method is proposed, which consists in an end-to-end architecture taking received pilots as inputs and outputting pre-coders. The resulting neural network is fully model-based, making it lightweight and interpretable with very few learnable parameters. The channel estimation step is performed using the unfolded matching pursuit algorithm, accounting for imperfect knowledge of the antenna system, while the precoding step is done via unfolded projected gradient ascent. The great potential of the proposed method is empirically demonstrated on realistic synthetic channels.",
+    "url": "https://arxiv.org/abs/2505.04255v3",
+    "date": "2025-05-07T09:00:34Z",
+    "fetched": "2026-05-14T10:27:52.203290"
+  },
+  {
+    "id": "06d88952092d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Algorithmic Accountability in Small Data: Sample-Size-Induced Bias Within Classification Metrics",
+    "text": "Evaluating machine learning models is crucial not only for determining their technical accuracy but also for assessing their potential societal implications. While the potential for low-sample-size bias in algorithms is well known, we demonstrate the significance of sample-size bias induced by combinatorics in classification metrics. This revelation challenges the efficacy of these metrics in assessing bias with high resolution, especially when comparing groups of disparate sizes, which frequently arise in social applications. We provide analyses of the bias that appears in several commonly applied metrics and propose a model-agnostic assessment and correction technique. Additionally, we analyze counts of undefined cases in metric calculations, which can lead to misleading evaluations if improperly handled. This work illuminates the previously unrecognized challenge of combinatorics and probability in standard evaluation practices and thereby advances approaches for performing fair and trustworthy classification methods.",
+    "url": "https://arxiv.org/abs/2505.03992v1",
+    "date": "2025-05-06T22:02:53Z",
+    "fetched": "2026-05-14T10:27:52.203296"
+  },
+  {
+    "id": "f80be364af14",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Algorithmic Collective Action with Two Collectives",
+    "text": "Given that data-dependent algorithmic systems have become impactful in more domains of life, the need for individuals to promote their own interests and hold algorithms accountable has grown. To have meaningful influence, individuals must band together to engage in collective action. Groups that engage in such algorithmic collective action are likely to vary in size, membership characteristics, and crucially, objectives. In this work, we introduce a first of a kind framework for studying collective action with two or more collectives that strategically behave to manipulate data-driven systems. With more than one collective acting on a system, unexpected interactions may occur. We use this framework to conduct experiments with language model-based classifiers and recommender systems where two collectives each attempt to achieve their own individual objectives. We examine how differing objectives, strategies, sizes, and homogeneity can impact a collective's efficacy. We find that the unintentional interactions between collectives can be quite significant; a collective acting in isolation may be able to achieve their objective (e.g., improve classification outcomes for themselves or promote a particular item), but when a second collective acts simultaneously, the efficacy of the first group drops by as much as $75\\%$. We find that, in the recommender system context, neither fully heterogeneous nor fully homogeneous collectives stand out as most efficacious and that heterogeneity's impact is secondary compared to collective size. Our results signal the need for more transparency in both the underlying algorithmic models and the different behaviors individuals or collectives may take on these systems. This approach also allows collectives to hold algorithmic system developers accountable and provides a framework for people to actively use their own data to promote their own interests.",
+    "url": "https://arxiv.org/abs/2505.00195v1",
+    "date": "2025-04-30T21:39:06Z",
+    "fetched": "2026-05-14T10:27:52.203301"
+  },
+  {
+    "id": "7bfd70a60656",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Joint ADS-B in B5G for Hierarchical UAV Networks: Performance Analysis and MEC Based Optimization",
+    "text": "Unmanned aerial vehicles (UAVs) play significant roles in multiple fields, which brings great challenges for the airspace safety. In order to achieve efficient surveillance and break the limitation of application scenarios caused by single communication, we propose the collaborative surveillance model for hierarchical UAVs based on the cooperation of automatic dependent surveillance-broadcast (ADS-B) and 5G. Specifically, UAVs are hierarchical deployed, with the low-altitude central UAV equipped with the 5G module, and the high-altitude central UAV with ADS-B, which helps automatically broadcast the flight information to surrounding aircraft and ground stations. Firstly, we build the framework, derive the analytic expression, and analyze the channel performance of both air-to-ground (A2G) and air-to-air (A2A). Then, since the redundancy or information loss during transmission aggravates the monitoring performance, the mobile edge computing (MEC) based on-board processing algorithm is proposed. Finally, the performances of the proposed model and algorithm are verified through both simulations and experiments. In detail, the redundant data filtered out by the proposed algorithm accounts for 53.48%, and the supplementary data accounts for 16.42% of the optimized data. This work designs a UAV monitoring framework and proposes an algorithm to enhance the observability of trajectory surveillance, which helps improve the airspace safety and enhance the air traffic flow management.",
+    "url": "https://arxiv.org/abs/2503.13907v1",
+    "date": "2025-03-18T05:10:11Z",
+    "fetched": "2026-05-14T10:27:52.203306"
+  },
+  {
+    "id": "d0779e9f737b",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "On the Automation of High Throughput Modeling of Adsorption In Porous Zeolitic Imidazolate Frameworks",
+    "text": "The zeolitic imidazolate frameworks (ZIF) have emerged as a promising candidate for catalysis, carbon-dioxide (CO$_{2}$) capture and storage as well as flue gas separation due to their tunable porosity and chemical stability. ZIFs consists of transition metals in a tetrahedral coordination with imidazolate linkers, allowing for structural modifications that can enhance CO$_{2}$ adsorption and storage. To systematically design and optimize ZIFs for superior CO$_{2}$ capture performance, theoretical modelling provides an effective approach, though hindered by the sheer size of the search space, with hundred to thousands of possible sites per ZIF, and thousands of possible ZIF that can be synthesized. In this work, we employ a high-throughput techniques underpinned by first-principle Density Functional Theory (DFT) to develop a systematic automated method for characterizing adsorption energetics in ZIFs, guiding the rational design and selection of desirable ZIF structures. Using high-throughput computing tools, we perform pore and pore size analysis, and implement automated CO$_{2}$ molecule placement algorithm, accounting for positional symmetry, crystallographic orientation, and collision detection. The results obtained are in good agreement with previous studies, demonstrating the reliability of the approach in accelerating the discovery of next-generation ZIFs for CO$_{2}$ capture and storage.",
+    "url": "https://arxiv.org/abs/2503.10535v3",
+    "date": "2025-03-13T16:47:53Z",
+    "fetched": "2026-05-14T10:27:52.203311"
+  },
+  {
+    "id": "de1bcf9a2529",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "X-Field: A Physically Grounded Representation for 3D X-ray Reconstruction",
+    "text": "X-ray imaging is indispensable in medical diagnostics, yet its use is tightly regulated due to potential health risks. To mitigate radiation exposure, recent research focuses on generating novel views from sparse inputs and reconstructing Computed Tomography (CT) volumes, borrowing representations from the 3D reconstruction area. However, these representations originally target visible light imaging that emphasizes reflection and scattering effects, while neglecting penetration and attenuation properties of X-ray imaging. In this paper, we introduce X-Field, the first 3D representation specifically designed for X-ray imaging, rooted in the energy absorption rates across different materials. To accurately model diverse materials within internal structures, we employ 3D ellipsoids with distinct attenuation coefficients. To estimate each material's energy absorption of X-rays, we devise an efficient path partitioning algorithm accounting for complex ellipsoid intersections. We further propose hybrid progressive initialization to refine the geometric accuracy of X-Filed and incorporate material-based optimization to enhance model fitting along material boundaries. Experiments show that X-Field achieves superior visual fidelity on both real-world human organ and synthetic object datasets, outperforming state-of-the-art methods in X-ray Novel View Synthesis and CT Reconstruction.",
+    "url": "https://arxiv.org/abs/2503.08596v1",
+    "date": "2025-03-11T16:31:56Z",
+    "fetched": "2026-05-14T10:27:52.203317"
+  },
+  {
+    "id": "387157ff172e",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Algorithmic Inheritance: Surname Bias in AI Decisions Reinforces Intergenerational Inequality",
+    "text": "Surnames often convey implicit markers of social status, wealth, and lineage, shaping perceptions in ways that can perpetuate systemic biases and intergenerational inequality. This study is the first of its kind to investigate whether and how surnames influence AI-driven decision-making, focusing on their effects across key areas such as hiring recommendations, leadership appointments, and loan approvals. Using 72,000 evaluations of 600 surnames from the United States and Thailand, two countries with distinct sociohistorical contexts and surname conventions, we classify names into four categories: Rich, Legacy, Normal, and phonetically similar Variant groups. Our findings show that elite surnames consistently increase AI-generated perceptions of power, intelligence, and wealth, which in turn influence AI-driven decisions in high-stakes contexts. Mediation analysis reveals perceived intelligence as a key mechanism through which surname biases influence AI decision-making process. While providing objective qualifications alongside surnames mitigates most of these biases, it does not eliminate them entirely, especially in contexts where candidate credentials are low. These findings highlight the need for fairness-aware algorithms and robust policy measures to prevent AI systems from reinforcing systemic inequalities tied to surnames, an often-overlooked bias compared to more salient characteristics such as race and gender. Our work calls for a critical reassessment of algorithmic accountability and its broader societal impact, particularly in systems designed to uphold meritocratic principles while counteracting the perpetuation of intergenerational privilege.",
+    "url": "https://arxiv.org/abs/2501.19407v2",
+    "date": "2025-01-23T10:53:58Z",
+    "fetched": "2026-05-14T10:27:52.203322"
+  },
+  {
+    "id": "7ec652c29d47",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "A Differentially Private Kaplan-Meier Estimator for Privacy-Preserving Survival Analysis",
+    "text": "This paper presents a differentially private approach to Kaplan-Meier estimation that achieves accurate survival probability estimates while safeguarding individual privacy. The Kaplan-Meier estimator is widely used in survival analysis to estimate survival functions over time, yet applying it to sensitive datasets, such as clinical records, risks revealing private information. To address this, we introduce a novel algorithm that applies time-indexed Laplace noise, dynamic clipping, and smoothing to produce a privacy-preserving survival curve while maintaining the cumulative structure of the Kaplan-Meier estimator. By scaling noise over time, the algorithm accounts for decreasing sensitivity as fewer individuals remain at risk, while dynamic clipping and smoothing prevent extreme values and reduce fluctuations, preserving the natural shape of the survival curve.   Our results, evaluated on the NCCTG lung cancer dataset, show that the proposed method effectively lowers root mean squared error (RMSE) and enhances accuracy across privacy budgets ($ε$). At $ε= 10$, the algorithm achieves an RMSE as low as 0.04, closely approximating non-private estimates. Additionally, membership inference attacks reveal that higher $ε$ values (e.g., $ε\\geq 6$) significantly reduce influential points, particularly at higher thresholds, lowering susceptibility to inference attacks. These findings confirm that our approach balances privacy and utility, advancing privacy-preserving survival analysis.",
+    "url": "https://arxiv.org/abs/2412.05164v1",
+    "date": "2024-12-06T16:29:53Z",
+    "fetched": "2026-05-14T10:27:52.203328"
+  },
+  {
+    "id": "682c177e9637",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Why am I seeing this: Democratizing End User Auditing for Online Content Recommendations",
+    "text": "Personalized recommendation systems tailor content based on user attributes, which are either provided or inferred from private data. Research suggests that users often hypothesize about reasons behind contents they encounter (e.g., \"I see this jewelry ad because I am a woman\"), but they lack the means to confirm these hypotheses due to the opaqueness of these systems. This hinders informed decision-making about privacy and system use and contributes to the lack of algorithmic accountability. To address these challenges, we introduce a new interactive sandbox approach. This approach creates sets of synthetic user personas and corresponding personal data that embody realistic variations in personal attributes, allowing users to test their hypotheses by observing how a website's algorithms respond to these personas. We tested the sandbox in the context of targeted advertisement. Our user study demonstrates its usability, usefulness, and effectiveness in empowering end-user auditing in a case study of targeting ads.",
+    "url": "https://arxiv.org/abs/2410.04917v2",
+    "date": "2024-10-07T11:07:04Z",
+    "fetched": "2026-05-14T10:27:52.203334"
+  },
+  {
+    "id": "d6bac48ca699",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Robot Guided Evacuation with Viewpoint Constraints",
+    "text": "We present a viewpoint-based non-linear Model Predictive Control (MPC) for evacuation guiding robots. Specifically, the proposed MPC algorithm enables evacuation guiding robots to track and guide cooperative human targets in emergency scenarios. Our algorithm accounts for the environment layout as well as distances between the robot and human target and distance to the goal location. A key challenge for evacuation guiding robot is the trade-off between its planned motion for leading the target toward a goal position and staying in the target's viewpoint while maintaining line-of-sight for guiding. We illustrate the effectiveness of our proposed evacuation guiding algorithm in both simulated and real-world environments with an Unmanned Aerial Vehicle (UAV) guiding a human. Our results suggest that using the contextual information from the environment for motion planning, increases the visibility of the guiding UAV to the human while achieving faster total evacuation time.",
+    "url": "https://arxiv.org/abs/2409.19466v1",
+    "date": "2024-09-28T22:00:06Z",
+    "fetched": "2026-05-14T10:27:52.203339"
+  },
+  {
+    "id": "2656d8a30945",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "System-Level Safety Monitoring and Recovery for Perception Failures in Autonomous Vehicles",
+    "text": "The safety-critical nature of autonomous vehicle (AV) operation necessitates development of task-relevant algorithms that can reason about safety at the system level and not just at the component level. To reason about the impact of a perception failure on the entire system performance, such task-relevant algorithms must contend with various challenges: complexity of AV stacks, high uncertainty in the operating environments, and the need for real-time performance. To overcome these challenges, in this work, we introduce a Q-network called SPARQ (abbreviation for Safety evaluation for Perception And Recovery Q-network) that evaluates the safety of a plan generated by a planning algorithm, accounting for perception failures that the planning process may have overlooked. This Q-network can be queried during system runtime to assess whether a proposed plan is safe for execution or poses potential safety risks. If a violation is detected, the network can then recommend a corrective plan while accounting for the perceptual failure. We validate our algorithm using the NuPlan-Vegas dataset, demonstrating its ability to handle cases where a perception failure compromises a proposed plan while the corrective plan remains safe. We observe an overall accuracy and recall of 90% while sustaining a frequency of 42Hz on the unseen testing dataset. We compare our performance to a popular reachability-based baseline and analyze some interesting properties of our approach in improving the safety properties of an AV pipeline.",
+    "url": "https://arxiv.org/abs/2409.17630v2",
+    "date": "2024-09-26T08:25:05Z",
+    "fetched": "2026-05-14T10:27:52.203344"
+  },
+  {
+    "id": "351adef3118b",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Place Protections at the Right Place: Targeted Hardening for Cryptographic Code against Spectre v1",
+    "text": "Spectre v1 attacks pose a substantial threat to security-critical software, particularly cryptographic implementations. Existing software mitigations, however, often introduce excessive overhead by indiscriminately hardening instructions without assessing their vulnerability. We propose an analysis framework that employs a novel fixpoint algorithm to detect Spectre vulnerabilities and apply targeted hardening. The fixpoint algorithm accounts for program behavior changes induced by stepwise hardening, enabling precise, sound and efficient vulnerability detection. This framework also provides flexibility for diverse hardening strategies and attacker models, enabling customized targeted hardening. We instantiate the framework as LightSLH, which hardens program with provable security.   We evaluate LightSLH on cryptographic algorithms from OpenSSL, Libsodium, NaCL and PQClean. Across all experimental cases, LightSLH provides the lowest overhead among current provable protection strategies, including 0\\% overhead in 50\\% cases. Notably, the analysis of LightSLH reveals two previously unknown security issues: (1) The compiler can introduce risks overlooked by LLSCT, a hardening method proven secure at the LLVM IR level. We successfully construct a side channel by exploiting compiler-inserted stack loads, confirming this risk. (2) Memory access patterns generated by the scatter-gather algorithm still depend on secrets, even for observers with cache line granularity. These findings and results highlight the importance of applying accurate protections to specific instructions.",
+    "url": "https://arxiv.org/abs/2408.16220v2",
+    "date": "2024-08-29T02:31:28Z",
+    "fetched": "2026-05-14T10:27:52.203350"
+  },
+  {
+    "id": "ff2cd6ab867d",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The US Algorithmic Accountability Act of 2022 vs. The EU Artificial Intelligence Act: What can they learn from each other?",
+    "text": "On the whole, the U.S. Algorithmic Accountability Act of 2022 (US AAA) is a pragmatic approach to balancing the benefits and risks of automated decision systems. Yet there is still room for improvement. This commentary highlights how the US AAA can both inform and learn from the European Artificial Intelligence Act (EU AIA).",
+    "url": "https://arxiv.org/abs/2407.06234v1",
+    "date": "2024-07-07T12:31:13Z",
+    "fetched": "2026-05-14T10:27:52.203355"
+  },
+  {
+    "id": "2ee4830f2465",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Driving Everywhere with Large Language Model Policy Adaptation",
+    "text": "Adapting driving behavior to new environments, customs, and laws is a long-standing problem in autonomous driving, precluding the widespread deployment of autonomous vehicles (AVs). In this paper, we present LLaDA, a simple yet powerful tool that enables human drivers and autonomous vehicles alike to drive everywhere by adapting their tasks and motion plans to traffic rules in new locations. LLaDA achieves this by leveraging the impressive zero-shot generalizability of large language models (LLMs) in interpreting the traffic rules in the local driver handbook. Through an extensive user study, we show that LLaDA's instructions are useful in disambiguating in-the-wild unexpected situations. We also demonstrate LLaDA's ability to adapt AV motion planning policies in real-world datasets; LLaDA outperforms baseline planning approaches on all our metrics. Please check our website for more details: https://boyiliee.github.io/llada.",
+    "url": "https://arxiv.org/abs/2402.05932v2",
+    "date": "2024-02-08T18:59:03Z",
+    "fetched": "2026-05-14T10:27:53.520076"
+  }
+]
