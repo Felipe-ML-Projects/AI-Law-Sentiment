@@ -1,0 +1,42 @@
+[
+  {
+    "id": "6fccb4ebfca3",
+    "source": "POLITICO Tech",
+    "type": "news",
+    "title": "AI talks draw backlash from Mass. state lawmakers",
+    "text": "The letter is the latest signal of Democratic unease about working with Republicans on federal AI legislation to override state rules on the technology.",
+    "url": "https://www.politico.com/news/2026/05/01/ai-backlash-massachusetts-lawmakers-00903440",
+    "date": "Fri, 01 May 2026 18:11:04 EST",
+    "fetched": "2026-05-17T09:54:17.007001"
+  },
+  {
+    "id": "dfec5238d91f",
+    "source": "Future of Life",
+    "type": "news",
+    "title": "Future of Life Institute Launches Multimillion Dollar Nationwide AI Regulation Campaign",
+    "text": "The Protect What’s Human campaign will push for commonsense AI safety rules at federal and state level",
+    "url": "https://futureoflife.org/press-release/fli-launches-multimillion-dollar-nationwide-ai-regulation-campaign/",
+    "date": "Mon, 09 Feb 2026 22:12:40 +0000",
+    "fetched": "2026-05-17T09:54:20.788782"
+  },
+  {
+    "id": "24baefe110d8",
+    "source": "Future of Life",
+    "type": "news",
+    "title": "Context and Agenda for the 2025 AI Action Summit",
+    "text": "The AI Action Summit will take place in Paris from 10-11 February 2025. Here we list the agenda and key deliverables.",
+    "url": "https://futureoflife.org/ai-policy/context-and-agenda-2025-ai-action-summit/",
+    "date": "Fri, 31 Jan 2025 19:59:10 +0000",
+    "fetched": "2026-05-17T09:54:20.788871"
+  },
+  {
+    "id": "2ee4830f2465",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Driving Everywhere with Large Language Model Policy Adaptation",
+    "text": "Adapting driving behavior to new environments, customs, and laws is a long-standing problem in autonomous driving, precluding the widespread deployment of autonomous vehicles (AVs). In this paper, we present LLaDA, a simple yet powerful tool that enables human drivers and autonomous vehicles alike to drive everywhere by adapting their tasks and motion plans to traffic rules in new locations. LLaDA achieves this by leveraging the impressive zero-shot generalizability of large language models (LLMs) in interpreting the traffic rules in the local driver handbook. Through an extensive user study, we show that LLaDA's instructions are useful in disambiguating in-the-wild unexpected situations. We also demonstrate LLaDA's ability to adapt AV motion planning policies in real-world datasets; LLaDA outperforms baseline planning approaches on all our metrics. Please check our website for more details: https://boyiliee.github.io/llada.",
+    "url": "https://arxiv.org/abs/2402.05932v2",
+    "date": "2024-02-08T18:59:03Z",
+    "fetched": "2026-05-17T09:55:42.539158"
+  }
+]
