@@ -6,7 +6,9 @@ Edit this file to add/remove sources, keywords, or credentials.
 
 import os
 
-# ── Keywords ─────────────────────────────────────────────────────────────────
+# ── Keywords (legacy — kept for reference) ───────────────────────────────────
+# The collector now uses a richer AI×Law term matcher defined in collector.py
+# (AI_TERMS × LAW_TERMS). This list remains for documentation of intent.
 KEYWORDS = [
     "AI regulation", "artificial intelligence law", "AI legislation",
     "AI governance", "algorithmic regulation", "AI liability",
@@ -18,19 +20,26 @@ KEYWORDS = [
 ]
 
 # ── RSS / News feeds ──────────────────────────────────────────────────────────
+# Note on feed health: Reuters retired its public RSS in 2020,
+# and POLITICO's `rss.politico.com` was decommissioned. They've been replaced
+# with sources that have working feeds as of 2026.
 RSS_FEEDS = {
-    "Reuters Law": "https://feeds.reuters.com/reuters/technologyNews",
-    "Ars Technica Policy": "https://feeds.arstechnica.com/arstechnica/technology-lab",
-    "The Verge AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-    "MIT Tech Review": "https://www.technologyreview.com/feed/",
-    "POLITICO Tech": "https://rss.politico.com/technology.xml",
-    "TechCrunch": "https://techcrunch.com/feed/",
-    "Wired AI": "https://www.wired.com/feed/category/artificial-intelligence/latest/rss",
-    "LawFare": "https://www.lawfaremedia.org/feed",
-    "Future of Life": "https://futureoflife.org/feed/",
+    "Ars Technica Policy":   "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "The Verge AI":          "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "MIT Tech Review":       "https://www.technologyreview.com/feed/",
+    "TechCrunch":            "https://techcrunch.com/feed/",
+    "Wired AI":              "https://www.wired.com/feed/category/artificial-intelligence/latest/rss",
+    "LawFare":               "https://www.lawfaremedia.org/feed",
+    "Future of Life":        "https://futureoflife.org/feed/",
+    # Replacements for dead feeds:
+    "EFF DeepLinks":         "https://www.eff.org/rss/updates.xml",
+    "Brookings TechTank":    "https://www.brookings.edu/blog/techtank/feed/",
+    "Stanford HAI":          "https://hai.stanford.edu/news/rss.xml",
+    "AlgorithmWatch":        "https://algorithmwatch.org/en/feed/",
+    "Ars Technica Tech Policy": "https://feeds.arstechnica.com/arstechnica/tech-policy",
 }
 
-# ── arXiv / SSRN ─────────────────────────────────────────────────────────────
+# ── arXiv ─────────────────────────────────────────────────────────────────────
 ARXIV_SEARCH_TERMS = [
     "AI regulation", "artificial intelligence law",
     "AI governance", "algorithmic accountability",
@@ -65,9 +74,9 @@ REDDIT_POST_LIMIT = 50
 # ── Government / Regulatory sources ──────────────────────────────────────────
 GOV_SOURCES = {
     "Regulations.gov RSS": "https://www.regulations.gov/api/rss?docketId=DOCKET-2023-AI",
-    "EUR-Lex AI Act": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206",
-    "NIST AI RMF": "https://www.nist.gov/artificial-intelligence",
-    "FTC AI": "https://www.ftc.gov/news-events/topics/artificial-intelligence",
+    "EUR-Lex AI Act":      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206",
+    "NIST AI RMF":         "https://www.nist.gov/artificial-intelligence",
+    "FTC AI":              "https://www.ftc.gov/news-events/topics/artificial-intelligence",
 }
 
 # ── Output paths ──────────────────────────────────────────────────────────────
@@ -78,9 +87,10 @@ PLOTS_DIR   = "reports/plots"
 
 # ── Sentiment model ───────────────────────────────────────────────────────────
 # Options: "vader" (fast, no GPU needed) | "finbert" (slower, more accurate)
-# For NIW project running on GitHub Actions, "vader" is recommended.
+# "vader" is recommended for GitHub Actions.
 SENTIMENT_MODEL = "vader"
 
 # ── Scheduling ────────────────────────────────────────────────────────────────
-# These settings are used by the GitHub Actions workflow (see .github/workflows/)
-CRON_SCHEDULE = "0 8 * * *"  # 8:00 AM UTC daily
+# Note: this string is informational only. The actual schedule lives in
+# .github/workflows/daily.yml. Keep them in sync if you change either.
+CRON_SCHEDULE = "0 11 * * *"  # 11:00 UTC daily
