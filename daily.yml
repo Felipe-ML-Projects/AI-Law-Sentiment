@@ -1,0 +1,68 @@
+name: Daily AI Law Sentiment Pipeline
+
+on:
+  schedule:
+    # Runs every day at 11:00 UTC.
+    # Keep in sync with config.py CRON_SCHEDULE (informational only).
+    - cron: "0 11 * * *"
+  workflow_dispatch:        # allow manual runs from the Actions tab
+  push:
+    branches: [ main ]
+    paths:                  # avoid re-runs on doc-only commits
+      - "**.py"
+      - ".github/workflows/**"
+      - "requirements.txt"
+
+# Force Node 24 ahead of the June 2, 2026 default switch.
+# Safe to remove this env block after June 2, 2026.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+permissions:
+  contents: write           # required so the workflow can commit data/reports back
+
+# Avoid two scheduled runs colliding if a manual run is also in flight
+concurrency:
+  group: daily-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5     # v5 runs on Node 24
+
+      - name: Set up Python
+        uses: actions/setup-python@v6 # v6 runs on Node 24
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REGULATIONS_API_KEY:  ${{ secrets.REGULATIONS_API_KEY }}
+          LOOKBACK_DAYS:        "2"
+        run: |
+          python main.py
+
+      - name: Commit and push updated data + report
+        if: always()                  # commit partial outputs even if exit != 0
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/ pipeline.log README.md
+          if git diff --quiet --cached; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
