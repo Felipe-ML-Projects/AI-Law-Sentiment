@@ -8,7 +8,14 @@
     "url": "https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/",
     "date": "2026-05-19T12:10:00+00:00",
     "pub_date": "2026-05-19",
-    "fetched": "2026-05-19T17:57:21.154492+00:00"
+    "fetched": "2026-05-19T17:57:21.154492+00:00",
+    "vader_compound": -0.6124,
+    "vader_label": "negative",
+    "vader_pos": 0.037,
+    "vader_neg": 0.119,
+    "vader_neu": 0.845,
+    "topics": [],
+    "stance": "neutral/mixed"
   },
   {
     "id": "9b154231c9e4",
@@ -19,7 +26,14 @@
     "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
     "date": "2026-05-19T00:53:10+00:00",
     "pub_date": "2026-05-19",
-    "fetched": "2026-05-19T17:57:21.154640+00:00"
+    "fetched": "2026-05-19T17:57:21.154640+00:00",
+    "vader_compound": 0.1027,
+    "vader_label": "positive",
+    "vader_pos": 0.055,
+    "vader_neg": 0.034,
+    "vader_neu": 0.91,
+    "topics": [],
+    "stance": "neutral/mixed"
   },
   {
     "id": "6328b657356d",
@@ -30,7 +44,14 @@
     "url": "https://arstechnica.com/tech-policy/2026/05/legal-fail-dont-use-ai-to-sue-facebook-users-for-calling-you-a-bad-date/",
     "date": "2026-05-18T20:27:15+00:00",
     "pub_date": "2026-05-18",
-    "fetched": "2026-05-19T17:57:31.174243+00:00"
+    "fetched": "2026-05-19T17:57:31.174243+00:00",
+    "vader_compound": -0.9313,
+    "vader_label": "negative",
+    "vader_pos": 0.039,
+    "vader_neg": 0.396,
+    "vader_neu": 0.566,
+    "topics": [],
+    "stance": "neutral/mixed"
   },
   {
     "id": "5cafa03014b6",
@@ -41,7 +62,14 @@
     "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity/",
     "date": "2026-05-18T18:09:41+00:00",
     "pub_date": "2026-05-18",
-    "fetched": "2026-05-19T17:57:31.174281+00:00"
+    "fetched": "2026-05-19T17:57:31.174281+00:00",
+    "vader_compound": 0.2023,
+    "vader_label": "positive",
+    "vader_pos": 0.079,
+    "vader_neg": 0.0,
+    "vader_neu": 0.921,
+    "topics": [],
+    "stance": "neutral/mixed"
   },
   {
     "id": "e81a7482ad35",
@@ -52,7 +80,16 @@
     "url": "https://arxiv.org/abs/2605.17909v1",
     "date": "2026-05-18T06:15:51+00:00",
     "pub_date": "2026-05-18",
-    "fetched": "2026-05-19T17:57:34.210869+00:00"
+    "fetched": "2026-05-19T17:57:34.210869+00:00",
+    "vader_compound": 0.9153,
+    "vader_label": "positive",
+    "vader_pos": 0.102,
+    "vader_neg": 0.027,
+    "vader_neu": 0.871,
+    "topics": [
+      "us_legislation"
+    ],
+    "stance": "pro-regulation"
   },
   {
     "id": "d12a43f0b77e",
@@ -63,6 +100,13 @@
     "url": "https://arxiv.org/abs/2605.17203v1",
     "date": "2026-05-17T00:11:09+00:00",
     "pub_date": "2026-05-17",
-    "fetched": "2026-05-19T17:57:34.210940+00:00"
+    "fetched": "2026-05-19T17:57:34.210940+00:00",
+    "vader_compound": 0.981,
+    "vader_label": "positive",
+    "vader_pos": 0.162,
+    "vader_neg": 0.044,
+    "vader_neu": 0.794,
+    "topics": [],
+    "stance": "neutral/mixed"
   }
 ]

@@ -4,24 +4,39 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-05-18
+## Latest snapshot — 2026-05-19
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 394 |
-| Days running | 7 |
-| Historical avg. VADER score | +0.4776 |
-| Latest daily report | [View report](reports/2026-05-18_report.md) |
+| Total items analyzed | 406 |
+| Days with data       | 3 |
+| Historical avg. VADER score | +0.4667 |
+| Latest daily report  | [View report](reports/2026-05-19_report.md) |
+
+## Trends Over Time
+
+| Window | Items | Avg. sentiment |
+|--------|-------|----------------|
+| Last 7 days  | 12  | +0.110  |
+| Last 30 days | 12 | +0.110 |
+| All-time     | 12 | +0.110 |
+
+**Most-discussed regulatory topics (last 30 days):** **Us Legislation** (2)
+
+**Stance distribution (last 30 days):** Pro **17%** · Neutral **83%** · Anti **0%**
+
+![Sentiment Timeline](reports/plots/2026-05-19_timeline.png)
+![Stance Over Time](reports/plots/2026-05-19_stance_over_time.png)
 
 ## Why this project?
 
 Public opinion and academic discourse on AI regulation is evolving rapidly. This project
 provides an open, reproducible dataset tracking sentiment across:
 
-- 🗞️ **News**: Reuters, Ars Technica, POLITICO, Wired, MIT Tech Review, LawFare
-- 📚 **Academic**: arXiv & SSRN preprints on AI law and governance
+- 🗞️ **News**: Ars Technica, The Verge, MIT Tech Review, Wired, TechCrunch, LawFare, EFF, Brookings, Stanford HAI, AlgorithmWatch
+- 📚 **Academic**: arXiv preprints on AI law and governance
 - 💬 **Social**: Reddit (r/law, r/AIPolicy, r/MachineLearning, and others)
-- 🏛️ **Regulatory**: Regulations.gov, EUR-Lex, NIST
+- 🏛️ **Regulatory**: Regulations.gov
 
 ## Data
 
@@ -32,37 +47,37 @@ provides an open, reproducible dataset tracking sentiment across:
 ## How to run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-law-sentiment
-cd ai-law-sentiment
+git clone https://github.com/Felipe-ML-Projects/AI-Law-Sentiment.git
+cd AI-Law-Sentiment
 pip install -r requirements.txt
 python main.py
 ```
 
-Set optional environment variables for richer data:
+Optional environment variables for richer data:
 ```
 REDDIT_CLIENT_ID=...
 REDDIT_CLIENT_SECRET=...
 REGULATIONS_API_KEY=...
+LOOKBACK_DAYS=2          # how many days back to include (default 2)
 ```
 
 ## Techniques
 
 - **VADER** — rule-based sentiment (fast, no GPU required)
-- **FinBERT** — transformer-based financial/policy sentiment (optional)
+- **FinBERT** — transformer-based sentiment (optional)
 - **Topic tagging** — 12 AI-law sub-domains (bias, liability, privacy, etc.)
 - **Stance detection** — pro/anti-regulation signal analysis
-- **Word clouds** — weekly discourse visualization
+- **Word clouds** — discourse visualization
+- **Date-aware filtering** — only items published in the look-back window are kept
 
 ## Citation
 
-If you use this dataset in your research, please cite:
-
 ```
 @misc{ai-law-sentiment,
-  author = {YOUR NAME},
+  author = {Felipe-ML-Projects},
   title  = {AI in Law: Public Sentiment Analysis Dataset},
   year   = {2026},
-  url    = {https://github.com/YOUR_USERNAME/ai-law-sentiment}
+  url    = {https://github.com/Felipe-ML-Projects/AI-Law-Sentiment}
 }
 ```
 
@@ -72,4 +87,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-05-18 11:52 UTC by GitHub Actions._
+_Updated automatically on 2026-05-19 17:57 UTC by GitHub Actions._
