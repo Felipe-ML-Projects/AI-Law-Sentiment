@@ -4,9 +4,8 @@ Pulls articles, posts, and papers from all configured sources.
 Saves raw JSON to data/raw/YYYY-MM-DD.json
 
 Only includes items whose PUBLICATION date falls within the configured
-look-back window (default: today only). This ensures the daily report
-reflects content actually published on the report date, not content
-that happened to be in the RSS/arXiv buffer.
+look-back window. This ensures the daily report reflects content actually
+published in that window, not whatever happens to be in the RSS buffer.
 """
 
 import json
@@ -36,9 +35,10 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger(__name__)
 
 # ── Date filter configuration ────────────────────────────────────────────────
-# How many days back to include. 0 = today only, 1 = today + yesterday, etc.
-# Override via env var if you want a different window.
-LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "0"))
+# RSS feeds often have publishing delays of several hours, and timezones shift
+# what "today" means. A 2-day window catches yesterday-late and today reliably
+# without polluting the dataset with old content.
+LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "2"))
 
 
 def _slug(text: str) -> str:
@@ -46,17 +46,69 @@ def _slug(text: str) -> str:
     return hashlib.md5(text.encode()).hexdigest()[:12]
 
 
-def _contains_keyword(text: str) -> bool:
-    text_lower = text.lower()
-    return any(kw.lower() in text_lower for kw in config.KEYWORDS)
+# ── Keyword matching ──────────────────────────────────────────────────────────
+#
+# Previous logic required a full keyword phrase (e.g. "ai regulation") to appear
+# verbatim. Real-world headlines almost never phrase things that way — they say
+# "EU rules tighten on chatbots" or "Senate panel weighs AI safety bill".
+#
+# New logic: an item matches if its combined title+summary contains BOTH:
+#   - at least one AI/tech term  (ai, algorithm, machine learning, ...)
+#   - at least one law/policy term (law, regulat, govern, ...)
+# This is a much better proxy for "AI-and-law" content.
+
+AI_TERMS = [
+    r"\bai\b",
+    r"\bartificial intelligence\b",
+    r"\balgorithm",          # algorithm, algorithmic, algorithms
+    r"\bmachine learning\b",
+    r"\bllm\b",
+    r"\bllms\b",
+    r"\blarge language model",
+    r"\bgenerative ai\b",
+    r"\bgenai\b",
+    r"\bchatgpt\b",
+    r"\bopenai\b",
+    r"\banthropic\b",
+    r"\bdeepfake",
+    r"\bautonomous",
+    r"\bneural network",
+    r"\bfoundation model",
+]
+
+LAW_TERMS = [
+    r"\blaw\b", r"\blaws\b", r"\blegal\b", r"\blegisla",   # legislation, legislator, legislative
+    r"\bregulat",          # regulate, regulation, regulator, regulatory
+    r"\bgovern",           # governance, government, governing
+    r"\bpolic",            # policy, polices, policymaker
+    r"\bbill\b", r"\bact\b",
+    r"\bcourt\b", r"\bcourts\b", r"\bjudic", r"\bjudge\b",
+    r"\bcompliance\b", r"\benforce",
+    r"\boversight\b",
+    r"\bliab",             # liable, liability
+    r"\blawsuit\b", r"\blitigation\b",
+    r"\bsenat", r"\bcongress", r"\bparliament",
+    r"\bftc\b", r"\bnist\b", r"\bdoj\b", r"\bsec\b", r"\beu\b",
+    r"\bcopyright\b", r"\bpatent\b", r"\bintellectual property\b",
+    r"\bgdpr\b", r"\bccpa\b",
+    r"\bethic",           # ethics, ethical
+    r"\bsafety\b", r"\baccountabil",
+    r"\bantitrust\b", r"\bmonopol",
+    r"\bdata protection\b",
+]
+
+AI_RE  = re.compile("|".join(AI_TERMS), re.IGNORECASE)
+LAW_RE = re.compile("|".join(LAW_TERMS), re.IGNORECASE)
+
+
+def _is_relevant(text: str) -> bool:
+    """An item is relevant if it mentions AI/algorithms AND law/regulation."""
+    if not text:
+        return False
+    return bool(AI_RE.search(text) and LAW_RE.search(text))
 
 
 def _parse_pub_date(raw) -> Optional[datetime]:
-    """
-    Parse a published-date string from any of the source formats
-    (RFC 822 from RSS, ISO 8601 from arXiv/Reddit/Regulations.gov).
-    Always returns a timezone-aware UTC datetime, or None if unparseable.
-    """
     if not raw:
         return None
     if isinstance(raw, datetime):
@@ -65,7 +117,6 @@ def _parse_pub_date(raw) -> Optional[datetime]:
 
     s = str(raw).strip()
 
-    # Try RFC 822 (RSS standard, e.g. "Mon, 18 May 2026 12:34:56 +0000")
     try:
         dt = parsedate_to_datetime(s)
         if dt is not None:
@@ -73,16 +124,13 @@ def _parse_pub_date(raw) -> Optional[datetime]:
     except (TypeError, ValueError):
         pass
 
-    # Try ISO 8601
     try:
-        # Handle trailing 'Z' which fromisoformat doesn't accept on older Pythons
         s_iso = s.replace("Z", "+00:00")
         dt = datetime.fromisoformat(s_iso)
         return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
     except ValueError:
         pass
 
-    # Try plain YYYY-MM-DD
     try:
         dt = datetime.strptime(s[:10], "%Y-%m-%d")
         return dt.replace(tzinfo=timezone.utc)
@@ -93,11 +141,6 @@ def _parse_pub_date(raw) -> Optional[datetime]:
 
 
 def _is_within_window(pub_dt: Optional[datetime], today_utc: date) -> bool:
-    """
-    Returns True if pub_dt falls within [today - LOOKBACK_DAYS, today] in UTC.
-    Items with no parseable publication date are REJECTED (we won't pretend
-    they're current).
-    """
     if pub_dt is None:
         return False
     pub_date = pub_dt.astimezone(timezone.utc).date()
@@ -106,11 +149,6 @@ def _is_within_window(pub_dt: Optional[datetime], today_utc: date) -> bool:
 
 
 def _published_struct_to_dt(entry) -> Optional[datetime]:
-    """
-    feedparser exposes a parsed struct_time on `.published_parsed` /
-    `.updated_parsed` which is more reliable than the raw string.
-    Prefer that, fall back to the raw string.
-    """
     for attr in ("published_parsed", "updated_parsed"):
         st = getattr(entry, attr, None)
         if st:
@@ -132,11 +170,15 @@ def fetch_rss(today_utc: date) -> list[dict]:
     items = []
     skipped_old = 0
     skipped_undated = 0
+    skipped_irrelevant = 0
 
     for source_name, url in config.RSS_FEEDS.items():
         log.info(f"RSS: {source_name}")
         try:
             feed = feedparser.parse(url)
+            if getattr(feed, "bozo", 0) and getattr(feed, "bozo_exception", None):
+                log.warning(f"  feed parse issue: {feed.bozo_exception}")
+
             for entry in feed.entries:
                 title = getattr(entry, "title", "") or ""
                 summary = getattr(entry, "summary", "") or ""
@@ -151,7 +193,8 @@ def fetch_rss(today_utc: date) -> list[dict]:
                     continue
 
                 combined = f"{title} {summary}"
-                if not _contains_keyword(combined):
+                if not _is_relevant(combined):
+                    skipped_irrelevant += 1
                     continue
 
                 items.append({
@@ -170,8 +213,8 @@ def fetch_rss(today_utc: date) -> list[dict]:
             log.warning(f"RSS fetch failed for {source_name}: {e}")
 
     log.info(
-        f"RSS: kept {len(items)} | skipped {skipped_old} as too old | "
-        f"skipped {skipped_undated} with no parseable date"
+        f"RSS: kept {len(items)} | skipped {skipped_old} (too old) | "
+        f"{skipped_undated} (no date) | {skipped_irrelevant} (off-topic)"
     )
     return items
 
@@ -180,6 +223,7 @@ def fetch_rss(today_utc: date) -> list[dict]:
 def fetch_arxiv(today_utc: date) -> list[dict]:
     items = []
     skipped_old = 0
+    skipped_irrelevant = 0
     base_url = "http://export.arxiv.org/api/query"
 
     for term in config.ARXIV_SEARCH_TERMS:
@@ -203,6 +247,11 @@ def fetch_arxiv(today_utc: date) -> list[dict]:
                     skipped_old += 1
                     continue
 
+                # arXiv search already filtered by term, but double-check relevance.
+                if not _is_relevant(f"{title} {summary}"):
+                    skipped_irrelevant += 1
+                    continue
+
                 items.append({
                     "id": _slug(link),
                     "source": "arXiv",
@@ -218,7 +267,8 @@ def fetch_arxiv(today_utc: date) -> list[dict]:
         except Exception as e:
             log.warning(f"arXiv fetch failed for '{term}': {e}")
 
-    log.info(f"arXiv: kept {len(items)} | skipped {skipped_old} outside window")
+    log.info(f"arXiv: kept {len(items)} | {skipped_old} (too old) | "
+             f"{skipped_irrelevant} (off-topic)")
     return items
 
 
@@ -227,8 +277,8 @@ def fetch_reddit(today_utc: date) -> list[dict]:
     if not PRAW_AVAILABLE:
         log.warning("praw not installed — skipping Reddit")
         return []
-    if config.REDDIT_CLIENT_ID == "YOUR_CLIENT_ID":
-        log.warning("Reddit credentials not set — skipping Reddit.")
+    if not config.REDDIT_CLIENT_ID or config.REDDIT_CLIENT_ID == "YOUR_CLIENT_ID":
+        log.info("Reddit credentials not set — skipping Reddit cleanly.")
         return []
 
     items = []
@@ -239,27 +289,30 @@ def fetch_reddit(today_utc: date) -> list[dict]:
             client_secret=config.REDDIT_CLIENT_SECRET,
             user_agent=config.REDDIT_USER_AGENT,
         )
+        # Quick auth probe — if this fails, skip the whole section instead of
+        # spamming 401s across every subreddit/term combination.
+        try:
+            reddit.user.me()
+        except Exception:
+            # Script auth (no user) is still valid for read-only search;
+            # but if even an anonymous request will fail we'd rather know now.
+            pass
+
         for subreddit_name in config.REDDIT_SUBREDDITS:
             subreddit = reddit.subreddit(subreddit_name)
             for term in config.REDDIT_SEARCH_TERMS:
                 try:
-                    # Use "day" when lookback is 0, "week" otherwise — narrows
-                    # API-side filtering even before our own date check.
                     rt_filter = "day" if LOOKBACK_DAYS == 0 else "week"
                     for post in subreddit.search(
-                        term,
-                        limit=config.REDDIT_POST_LIMIT,
-                        time_filter=rt_filter,
+                        term, limit=config.REDDIT_POST_LIMIT, time_filter=rt_filter,
                     ):
-                        pub_dt = datetime.fromtimestamp(
-                            post.created_utc, tz=timezone.utc
-                        )
+                        pub_dt = datetime.fromtimestamp(post.created_utc, tz=timezone.utc)
                         if not _is_within_window(pub_dt, today_utc):
                             skipped_old += 1
                             continue
 
                         combined = f"{post.title} {post.selftext}"
-                        if not _contains_keyword(combined):
+                        if not _is_relevant(combined):
                             continue
 
                         items.append({
@@ -276,6 +329,14 @@ def fetch_reddit(today_utc: date) -> list[dict]:
                             "comments": post.num_comments,
                         })
                 except Exception as e:
+                    # 401s here mean credentials are wrong — bail fast on the
+                    # first failure rather than try every other subreddit too.
+                    if "401" in str(e):
+                        log.warning(
+                            f"Reddit auth failed (401). Check REDDIT_CLIENT_ID/SECRET. "
+                            f"Skipping rest of Reddit."
+                        )
+                        return items
                     log.warning(f"Reddit search failed r/{subreddit_name} '{term}': {e}")
                 time.sleep(0.5)
     except Exception as e:
@@ -287,11 +348,6 @@ def fetch_reddit(today_utc: date) -> list[dict]:
 
 # ── Regulations.gov ───────────────────────────────────────────────────────────
 def fetch_regulations_gov(today_utc: date) -> list[dict]:
-    """
-    Note: federal-register-style dockets are slow-moving. If LOOKBACK_DAYS == 0
-    you may legitimately get zero items most days; we still apply the same
-    same-day filter so the report reflects only documents posted today.
-    """
     api_key = os.getenv("REGULATIONS_API_KEY", "DEMO_KEY")
     items = []
     skipped_old = 0
@@ -334,7 +390,13 @@ def fetch_regulations_gov(today_utc: date) -> list[dict]:
                     })
             elif resp.status_code == 429:
                 log.warning("Regulations.gov rate limit hit")
-                time.sleep(1)
+                time.sleep(2)
+            elif resp.status_code in (401, 403):
+                log.warning(
+                    f"Regulations.gov auth failed ({resp.status_code}). "
+                    f"Set REGULATIONS_API_KEY env var. Skipping."
+                )
+                return items
         except Exception as e:
             log.warning(f"Regulations.gov failed for '{term}': {e}")
 
@@ -384,4 +446,3 @@ if __name__ == "__main__":
     for item in data[:5]:
         print(f"  [{item['type']}] {item['source']} ({item.get('pub_date','?')}): "
               f"{item['title'][:80]}")
-
