@@ -6,14 +6,16 @@ Techniques used:
   1. VADER         — rule-based, fast, great for social media
   2. Topic tagging — lightweight keyword-based topic labeling
   3. FinBERT       — transformer model (optional, GPU helps)
+  4. Stance        — coarse pro/anti regulation signal
 
 Outputs a list of enriched records with sentiment scores.
 """
 
+import ast
 import json
 import logging
 import re
-from datetime import date
+from datetime import datetime, date, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -38,11 +40,10 @@ vader = SentimentIntensityAnalyzer()
 
 
 def vader_score(text: str) -> dict:
-    """Return VADER compound + label for a piece of text."""
     if not text or len(text.strip()) < 5:
         return {"compound": 0.0, "label": "neutral", "pos": 0.0, "neg": 0.0, "neu": 1.0}
 
-    scores = vader.polarity_scores(text[:3000])  # VADER works best on shorter text
+    scores = vader.polarity_scores(text[:3000])
     compound = scores["compound"]
 
     if compound >= 0.05:
@@ -87,7 +88,6 @@ def _load_finbert():
 
 
 def finbert_score(text: str) -> Optional[dict]:
-    """Run FinBERT classification. Returns None if model unavailable."""
     pipe = _load_finbert()
     if not pipe or not text:
         return None
@@ -109,23 +109,22 @@ def finbert_score(text: str) -> Optional[dict]:
 # ── Topic tagging ─────────────────────────────────────────────────────────────
 
 TOPIC_PATTERNS = {
-    "eu_ai_act":        r"\b(eu ai act|european ai act|eur.?lex|article 6|high.?risk ai)\b",
-    "us_legislation":   r"\b(congress|senate|house bill|executive order|ftc|nist|nsf|dol|doj)\b",
-    "criminal_justice": r"\b(criminal justice|recidivism|predictive policing|sentencing|pretrial)\b",
-    "liability":        r"\b(liabilit|tort|negligence|product liabilit|strict liabilit|damage)\b",
-    "bias_fairness":    r"\b(bias|fairness|discrimination|disparate impact|equity|algorithmic fairness)\b",
-    "privacy":          r"\b(privacy|gdpr|ccpa|data protection|facial recognition|surveillance)\b",
-    "healthcare":       r"\b(health|medical|clinical|fda|drug approval|diagnosis|patient)\b",
-    "copyright_ip":     r"\b(copyright|intellectual property|patent|generative ai|training data)\b",
+    "eu_ai_act":           r"\b(eu ai act|european ai act|eur.?lex|article 6|high.?risk ai)\b",
+    "us_legislation":      r"\b(congress|senate|house bill|executive order|ftc|nist|nsf|dol|doj)\b",
+    "criminal_justice":    r"\b(criminal justice|recidivism|predictive policing|sentencing|pretrial)\b",
+    "liability":           r"\b(liabilit|tort|negligence|product liabilit|strict liabilit|damage)\b",
+    "bias_fairness":       r"\b(bias|fairness|discrimination|disparate impact|equity|algorithmic fairness)\b",
+    "privacy":             r"\b(privacy|gdpr|ccpa|data protection|facial recognition|surveillance)\b",
+    "healthcare":          r"\b(health|medical|clinical|fda|drug approval|diagnosis|patient)\b",
+    "copyright_ip":        r"\b(copyright|intellectual property|patent|generative ai|training data)\b",
     "autonomous_vehicles": r"\b(autonomous vehicle|self.?driving|driverless|lidar)\b",
-    "labor":            r"\b(labor|employment|automation|job displacement|worker|gig economy)\b",
-    "transparency":     r"\b(transparency|explainab|interpretab|black.?box|audit|accountability)\b",
-    "national_security":r"\b(national security|military|defense|dod|pentagon|cyber|weapon)\b",
+    "labor":               r"\b(labor|employment|automation|job displacement|worker|gig economy)\b",
+    "transparency":        r"\b(transparency|explainab|interpretab|black.?box|audit|accountability)\b",
+    "national_security":   r"\b(national security|military|defense|dod|pentagon|cyber|weapon)\b",
 }
 
 
 def tag_topics(text: str) -> list[str]:
-    """Return list of matched topic tags for a piece of text."""
     text_lower = text.lower()
     return [
         topic for topic, pattern in TOPIC_PATTERNS.items()
@@ -148,14 +147,9 @@ SKEPTICAL_TERMS = [
 
 
 def detect_stance(text: str) -> str:
-    """
-    Coarse regulatory stance:
-      'pro-regulation' | 'anti-regulation' | 'neutral/mixed'
-    """
     text_lower = text.lower()
     pro   = sum(1 for t in SUPPORTIVE_TERMS if t in text_lower)
     anti  = sum(1 for t in SKEPTICAL_TERMS  if t in text_lower)
-
     if pro > anti:
         return "pro-regulation"
     elif anti > pro:
@@ -166,17 +160,12 @@ def detect_stance(text: str) -> str:
 # ── Main analysis pipeline ────────────────────────────────────────────────────
 
 def analyze(items: list[dict], use_finbert: bool = False) -> list[dict]:
-    """
-    Enrich each collected item with sentiment scores, topics, and stance.
-    Returns the enriched list.
-    """
     log.info(f"Analyzing {len(items)} items...")
 
     enriched = []
     for i, item in enumerate(items):
         full_text = f"{item.get('title', '')} {item.get('text', '')}"
 
-        # VADER (always)
         v = vader_score(full_text)
         item["vader_compound"]  = v["compound"]
         item["vader_label"]     = v["label"]
@@ -184,7 +173,6 @@ def analyze(items: list[dict], use_finbert: bool = False) -> list[dict]:
         item["vader_neg"]       = v["neg"]
         item["vader_neu"]       = v["neu"]
 
-        # FinBERT (optional)
         if use_finbert or config.SENTIMENT_MODEL == "finbert":
             fb = finbert_score(full_text)
             if fb:
@@ -193,7 +181,6 @@ def analyze(items: list[dict], use_finbert: bool = False) -> list[dict]:
                 item["finbert_neg"]   = fb["neg"]
                 item["finbert_neu"]   = fb["neu"]
 
-        # Topics
         item["topics"]  = tag_topics(full_text)
         item["stance"]  = detect_stance(full_text)
 
@@ -206,18 +193,25 @@ def analyze(items: list[dict], use_finbert: bool = False) -> list[dict]:
     return enriched
 
 
-def save_analyzed(items: list[dict], output_dir: Optional[str] = None) -> Path:
-    """Save enriched records to processed JSON and CSV."""
+def save_analyzed(items: list[dict], output_dir: Optional[str] = None,
+                  run_date: Optional[date] = None) -> Path:
+    """
+    Save enriched records to processed JSON and CSV.
+
+    File naming uses the RUN date (UTC) by default — this matches the daily
+    workflow's behavior where each run produces one file per day. If you need
+    to backfill or rerun, pass `run_date` explicitly.
+    """
     out_dir = Path(output_dir or config.OUTPUT_DIR)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    today = date.today().isoformat()
+    stamp = (run_date or datetime.now(timezone.utc).date()).isoformat()
 
-    json_path = out_dir / f"{today}_analyzed.json"
+    json_path = out_dir / f"{stamp}_analyzed.json"
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
 
-    csv_path = out_dir / f"{today}_analyzed.csv"
+    csv_path = out_dir / f"{stamp}_analyzed.csv"
     df = pd.DataFrame(items)
     df.to_csv(csv_path, index=False)
 
@@ -227,17 +221,39 @@ def save_analyzed(items: list[dict], output_dir: Optional[str] = None) -> Path:
 
 
 def load_history(processed_dir: Optional[str] = None) -> pd.DataFrame:
-    """Load all historical analyzed CSVs into one DataFrame."""
+    """
+    Load all historical analyzed CSVs into one DataFrame, normalizing the
+    list-typed columns (topics) which round-trip through CSV as strings.
+    """
     p = Path(processed_dir or config.OUTPUT_DIR)
     csvs = sorted(p.glob("*_analyzed.csv"))
     if not csvs:
         return pd.DataFrame()
     dfs = [pd.read_csv(c) for c in csvs]
-    return pd.concat(dfs, ignore_index=True)
+    df = pd.concat(dfs, ignore_index=True)
+
+    # Coerce the topics column back into actual lists
+    if "topics" in df.columns:
+        def _parse_topics(x):
+            if isinstance(x, list):
+                return x
+            if pd.isna(x):
+                return []
+            try:
+                v = ast.literal_eval(x)
+                return v if isinstance(v, list) else []
+            except (ValueError, SyntaxError):
+                return []
+        df["topics"] = df["topics"].apply(_parse_topics)
+
+    # Ensure pub_date is parseable for downstream trend plots
+    if "pub_date" in df.columns:
+        df["pub_date"] = pd.to_datetime(df["pub_date"], errors="coerce").dt.date
+
+    return df
 
 
 if __name__ == "__main__":
-    # Quick smoke test
     samples = [
         {"id": "1", "source": "Test", "type": "news",
          "title": "EU AI Act could stifle innovation, critics warn",
