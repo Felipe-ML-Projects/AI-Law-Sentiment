@@ -2,11 +2,14 @@ vaderSentiment>=3.3.2
 feedparser>=6.0.10
 nltk>=3.8.1
 wordcloud>=1.9.3
-transformers>=4.40.0
-torch>=2.2.0
 praw>=7.7.1
 requests>=2.31.0
 pandas>=2.0.0
 matplotlib>=3.8.0
 scikit-learn>=1.4.0
 numpy>=1.26.0
+
+# Optional — only needed if you set SENTIMENT_MODEL = "finbert" in config.py.
+# These add ~1 GB of install size, so keep them commented out unless used.
+# transformers>=4.40.0
+# torch>=2.2.0
