@@ -1,0 +1,38 @@
+[
+  {
+    "id": "5e435b725c5f",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Elon, stop trying to make Grok happen",
+    "text": "There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI's [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen",
+    "date": "2026-05-22T17:17:06+00:00",
+    "pub_date": "2026-05-22",
+    "fetched": "2026-05-24T12:01:39.374943+00:00",
+    "vader_compound": -0.6622,
+    "vader_label": "negative",
+    "vader_pos": 0.033,
+    "vader_neg": 0.112,
+    "vader_neu": 0.855,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "bf6fa60052f8",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Trump abruptly cancels EO signing event after top AI firm CEOs declined to go",
+    "text": "Trump delays AI safety testing EO, claiming it would be an innovation “blocker.”",
+    "url": "https://arstechnica.com/tech-policy/2026/05/trump-canceled-ai-safety-testing-eo-after-snub-from-tech-ceos/",
+    "date": "2026-05-22T16:51:40+00:00",
+    "pub_date": "2026-05-22",
+    "fetched": "2026-05-24T12:01:52.505877+00:00",
+    "vader_compound": 0.6486,
+    "vader_label": "positive",
+    "vader_pos": 0.224,
+    "vader_neg": 0.059,
+    "vader_neu": 0.717,
+    "topics": [],
+    "stance": "neutral/mixed"
+  }
+]
