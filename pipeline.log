@@ -1461,3 +1461,60 @@ KeyError: 'vader_label'
 2026-05-26 13:55:51,544 [INFO]   Avg compound   : +0.0516
 2026-05-26 13:55:51,544 [INFO]   Report saved   : reports/2026-05-26_report.md
 2026-05-26 13:55:51,544 [INFO] ============================================================
+2026-05-27 14:28:19,921 [INFO] ============================================================
+2026-05-27 14:28:19,921 [INFO] AI in Law Sentiment Pipeline — starting
+2026-05-27 14:28:19,921 [INFO] ============================================================
+2026-05-27 14:28:20,871 [INFO] === Starting daily collection for 2026-05-27 (LOOKBACK_DAYS=2) ===
+2026-05-27 14:28:20,871 [INFO] RSS: Ars Technica Policy
+2026-05-27 14:28:21,568 [INFO] RSS: The Verge AI
+2026-05-27 14:28:22,234 [INFO] RSS: MIT Tech Review
+2026-05-27 14:28:22,916 [INFO] RSS: TechCrunch
+2026-05-27 14:28:23,560 [INFO] RSS: Wired AI
+2026-05-27 14:28:23,877 [WARNING]   feed parse issue: <unknown>:2:0: not well-formed (invalid token)
+2026-05-27 14:28:24,377 [INFO] RSS: LawFare
+2026-05-27 14:28:24,630 [WARNING]   feed parse issue: <unknown>:2:1326: not well-formed (invalid token)
+2026-05-27 14:28:25,131 [INFO] RSS: Future of Life
+2026-05-27 14:28:26,919 [INFO] RSS: EFF DeepLinks
+2026-05-27 14:28:27,818 [INFO] RSS: Brookings TechTank
+2026-05-27 14:28:29,348 [WARNING]   feed parse issue: <unknown>:36:0: undefined entity
+2026-05-27 14:28:29,848 [INFO] RSS: Stanford HAI
+2026-05-27 14:28:30,061 [WARNING]   feed parse issue: <unknown>:2:4358: not well-formed (invalid token)
+2026-05-27 14:28:30,561 [INFO] RSS: AlgorithmWatch
+2026-05-27 14:28:31,747 [WARNING]   feed parse issue: <unknown>:4:0: XML or text declaration not at start of entity
+2026-05-27 14:28:32,248 [INFO] RSS: Ars Technica Tech Policy
+2026-05-27 14:28:33,066 [INFO] RSS: kept 1 | skipped 117 (too old) | 0 (no date) | 42 (off-topic)
+2026-05-27 14:28:33,066 [INFO] arXiv: querying 'AI regulation'
+2026-05-27 14:28:34,496 [INFO] arXiv: querying 'artificial intelligence law'
+2026-05-27 14:28:51,063 [INFO] arXiv: querying 'AI governance'
+2026-05-27 14:29:07,760 [INFO] arXiv: querying 'algorithmic accountability'
+2026-05-27 14:29:55,446 [INFO] arXiv: querying 'large language model policy'
+2026-05-27 14:29:56,789 [INFO] arXiv: kept 0 | 0 (too old) | 0 (off-topic)
+2026-05-27 14:29:56,789 [INFO] Reddit credentials not set — skipping Reddit cleanly.
+2026-05-27 14:29:56,789 [INFO] Regulations.gov: querying 'artificial intelligence' (from 2026-05-25)
+2026-05-27 14:29:57,255 [WARNING] Regulations.gov auth failed (403). Set REGULATIONS_API_KEY env var. Skipping.
+2026-05-27 14:29:57,256 [INFO] Total unique items collected: 1
+2026-05-27 14:29:57,256 [INFO] Saved raw data → data/raw/2026-05-27.json
+2026-05-27 14:29:59,827 [INFO] Analyzing 1 items...
+2026-05-27 14:29:59,833 [INFO] Analysis complete.
+2026-05-27 14:29:59,836 [INFO] Saved analyzed data → data/processed/2026-05-27_analyzed.json
+2026-05-27 14:29:59,836 [INFO] Saved analyzed data → data/processed/2026-05-27_analyzed.csv
+2026-05-27 14:30:00,671 [INFO] Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-05-27 14:30:00,806 [INFO] generated new fontManager
+2026-05-27 14:30:01,185 [INFO] Saved → reports/plots/2026-05-27_sentiment_dist.png
+2026-05-27 14:30:01,294 [INFO] Saved → reports/plots/2026-05-27_topic_breakdown.png
+2026-05-27 14:30:01,364 [INFO] Saved → reports/plots/2026-05-27_stance.png
+2026-05-27 14:30:02,094 [INFO] Saved → reports/plots/2026-05-27_wordcloud.png
+2026-05-27 14:30:02,267 [INFO] Saved → reports/plots/2026-05-27_timeline.png
+2026-05-27 14:30:02,460 [INFO] Saved → reports/plots/2026-05-27_topics_over_time.png
+2026-05-27 14:30:02,625 [INFO] Saved → reports/plots/2026-05-27_stance_over_time.png
+2026-05-27 14:30:02,629 [INFO] Report saved → reports/2026-05-27_report.md
+2026-05-27 14:30:02,635 [INFO] README updated → README.md
+2026-05-27 14:30:02,636 [INFO] ============================================================
+2026-05-27 14:30:02,636 [INFO] Pipeline complete.
+2026-05-27 14:30:02,636 [INFO]   Items analyzed : 1
+2026-05-27 14:30:02,636 [INFO]   Positive       : 1
+2026-05-27 14:30:02,636 [INFO]   Neutral        : 0
+2026-05-27 14:30:02,636 [INFO]   Negative       : 0
+2026-05-27 14:30:02,636 [INFO]   Avg compound   : +0.7750
+2026-05-27 14:30:02,636 [INFO]   Report saved   : reports/2026-05-27_report.md
+2026-05-27 14:30:02,636 [INFO] ============================================================
