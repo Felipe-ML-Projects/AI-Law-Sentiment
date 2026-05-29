@@ -1,0 +1,57 @@
+[
+  {
+    "id": "3bce87a3c6c3",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "A $2,000 AI-generated film will make its debut at Tribeca",
+    "text": "Next month's Tribeca Festival will include the premiere of an AI-generated film: Dreams of Violets. The 75-minute film is a fictional dramatization of the Iranian government's mass killing of protestors in January, with the people and images fully created by AI, as reported earlier by The Hollywood Reporter. Dreams of Violets cost $2,000 to make [&#8230;]",
+    "url": "https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca",
+    "date": "2026-05-28T16:08:45+00:00",
+    "pub_date": "2026-05-28",
+    "fetched": "2026-05-29T14:02:42.423910+00:00"
+  },
+  {
+    "id": "f480aff02820",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "CNN sues Perplexity over ‘verbatim’ copycat articles",
+    "text": "CNN has filed a lawsuit against Perplexity, claiming that the startup's AI tools generate \"verbatim\" copies of its work, as reported earlier by CNN. The lawsuit, filed in a New York court on Thursday, also alleges that Perplexity provides users with information locked behind CNN's subscription. Perplexity, which offers an AI \"answer\" engine along with [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/938893/cnn-perplexity-ai-copyright-lawsuit",
+    "date": "2026-05-28T14:08:36+00:00",
+    "pub_date": "2026-05-28",
+    "fetched": "2026-05-29T14:02:42.424075+00:00"
+  },
+  {
+    "id": "f706a3b8d9c5",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+    "text": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in&#8230;",
+    "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+    "date": "2026-05-29T10:00:00+00:00",
+    "pub_date": "2026-05-29",
+    "fetched": "2026-05-29T14:02:43.113311+00:00"
+  },
+  {
+    "id": "8086a6b31b94",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Waymo dominates autonomous vehicle registrations as Tesla trails behind",
+    "text": "A new law and AV tracker tool gives the clearest accounting yet of how many robotaxis and self-driving trucks are in Texas.",
+    "url": "https://techcrunch.com/2026/05/28/waymo-dominates-texas-autonomous-vehicle-registrations-as-tesla-trails-behind/",
+    "date": "2026-05-29T00:14:35+00:00",
+    "pub_date": "2026-05-29",
+    "fetched": "2026-05-29T14:02:43.767609+00:00"
+  },
+  {
+    "id": "5535b18e4050",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Trump loses more control over AI regulation as Illinois passes landmark law",
+    "text": "Here’s why Anthropic and OpenAI are on board with Illinois safety testing.",
+    "url": "https://arstechnica.com/tech-policy/2026/05/trump-loses-more-control-over-ai-regulation-as-illinois-passes-landmark-law/",
+    "date": "2026-05-28T17:01:16+00:00",
+    "pub_date": "2026-05-28",
+    "fetched": "2026-05-29T14:02:51.820637+00:00"
+  }
+]
