@@ -57,7 +57,7 @@ EXTRA_STOPWORDS = {
 }
 
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+# Helpers 
 
 def _pct(n: int, total: int) -> str:
     return f"{100 * n / total:.1f}%" if total else "0%"
@@ -113,7 +113,7 @@ def _ensure_pub_date(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-# ── Daily charts ──────────────────────────────────────────────────────────────
+# Daily charts
 
 def plot_sentiment_distribution(df: pd.DataFrame, plots_dir: Path, today: str):
     counts = df["vader_label"].value_counts()
@@ -277,7 +277,7 @@ def plot_wordcloud(df: pd.DataFrame, plots_dir: Path, today: str):
     return path
 
 
-# ── Longitudinal / trend charts ───────────────────────────────────────────────
+# Longitudinal / trend charts 
 
 def plot_timeline(history_df: pd.DataFrame, plots_dir: Path, today: str):
     """
@@ -435,7 +435,7 @@ def plot_stance_over_time(history_df: pd.DataFrame, plots_dir: Path, today: str)
     return path
 
 
-# ── Markdown report ───────────────────────────────────────────────────────────
+# Markdown report 
 
 def build_report(df: pd.DataFrame, history_df: pd.DataFrame,
                  plots_dir: Path, today: str) -> str:
@@ -599,7 +599,7 @@ def build_report(df: pd.DataFrame, history_df: pd.DataFrame,
     return "\n".join(lines)
 
 
-# ── README updater ────────────────────────────────────────────────────────────
+# README updater 
 
 def _trends_section_md(history_df: pd.DataFrame, today: str,
                        plots_dir: Path) -> str:
@@ -787,7 +787,7 @@ _Updated automatically on {_utcnow().strftime('%Y-%m-%d %H:%M UTC')} by GitHub A
     log.info(f"README updated → {path}")
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# Main
 
 def generate_report(items: list[dict], history_df: Optional[pd.DataFrame] = None,
                     reports_dir: Optional[str] = None) -> Path:
