@@ -34,7 +34,7 @@ import config
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-# ── Date filter configuration ────────────────────────────────────────────────
+# Date filter configuration 
 # RSS feeds often have publishing delays of several hours, and timezones shift
 # what "today" means. A 2-day window catches yesterday-late and today reliably
 # without polluting the dataset with old content.
@@ -46,7 +46,7 @@ def _slug(text: str) -> str:
     return hashlib.md5(text.encode()).hexdigest()[:12]
 
 
-# ── Keyword matching ──────────────────────────────────────────────────────────
+#  Keyword matching 
 #
 # Previous logic required a full keyword phrase (e.g. "ai regulation") to appear
 # verbatim. Real-world headlines almost never phrase things that way — they say
@@ -165,7 +165,7 @@ def _published_struct_to_dt(entry) -> Optional[datetime]:
     return None
 
 
-# ── RSS / News ────────────────────────────────────────────────────────────────
+# RSS / News 
 def fetch_rss(today_utc: date) -> list[dict]:
     items = []
     skipped_old = 0
@@ -219,7 +219,7 @@ def fetch_rss(today_utc: date) -> list[dict]:
     return items
 
 
-# ── arXiv ─────────────────────────────────────────────────────────────────────
+# arXiv 
 def fetch_arxiv(today_utc: date) -> list[dict]:
     items = []
     skipped_old = 0
@@ -272,7 +272,7 @@ def fetch_arxiv(today_utc: date) -> list[dict]:
     return items
 
 
-# ── Reddit ────────────────────────────────────────────────────────────────────
+# Reddit 
 def fetch_reddit(today_utc: date) -> list[dict]:
     if not PRAW_AVAILABLE:
         log.warning("praw not installed — skipping Reddit")
@@ -346,7 +346,7 @@ def fetch_reddit(today_utc: date) -> list[dict]:
     return items
 
 
-# ── Regulations.gov ───────────────────────────────────────────────────────────
+# Regulations.gov 
 def fetch_regulations_gov(today_utc: date) -> list[dict]:
     api_key = os.getenv("REGULATIONS_API_KEY", "DEMO_KEY")
     items = []
@@ -404,7 +404,7 @@ def fetch_regulations_gov(today_utc: date) -> list[dict]:
     return items
 
 
-# ── Main collector ────────────────────────────────────────────────────────────
+# Main collector
 def deduplicate(items: list[dict]) -> list[dict]:
     seen = set()
     unique = []
