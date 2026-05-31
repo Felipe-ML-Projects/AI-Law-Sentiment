@@ -34,7 +34,7 @@ for resource in ["punkt", "stopwords", "wordnet"]:
     except Exception:
         pass
 
-# ── VADER ─────────────────────────────────────────────────────────────────────
+# VADER 
 
 vader = SentimentIntensityAnalyzer()
 
@@ -62,7 +62,7 @@ def vader_score(text: str) -> dict:
     }
 
 
-# ── FinBERT (optional) ────────────────────────────────────────────────────────
+# FinBERT (optional) 
 
 _finbert_pipe = None
 
@@ -106,7 +106,7 @@ def finbert_score(text: str) -> Optional[dict]:
         return None
 
 
-# ── Topic tagging ─────────────────────────────────────────────────────────────
+#  Topic tagging 
 
 TOPIC_PATTERNS = {
     "eu_ai_act":           r"\b(eu ai act|european ai act|eur.?lex|article 6|high.?risk ai)\b",
@@ -132,7 +132,7 @@ def tag_topics(text: str) -> list[str]:
     ]
 
 
-# ── Stance detection (coarse) ─────────────────────────────────────────────────
+#  Stance detection (coarse) 
 
 SUPPORTIVE_TERMS = [
     "should regulate", "need regulation", "must regulate",
@@ -157,7 +157,7 @@ def detect_stance(text: str) -> str:
     return "neutral/mixed"
 
 
-# ── Main analysis pipeline ────────────────────────────────────────────────────
+# Main analysis pipeline 
 
 def analyze(items: list[dict], use_finbert: bool = False) -> list[dict]:
     log.info(f"Analyzing {len(items)} items...")
