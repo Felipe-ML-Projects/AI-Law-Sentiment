@@ -32,7 +32,7 @@ def run() -> int:
     log.info("AI in Law Sentiment Pipeline — starting")
     log.info("=" * 60)
 
-    # ── Step 1: Collect ───────────────────────────────────────────
+    # Step 1: Collect 
     try:
         from collector import collect_all
         items = collect_all()
@@ -40,7 +40,7 @@ def run() -> int:
         log.exception(f"Collection step failed: {e}")
         return 1
 
-    # ── Step 2 & 3: Analyze + save (only if we have items) ────────
+    # Step 2 & 3: Analyze + save (only if we have items) 
     enriched: list[dict] = []
     if items:
         try:
@@ -56,7 +56,7 @@ def run() -> int:
             "report so README + trend plots stay current."
         )
 
-    # ── Step 4: Load history + Report ─────────────────────────────
+    # Step 4: Load history + Report 
     try:
         from sentiment import load_history
         from report import generate_report
@@ -66,7 +66,7 @@ def run() -> int:
         log.exception(f"Reporting step failed: {e}")
         return 1
 
-    # ── Step 5: Summary ───────────────────────────────────────────
+    # Step 5: Summary 
     if enriched:
         import pandas as pd
         df = pd.DataFrame(enriched)
