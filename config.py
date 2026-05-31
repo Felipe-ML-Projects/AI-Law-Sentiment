@@ -6,7 +6,7 @@ Edit this file to add/remove sources, keywords, or credentials.
 
 import os
 
-# ── Keywords (legacy — kept for reference) ───────────────────────────────────
+# Keywords (legacy — kept for reference) 
 # The collector now uses a richer AI×Law term matcher defined in collector.py
 # (AI_TERMS × LAW_TERMS). This list remains for documentation of intent.
 KEYWORDS = [
@@ -19,7 +19,7 @@ KEYWORDS = [
     "AI enforcement", "generative AI regulation", "LLM regulation",
 ]
 
-# ── RSS / News feeds ──────────────────────────────────────────────────────────
+# RSS / News feeds 
 # Note on feed health: Reuters retired its public RSS in 2020,
 # and POLITICO's `rss.politico.com` was decommissioned. They've been replaced
 # with sources that have working feeds as of 2026.
@@ -39,7 +39,7 @@ RSS_FEEDS = {
     "Ars Technica Tech Policy": "https://feeds.arstechnica.com/arstechnica/tech-policy",
 }
 
-# ── arXiv ─────────────────────────────────────────────────────────────────────
+# arXiv 
 ARXIV_SEARCH_TERMS = [
     "AI regulation", "artificial intelligence law",
     "AI governance", "algorithmic accountability",
@@ -53,7 +53,7 @@ SSRN_KEYWORDS = [
     "algorithmic accountability",
 ]
 
-# ── Reddit ────────────────────────────────────────────────────────────────────
+# Reddit 
 # Create a Reddit app at https://www.reddit.com/prefs/apps (script type)
 # Then set env vars: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET
 REDDIT_CLIENT_ID     = os.getenv("REDDIT_CLIENT_ID", "YOUR_CLIENT_ID")
@@ -71,7 +71,7 @@ REDDIT_SEARCH_TERMS = [
 ]
 REDDIT_POST_LIMIT = 50
 
-# ── Government / Regulatory sources ──────────────────────────────────────────
+# Government / Regulatory sources 
 GOV_SOURCES = {
     "Regulations.gov RSS": "https://www.regulations.gov/api/rss?docketId=DOCKET-2023-AI",
     "EUR-Lex AI Act":      "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206",
@@ -79,18 +79,18 @@ GOV_SOURCES = {
     "FTC AI":              "https://www.ftc.gov/news-events/topics/artificial-intelligence",
 }
 
-# ── Output paths ──────────────────────────────────────────────────────────────
+# Output paths 
 DATA_DIR    = "data/raw"
 OUTPUT_DIR  = "data/processed"
 REPORTS_DIR = "reports"
 PLOTS_DIR   = "reports/plots"
 
-# ── Sentiment model ───────────────────────────────────────────────────────────
+# Sentiment model 
 # Options: "vader" (fast, no GPU needed) | "finbert" (slower, more accurate)
 # "vader" is recommended for GitHub Actions.
 SENTIMENT_MODEL = "vader"
 
-# ── Scheduling ────────────────────────────────────────────────────────────────
+# Scheduling 
 # Note: this string is informational only. The actual schedule lives in
 # .github/workflows/daily.yml. Keep them in sync if you change either.
 CRON_SCHEDULE = "0 11 * * *"  # 11:00 UTC daily
