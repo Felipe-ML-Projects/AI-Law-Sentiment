@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-06-03
+## Latest snapshot — 2026-06-04
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 454 |
-| Days with data       | 14 |
-| Historical avg. VADER score | +0.4427 |
-| Latest daily report  | [View report](reports/2026-06-03_report.md) |
+| Total items analyzed | 464 |
+| Days with data       | 15 |
+| Historical avg. VADER score | +0.4315 |
+| Latest daily report  | [View report](reports/2026-06-04_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 32  | +0.384  |
-| Last 30 days | 60 | +0.214 |
-| All-time     | 60 | +0.214 |
+| Last 7 days  | 40  | +0.266  |
+| Last 30 days | 70 | +0.172 |
+| All-time     | 70 | +0.172 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (10), **Transparency** (7), **Us Legislation** (5), **Labor** (5), **Copyright Ip** (5)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (9), **Us Legislation** (8), **Transparency** (7), **Copyright Ip** (7), **Labor** (5)
 
-**Stance distribution (last 30 days):** Pro **17%** · Neutral **83%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **14%** · Neutral **86%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-06-03_timeline.png)
-![Topics Over Time](reports/plots/2026-06-03_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-06-03_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-06-04_timeline.png)
+![Topics Over Time](reports/plots/2026-06-04_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-06-04_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-06-03 15:40 UTC by GitHub Actions._
+_Updated automatically on 2026-06-04 14:01 UTC by GitHub Actions._
