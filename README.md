@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-06-10
+## Latest snapshot — 2026-06-11
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 485 |
-| Days with data       | 19 |
-| Historical avg. VADER score | +0.4043 |
-| Latest daily report  | [View report](reports/2026-06-10_report.md) |
+| Total items analyzed | 498 |
+| Days with data       | 21 |
+| Historical avg. VADER score | +0.3800 |
+| Latest daily report  | [View report](reports/2026-06-11_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 38  | -0.015  |
-| Last 30 days | 91 | +0.087 |
-| All-time     | 91 | +0.087 |
+| Last 7 days  | 45  | -0.239  |
+| Last 30 days | 104 | +0.010 |
+| All-time     | 104 | +0.010 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (25), **Us Legislation** (17), **Copyright Ip** (14), **Transparency** (12), **Labor** (5)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (29), **Us Legislation** (21), **Copyright Ip** (16), **Transparency** (12), **Labor** (5)
 
-**Stance distribution (last 30 days):** Pro **20%** · Neutral **80%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **17%** · Neutral **83%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-06-10_timeline.png)
-![Topics Over Time](reports/plots/2026-06-10_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-06-10_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-06-11_timeline.png)
+![Topics Over Time](reports/plots/2026-06-11_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-06-11_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-06-10 14:25 UTC by GitHub Actions._
+_Updated automatically on 2026-06-11 14:40 UTC by GitHub Actions._
