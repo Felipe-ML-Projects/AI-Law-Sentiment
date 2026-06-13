@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-06-12
+## Latest snapshot — 2026-06-13
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 513 |
-| Days with data       | 22 |
-| Historical avg. VADER score | +0.3678 |
-| Latest daily report  | [View report](reports/2026-06-12_report.md) |
+| Total items analyzed | 519 |
+| Days with data       | 23 |
+| Historical avg. VADER score | +0.3626 |
+| Latest daily report  | [View report](reports/2026-06-13_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 46  | -0.236  |
-| Last 30 days | 119 | +0.004 |
-| All-time     | 119 | +0.004 |
+| Last 7 days  | 48  | -0.197  |
+| Last 30 days | 125 | +0.000 |
+| All-time     | 125 | +0.000 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (31), **Us Legislation** (24), **Transparency** (18), **Copyright Ip** (18), **Labor** (7)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (30), **Us Legislation** (23), **Transparency** (21), **Copyright Ip** (18), **Healthcare** (9)
 
-**Stance distribution (last 30 days):** Pro **18%** · Neutral **82%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **20%** · Neutral **80%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-06-12_timeline.png)
-![Topics Over Time](reports/plots/2026-06-12_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-06-12_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-06-13_timeline.png)
+![Topics Over Time](reports/plots/2026-06-13_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-06-13_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-06-12 14:12 UTC by GitHub Actions._
+_Updated automatically on 2026-06-13 12:27 UTC by GitHub Actions._
