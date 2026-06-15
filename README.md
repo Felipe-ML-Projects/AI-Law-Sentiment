@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-06-14
+## Latest snapshot — 2026-06-15
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 522 |
-| Days with data       | 23 |
-| Historical avg. VADER score | +0.3621 |
-| Latest daily report  | [View report](reports/2026-06-14_report.md) |
+| Total items analyzed | 526 |
+| Days with data       | 25 |
+| Historical avg. VADER score | +0.3563 |
+| Latest daily report  | [View report](reports/2026-06-15_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 49  | -0.176  |
-| Last 30 days | 128 | +0.007 |
-| All-time     | 128 | +0.007 |
+| Last 7 days  | 53  | -0.193  |
+| Last 30 days | 132 | -0.006 |
+| All-time     | 132 | -0.006 |
 
 **Most-discussed regulatory topics (last 30 days):** **Privacy** (29), **Us Legislation** (22), **Transparency** (18), **Copyright Ip** (17), **Healthcare** (11)
 
 **Stance distribution (last 30 days):** Pro **19%** · Neutral **81%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-06-14_timeline.png)
-![Topics Over Time](reports/plots/2026-06-14_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-06-14_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-06-15_timeline.png)
+![Topics Over Time](reports/plots/2026-06-15_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-06-15_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-06-14 13:01 UTC by GitHub Actions._
+_Updated automatically on 2026-06-15 16:20 UTC by GitHub Actions._
