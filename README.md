@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-06-16
+## Latest snapshot — 2026-06-17
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 535 |
-| Days with data       | 25 |
-| Historical avg. VADER score | +0.3518 |
-| Latest daily report  | [View report](reports/2026-06-16_report.md) |
+| Total items analyzed | 538 |
+| Days with data       | 27 |
+| Historical avg. VADER score | +0.3576 |
+| Latest daily report  | [View report](reports/2026-06-17_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 58  | -0.197  |
-| Last 30 days | 141 | +0.000 |
-| All-time     | 141 | +0.000 |
+| Last 7 days  | 56  | -0.058  |
+| Last 30 days | 143 | +0.023 |
+| All-time     | 144 | +0.030 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (31), **Us Legislation** (24), **Transparency** (20), **Copyright Ip** (17), **Healthcare** (10)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (34), **Us Legislation** (25), **Transparency** (21), **Copyright Ip** (19), **Healthcare** (10)
 
-**Stance distribution (last 30 days):** Pro **21%** · Neutral **79%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **22%** · Neutral **78%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-06-16_timeline.png)
-![Topics Over Time](reports/plots/2026-06-16_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-06-16_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-06-17_timeline.png)
+![Topics Over Time](reports/plots/2026-06-17_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-06-17_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-06-16 15:56 UTC by GitHub Actions._
+_Updated automatically on 2026-06-17 14:28 UTC by GitHub Actions._
