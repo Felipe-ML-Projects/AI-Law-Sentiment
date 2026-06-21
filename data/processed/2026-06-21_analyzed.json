@@ -1,0 +1,61 @@
+[
+  {
+    "id": "d131d924d4b8",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+    "text": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity researchers have&#160;since signed an open letter&#160;calling&#160;the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models.&#160;So&#160;is [&#8230;]",
+    "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+    "date": "2026-06-19T16:08:17+00:00",
+    "pub_date": "2026-06-19",
+    "fetched": "2026-06-21T13:07:52.557632+00:00",
+    "vader_compound": -0.5859,
+    "vader_label": "negative",
+    "vader_pos": 0.084,
+    "vader_neg": 0.121,
+    "vader_neu": 0.796,
+    "topics": [
+      "national_security"
+    ],
+    "stance": "pro-regulation"
+  },
+  {
+    "id": "176d5353f7a3",
+    "source": "Future of Life",
+    "type": "news",
+    "title": "Should AIs be people too?",
+    "text": "The Dutch East India company was among the first modern companies to receive legal personhood. Should we reconsider what personhood means in the age of AI?",
+    "url": "https://futureoflife.org/ai/should-ais-be-people-too/",
+    "date": "2026-06-19T12:57:04+00:00",
+    "pub_date": "2026-06-19",
+    "fetched": "2026-06-21T13:08:00.193631+00:00",
+    "vader_compound": 0.2168,
+    "vader_label": "positive",
+    "vader_pos": 0.058,
+    "vader_neg": 0.0,
+    "vader_neu": 0.942,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "0da4ac7989bb",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "EFF Joins 60+ Groups Urging the UK to Halt Face Estimation at the Border",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span>This week, EFF joined Foxglove, Human Rights Watch, and 60 other organizations in </span><a href=\"https://www.foxglove.org.uk/open-letter-home-office-facial-age-estimation-children/\"><span>writing to</span></a><span> the UK’s Minister of State for Border Security and Asylum, Alex Norris, raising serious concern about the Home Office’s </span><a href=\"https://www.bbc.co.uk/news/articles/ce3pe36qe7ro\"><span>decision</span></a><span> to deploy Facial Age Estimation (FAE) to assess asylum-seeking children from 2027. </span></p>\n<p><span>The letter points to four key concerns:</span></p>\n<h4><span><strong>Discrimination</strong> </span></h4>\n<p><span>As with most face estimation and recognition tools, there is ongoing bias in the deployment of these technologies. With FAE, </span><a href=\"https://www.hrw.org/news/2025/07/31/uk-plans-ai-experiment-on-children-seeking-asylum\"><span>many have highlighted</span></a><span> its baked-in failures and discrimination, particularly in relation to women and people of color. Evidence shows that FAE is most accurate for estimating the ages of Eastern European men, but even then it consistently produces errors. The Home Office </span><a href=\"https://www.gov.uk/government/publications/facial-age-estimation/facial-age-estimation-using-ai-to-support-initial-age-decisions-a-guide-accessible\"><span>itself</span></a><span> noted “that FAE performance can vary depending on ethnicity” and skin tone. </span></p>\n<h4>Inaccuracy</h4>\n<p><span>The Home Office has </span><a href=\"https://www.gov.uk/government/publications/facial-age-estimation/facial-age-estimation-using-ai-to-support-initial-age-decisions-a-guide-accessible\"><span>admitted</span></a><span> that FAE systems are imprecise for analyzing 16-to 18-year-olds, with even the “top systems” having an “error margin of around 2.5 years here.” This is exactly the age range for which the Home Office has chosen to deploy this technology. And this error margin will be widened yet further because children seeking asylum often suffer from trauma-induced aging. </span></p>\n<h4>Lawfulness of Use of Children’s Data</h4>\n<p><span>Major concerns exist around the lawful basis on which the Home Office, or its chosen third-party FAE vendors, could have sought consent to collect and process photographs or data from asylum-seeking children to train this system. Further, there is no clarity on the images and/or data that this technology has been trained on. </span></p>\n<h4>Lack of Necessary Disclosure </h4>\n<p>The Home Office claims “extensive testing has already been carried out across diverse groups, including different ethnicities, genders and age ranges, indicating promising performance and accuracy.” But these purported “promising” results have not been published, nor have any Equality or Data Protection Impact Assessments. </p>\n<p><span>The letter continues by requesting clarification on several key questions regarding these concerns. EFF and partners have provided the UK government 21 days for a response, and we urge the Home Office to take on this uphill task in good faith and release the information.</span></p>\n<p><span>You can read the letter in full </span><a href=\"https://www.eff.org/document/joint-letter-uk-government-immediately-halt-its-face-estimation-tool-border-contexts\"><span>here</span></a><span>. </span></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/06/joins-60-groups-urging-uk-halt-face-estimation-border",
+    "date": "2026-06-19T09:35:31+00:00",
+    "pub_date": "2026-06-19",
+    "fetched": "2026-06-21T13:08:01.170973+00:00",
+    "vader_compound": -0.8928,
+    "vader_label": "negative",
+    "vader_pos": 0.022,
+    "vader_neg": 0.057,
+    "vader_neu": 0.921,
+    "topics": [
+      "bias_fairness",
+      "privacy"
+    ],
+    "stance": "neutral/mixed"
+  }
+]
