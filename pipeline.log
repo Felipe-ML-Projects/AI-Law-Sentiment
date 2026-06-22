@@ -3073,3 +3073,55 @@ KeyError: 'vader_label'
 2026-06-21 13:08:17,668 [INFO]   Avg compound   : -0.4206
 2026-06-21 13:08:17,669 [INFO]   Report saved   : reports/2026-06-21_report.md
 2026-06-21 13:08:17,669 [INFO] ============================================================
+2026-06-22 15:53:46,642 [INFO] ============================================================
+2026-06-22 15:53:46,642 [INFO] AI in Law Sentiment Pipeline — starting
+2026-06-22 15:53:46,642 [INFO] ============================================================
+2026-06-22 15:53:47,460 [INFO] === Starting daily collection for 2026-06-22 (LOOKBACK_DAYS=2) ===
+2026-06-22 15:53:47,461 [INFO] RSS: Ars Technica Policy
+2026-06-22 15:53:48,137 [INFO] RSS: The Verge AI
+2026-06-22 15:53:48,843 [INFO] RSS: MIT Tech Review
+2026-06-22 15:53:49,536 [INFO] RSS: TechCrunch
+2026-06-22 15:53:50,127 [INFO] RSS: Wired AI
+2026-06-22 15:53:50,436 [WARNING]   feed parse issue: <unknown>:2:0: not well-formed (invalid token)
+2026-06-22 15:53:50,937 [INFO] RSS: LawFare
+2026-06-22 15:53:51,012 [WARNING]   feed parse issue: <unknown>:2:1326: not well-formed (invalid token)
+2026-06-22 15:53:51,512 [INFO] RSS: Future of Life
+2026-06-22 15:53:53,001 [INFO] RSS: EFF DeepLinks
+2026-06-22 15:53:53,786 [INFO] RSS: Brookings TechTank
+2026-06-22 15:53:54,560 [WARNING]   feed parse issue: <unknown>:37:0: undefined entity
+2026-06-22 15:53:55,060 [INFO] RSS: Stanford HAI
+2026-06-22 15:53:55,157 [WARNING]   feed parse issue: <unknown>:2:4451: not well-formed (invalid token)
+2026-06-22 15:53:55,657 [INFO] RSS: AlgorithmWatch
+2026-06-22 15:53:56,502 [WARNING]   feed parse issue: <unknown>:4:0: XML or text declaration not at start of entity
+2026-06-22 15:53:57,002 [INFO] RSS: Ars Technica Tech Policy
+2026-06-22 15:53:57,753 [INFO] RSS: kept 0 | skipped 136 (too old) | 0 (no date) | 24 (off-topic)
+2026-06-22 15:53:57,754 [INFO] arXiv: querying 'AI regulation'
+2026-06-22 15:53:59,226 [INFO] arXiv: querying 'artificial intelligence law'
+2026-06-22 15:54:00,469 [INFO] arXiv: querying 'AI governance'
+2026-06-22 15:54:01,814 [INFO] arXiv: querying 'algorithmic accountability'
+2026-06-22 15:54:03,176 [INFO] arXiv: querying 'large language model policy'
+2026-06-22 15:54:04,470 [INFO] arXiv: kept 0 | 93 (too old) | 0 (off-topic)
+2026-06-22 15:54:04,470 [INFO] Reddit credentials not set — skipping Reddit cleanly.
+2026-06-22 15:54:04,470 [INFO] Regulations.gov: querying 'artificial intelligence' (from 2026-06-20)
+2026-06-22 15:54:04,868 [WARNING] Regulations.gov auth failed (403). Set REGULATIONS_API_KEY env var. Skipping.
+2026-06-22 15:54:04,869 [INFO] Total unique items collected: 0
+2026-06-22 15:54:04,869 [INFO] Saved raw data → data/raw/2026-06-22.json
+2026-06-22 15:54:04,869 [WARNING] No items collected today. Continuing to generate an empty-state report so README + trend plots stay current.
+2026-06-22 15:54:07,148 [INFO] Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Non-scalable fonts are not supported
+2026-06-22 15:54:07,265 [INFO] generated new fontManager
+2026-06-22 15:54:07,599 [ERROR] Reporting step failed: 'vader_label'
+Traceback (most recent call last):
+  File "/home/runner/work/AI-Law-Sentiment/AI-Law-Sentiment/main.py", line 64, in run
+    report_path = generate_report(enriched, history_df)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/AI-Law-Sentiment/AI-Law-Sentiment/report.py", line 811, in generate_report
+    plot_sentiment_distribution(df, plots_dir, today)
+  File "/home/runner/work/AI-Law-Sentiment/AI-Law-Sentiment/report.py", line 119, in plot_sentiment_distribution
+    counts = df["vader_label"].value_counts()
+             ~~^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/core/frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 525, in get_loc
+    raise KeyError(key)
+KeyError: 'vader_label'
