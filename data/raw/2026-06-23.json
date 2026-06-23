@@ -1,0 +1,35 @@
+[
+  {
+    "id": "7d4f2561bb64",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Download: the future of chipmaking and Anthropic’s government clash",
+    "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The $400 million machine powering the future of chipmaking It’s a bit of a schlep to get to the top of ASML’s newest machine. It’s about the size of a double-decker&#8230;",
+    "url": "https://www.technologyreview.com/2026/06/23/1139483/the-download-chipmaking-future-asml-ai-anthropic-government-clash/",
+    "date": "2026-06-23T12:10:00+00:00",
+    "pub_date": "2026-06-23",
+    "fetched": "2026-06-23T13:45:04.553038+00:00"
+  },
+  {
+    "id": "e5321e5c15e4",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "Three things to watch amid Anthropic’s latest feud with the government",
+    "text": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI model called Mythos&#8230;",
+    "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+    "date": "2026-06-22T18:00:00+00:00",
+    "pub_date": "2026-06-22",
+    "fetched": "2026-06-23T13:45:04.553182+00:00"
+  },
+  {
+    "id": "da4313bf96e2",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Anthropic says Claude may want to see your ID",
+    "text": "Claude's chatbot may ask to verify your age and identity \"in certain circumstances,\" such as with a passport or driver's license, according to a privacy policy change.",
+    "url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
+    "date": "2026-06-22T18:05:13+00:00",
+    "pub_date": "2026-06-22",
+    "fetched": "2026-06-23T13:45:05.111568+00:00"
+  }
+]
