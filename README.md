@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-06-25
+## Latest snapshot — 2026-06-26
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 587 |
+| Total items analyzed | 596 |
 | Days with data       | 33 |
-| Historical avg. VADER score | +0.3268 |
-| Latest daily report  | [View report](reports/2026-06-25_report.md) |
+| Historical avg. VADER score | +0.3205 |
+| Latest daily report  | [View report](reports/2026-06-26_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 44  | +0.079  |
-| Last 30 days | 167 | +0.028 |
-| All-time     | 193 | +0.019 |
+| Last 7 days  | 38  | +0.033  |
+| Last 30 days | 174 | +0.013 |
+| All-time     | 202 | +0.014 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (41), **Us Legislation** (30), **Copyright Ip** (26), **Transparency** (24), **Bias Fairness** (13)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (42), **Us Legislation** (31), **Transparency** (26), **Copyright Ip** (26), **National Security** (17)
 
-**Stance distribution (last 30 days):** Pro **22%** · Neutral **78%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **21%** · Neutral **79%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-06-25_timeline.png)
-![Topics Over Time](reports/plots/2026-06-25_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-06-25_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-06-26_timeline.png)
+![Topics Over Time](reports/plots/2026-06-26_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-06-26_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-06-25 13:21 UTC by GitHub Actions._
+_Updated automatically on 2026-06-26 13:13 UTC by GitHub Actions._
