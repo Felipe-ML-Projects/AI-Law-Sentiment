@@ -1,0 +1,24 @@
+[
+  {
+    "id": "59859df9563e",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Anthropic&#8217;s Mythos 5 is back",
+    "text": "After a rollercoaster negotiation process with the Trump administration that dragged on for two weeks, Anthropic's Mythos 5 is finally back in action - at least, somewhat, for a select group of organizations, according to a letter from the government to Anthropic that was viewed by The Verge. Fable 5, however - the public-facing Mythos-class [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+    "date": "2026-06-27T00:33:44+00:00",
+    "pub_date": "2026-06-27",
+    "fetched": "2026-06-29T14:50:00.571130+00:00"
+  },
+  {
+    "id": "b18057ca1428",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
+    "text": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
+    "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+    "date": "2026-06-27T01:01:37+00:00",
+    "pub_date": "2026-06-27",
+    "fetched": "2026-06-29T14:50:01.809348+00:00"
+  }
+]
