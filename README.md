@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-07-03
+## Latest snapshot — 2026-07-04
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 647 |
+| Total items analyzed | 649 |
 | Days with data       | 40 |
-| Historical avg. VADER score | +0.3114 |
-| Latest daily report  | [View report](reports/2026-07-03_report.md) |
+| Historical avg. VADER score | +0.3083 |
+| Latest daily report  | [View report](reports/2026-07-04_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 55  | +0.166  |
-| Last 30 days | 200 | +0.024 |
-| All-time     | 253 | +0.053 |
+| Last 7 days  | 43  | +0.122  |
+| Last 30 days | 196 | +0.000 |
+| All-time     | 255 | +0.047 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (49), **Us Legislation** (37), **Copyright Ip** (30), **Transparency** (26), **National Security** (21)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (51), **Us Legislation** (39), **Transparency** (27), **Copyright Ip** (26), **National Security** (21)
 
-**Stance distribution (last 30 days):** Pro **24%** · Neutral **76%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **26%** · Neutral **74%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-07-03_timeline.png)
-![Topics Over Time](reports/plots/2026-07-03_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-07-03_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-07-04_timeline.png)
+![Topics Over Time](reports/plots/2026-07-04_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-07-04_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-07-03 12:57 UTC by GitHub Actions._
+_Updated automatically on 2026-07-04 12:09 UTC by GitHub Actions._
