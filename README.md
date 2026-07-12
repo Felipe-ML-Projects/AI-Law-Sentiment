@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-07-11
+## Latest snapshot — 2026-07-12
 
 | Metric | Value |
 |--------|-------|
 | Total items analyzed | 692 |
-| Days with data       | 47 |
-| Historical avg. VADER score | +0.3061 |
-| Latest daily report  | [View report](reports/2026-07-11_report.md) |
+| Days with data       | 48 |
+| Historical avg. VADER score | +0.3011 |
+| Latest daily report  | [View report](reports/2026-07-12_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 48  | +0.267  |
-| Last 30 days | 199 | +0.097 |
-| All-time     | 298 | +0.079 |
+| Last 7 days  | 46  | +0.216  |
+| Last 30 days | 186 | +0.103 |
+| All-time     | 298 | +0.068 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (48), **Us Legislation** (33), **Transparency** (27), **National Security** (26), **Copyright Ip** (23)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (43), **Us Legislation** (31), **National Security** (25), **Transparency** (22), **Copyright Ip** (22)
 
-**Stance distribution (last 30 days):** Pro **31%** · Neutral **69%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **30%** · Neutral **70%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-07-11_timeline.png)
-![Topics Over Time](reports/plots/2026-07-11_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-07-11_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-07-12_timeline.png)
+![Topics Over Time](reports/plots/2026-07-12_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-07-12_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-07-11 11:53 UTC by GitHub Actions._
+_Updated automatically on 2026-07-12 12:02 UTC by GitHub Actions._
