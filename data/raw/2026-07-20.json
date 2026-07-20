@@ -1,0 +1,24 @@
+[
+  {
+    "id": "d213c30d2534",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "AI is more likely than humans to form biases when hiring",
+    "text": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from&#8230;",
+    "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+    "date": "2026-07-20T08:39:01+00:00",
+    "pub_date": "2026-07-20",
+    "fetched": "2026-07-20T13:07:47.797516+00:00"
+  },
+  {
+    "id": "87a2e11003ab",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+    "text": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+    "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+    "date": "2026-07-19T19:24:45+00:00",
+    "pub_date": "2026-07-19",
+    "fetched": "2026-07-20T13:07:48.383243+00:00"
+  }
+]
