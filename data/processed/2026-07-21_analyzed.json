@@ -1,0 +1,119 @@
+[
+  {
+    "id": "e9faa71a5160",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "America needs to stop getting shocked by Chinese AI",
+    "text": "Last week, two Chinese AI companies unveiled models they say can credibly compete with the best systems from OpenAI and Anthropic. The response was swift and predictable. Markets wobbled, commentators declared Silicon Valley shooketh, and policymakers reached for the familiar language of arms races and wake-up calls. In one headline, The Associated Press said a [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
+    "date": "2026-07-21T11:08:56+00:00",
+    "pub_date": "2026-07-21",
+    "fetched": "2026-07-21T12:25:54.884796+00:00",
+    "vader_compound": 0.4404,
+    "vader_label": "positive",
+    "vader_pos": 0.103,
+    "vader_neg": 0.063,
+    "vader_neu": 0.834,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "612445dbd724",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over",
+    "text": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyonc&#233;'s Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on Monday, claims that this [&#8230;]",
+    "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+    "date": "2026-07-20T22:19:12+00:00",
+    "pub_date": "2026-07-20",
+    "fetched": "2026-07-21T12:25:54.884843+00:00",
+    "vader_compound": -0.4215,
+    "vader_label": "negative",
+    "vader_pos": 0.038,
+    "vader_neg": 0.102,
+    "vader_neu": 0.86,
+    "topics": [
+      "copyright_ip"
+    ],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "d213c30d2534",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "AI is more likely than humans to form biases when hiring",
+    "text": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from&#8230;",
+    "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+    "date": "2026-07-20T08:39:01+00:00",
+    "pub_date": "2026-07-20",
+    "fetched": "2026-07-21T12:25:55.487114+00:00",
+    "vader_compound": 0.5927,
+    "vader_label": "positive",
+    "vader_pos": 0.056,
+    "vader_neg": 0.0,
+    "vader_neu": 0.944,
+    "topics": [
+      "copyright_ip"
+    ],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "683e474adcf4",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+    "text": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+    "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+    "date": "2026-07-21T00:12:24+00:00",
+    "pub_date": "2026-07-21",
+    "fetched": "2026-07-21T12:25:56.053886+00:00",
+    "vader_compound": 0.0834,
+    "vader_label": "positive",
+    "vader_pos": 0.16,
+    "vader_neg": 0.087,
+    "vader_neu": 0.753,
+    "topics": [
+      "copyright_ip"
+    ],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "48ec45dfbbf6",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "YouTube clarifies policies around AI slop and upsetting videos",
+    "text": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
+    "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+    "date": "2026-07-20T15:23:06+00:00",
+    "pub_date": "2026-07-20",
+    "fetched": "2026-07-21T12:25:56.054212+00:00",
+    "vader_compound": 0.2006,
+    "vader_label": "positive",
+    "vader_pos": 0.136,
+    "vader_neg": 0.086,
+    "vader_neu": 0.778,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "f502a09e7cd3",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "“Stealth Crawlers” Are Not a Threat to the Open Web. Bills Targeting Them Would Be.",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p>There’s a new boogeyman in the battles over AI: so-called “stealth crawlers.” We’ll admit it—the term “stealth crawlers” sounds quite nefarious. In reality, they’re anything but.</p>\n<p>“Stealth crawlers” are simply automated tools to access and collect public web data—without disclosing the user’s identity. Private crawlers like these facilitate all kinds of <a href=\"https://www.eff.org/deeplinks/2026/06/free-and-open-web-under-attack-ietf\">important work</a> that benefits the public, including investigative reporting, academic research, cybersecurity protection, and more.</p>\n<p class=\"pull-quote\"><span>Anonymous crawling enables some of the most publicly beneficial uses of the open web.</span></p>\n<p>Many publishers want to unmask crawlers anyways—and are pushing for new legislation that would give them new powers to do so. These legislative proposals threaten the open web, user privacy, and valuable research without directly addressing the problems they’re supposedly intending to solve.</p>\n<p>Alarmingly, these harmful proposals are gaining traction. The New York state legislature has already passed such a bill, the <a href=\"https://www.nysenate.gov/legislation/bills/2025/S9934/amendment/A\">NY Stealth Crawler Protection Act</a>, which is now on Governor Hochul’s desk. We expect to see similar bills introduced in other states, and potentially in Congress. That’s a big problem for the open web—and the many benefits it provides.</p>\n<h2 class=\"subhead\"><strong>Anonymous crawling is worth protecting</strong></h2>\n<p>Anonymous crawling enables some of the most publicly beneficial uses of the open web. Researchers, journalists, and other watchdog groups use unidentified automated tools to gather the information necessary to hold powerful institutions accountable and protect the public.</p>\n<p>Anonymous crawling fuels important investigative journalism. For example, <em>The Markup</em>, a non-profit news site, used <a href=\"https://themarkup.org/google-the-giant/2020/07/28/how-we-analyzed-google-search-results-web-assay-parsing-tool\">anonymous crawlers</a> to investigate potentially anti-competitive practices by tech companies, such as Amazon’s tendency to <a href=\"https://themarkup.org/amazons-advantage/2021/10/14/amazon-puts-its-own-brands-first-above-better-rated-products\">prioritize Amazon brands and Amazon-exclusive products</a> over competitors with higher ratings. The crawlers identified themselves as <a href=\"https://themarkup.org/amazons-advantage/2021/10/14/how-we-analyzed-amazons-treatment-of-its-brands-in-search-results\">ordinary Firefox browsers</a> to web servers, which allowed <em>The Markup </em>to understand how Amazon search results pages would appear to ordinary users. Similarly, <em>ProPublica </em>used an automated tool designed to simulate an ordinary Amazon customer to reveal that the <a href=\"https://www.propublica.org/article/amazon-says-it-puts-customers-first-but-its-pricing-algorithm-doesnt\">site steered shoppers to more expensive products</a> over cheaper alternatives.</p>\n<p>Anonymous web scraping is also crucial for <a href=\"https://www.sans.org/blog/undercover-operations-scraping-the-cybercrime-underground\">cybersecurity professionals</a>, who use automated tools to monitor the web for information that helps them protect against malicious attackers. <a href=\"https://themarkup.org/blacklight\">Privacy tools</a>, including EFF’s own <a href=\"https://www.eff.org/deeplinks/2023/10/privacy-badger-learns-block-ever-more-trackers\">Privacy Badger</a>, also crawl sites anonymously to identify trackers without compromising user privacy.</p>\n<p>However, without the ability to scrape anonymously, these tools would likely be blocked. Sites can—and do—block crawlers operated by researchers, journalists, and activists who criticize them. For example, Facebook <a href=\"https://www.nytimes.com/2021/08/10/opinion/facebook-misinformation.html?eafs_enabled=false\">shut down</a> accounts belonging to researchers who used automated tools to study misinformation on the platform and demanded that they <a href=\"https://knightcolumbia.org/content/researchers-nyu-knight-institute-condemn-facebooks-effort-to-squelch-independent-research-about-misinformation\">take down</a> published research. Many sites block automated access by anyone who hasn’t paid to crawl public webpages.    </p>\n<h2 class=\"subhead\"><strong>Unmasking crawlers threatens the open web</strong></h2>\n<p>News publishers—and their allies in government—<a href=\"https://www.newsmediaalliance.org/ny-passes-stealth-crawler-prohibition-act/\">say that</a> unmasking crawlers is necessary to protect news organizations from technological strain caused by AI-related crawling, and fears that AI could reduce news sites’ traffic and ad revenue. These are legitimate concerns.</p>\n<p>But enacting broad, reactionary restrictions on automated access is not the answer. <a href=\"https://news.bgov.com/bloomberg-government-news/new-york-becomes-first-state-to-ban-bots-that-scrape-news-sites\">Legislation targeting anonymous crawling</a> threatens the open web, user privacy, and valuable research without actually addressing these technological and potential economic harms of scraping.</p>\n<p>The New York state legislature recently passed the <a href=\"https://www.nysenate.gov/legislation/bills/2025/S9934/amendment/A\">NY Stealth Crawler Protection Act</a>, a law that would make it illegal to crawl news websites without revealing who is operating the crawler and all possible future uses of the data collected by the crawler. The law would give websites the power to obtain court orders that unmask anyone using an unidentified crawler—without any evidence that they broke the law.</p>\n<p>Laws like the New York bill sweep far beyond AI, and do not meaningfully address the technological or potential harms of AI-related web scraping. These policies would chill beneficial crawling by allowing publishers to veto lawful public access, giving them the power to block not just bad actors, but also security professionals, researchers, dissidents, or anyone who has not paid for a license to view public text. This needlessly undermines the free and open internet.</p>\n<p>Digital news publishers—like most websites—face real technological challenges in the AI era. While web crawling has been around for decades, with the proliferation of AI, crawlers now collect far more public web data than they used to. This pushes servers closer to their maximum capacity, and if some bots collect information too aggressively, they may strain web servers to the point that it degrades site performance. The problem is not anonymity—so unmasking crawlers won’t solve it. The real problem is overaggressive crawling, which can be effectively addressed with technical measures that target harmful conduct without impeding anonymous access to information.</p>\n<h2 class=\"subhead\"><strong>A better path forward</strong></h2>\n<p>There are other, far less harmful ways to protect publishers from the harms these “stealth crawler” laws claim to target. Addressing the harms of AI-related crawling requires policies that narrowly target the causes of these issues–without undermining free expression and the open web. Policies that target crawlers and scrapers are anything but.</p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/07/stealth-crawlers-are-not-threat-open-web-bills-targeting-them-would-be",
+    "date": "2026-07-20T18:46:50+00:00",
+    "pub_date": "2026-07-20",
+    "fetched": "2026-07-21T12:25:59.272401+00:00",
+    "vader_compound": 0.9699,
+    "vader_label": "positive",
+    "vader_pos": 0.108,
+    "vader_neg": 0.034,
+    "vader_neu": 0.858,
+    "topics": [
+      "us_legislation",
+      "privacy"
+    ],
+    "stance": "pro-regulation"
+  }
+]
