@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-07-24
+## Latest snapshot — 2026-07-25
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 774 |
-| Days with data       | 58 |
-| Historical avg. VADER score | +0.2648 |
-| Latest daily report  | [View report](reports/2026-07-24_report.md) |
+| Total items analyzed | 780 |
+| Days with data       | 59 |
+| Historical avg. VADER score | +0.2608 |
+| Latest daily report  | [View report](reports/2026-07-25_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 53  | -0.026  |
-| Last 30 days | 199 | +0.070 |
-| All-time     | 380 | +0.044 |
+| Last 7 days  | 53  | -0.050  |
+| Last 30 days | 198 | +0.073 |
+| All-time     | 386 | +0.040 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (43), **Copyright Ip** (27), **Transparency** (26), **Us Legislation** (24), **Bias Fairness** (21)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (43), **Transparency** (29), **Copyright Ip** (26), **Us Legislation** (24), **Bias Fairness** (23)
 
-**Stance distribution (last 30 days):** Pro **22%** · Neutral **78%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **23%** · Neutral **77%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-07-24_timeline.png)
-![Topics Over Time](reports/plots/2026-07-24_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-07-24_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-07-25_timeline.png)
+![Topics Over Time](reports/plots/2026-07-25_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-07-25_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-07-24 12:21 UTC by GitHub Actions._
+_Updated automatically on 2026-07-25 12:05 UTC by GitHub Actions._
