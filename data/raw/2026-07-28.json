@@ -1,0 +1,46 @@
+[
+  {
+    "id": "40c3588f70cf",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+    "text": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+    "date": "2026-07-27T12:06:22+00:00",
+    "pub_date": "2026-07-27",
+    "fetched": "2026-07-28T12:55:41.620121+00:00"
+  },
+  {
+    "id": "31a791e8e2a8",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "Closing the data loop in AI-driven drug discovery",
+    "text": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug to market takes an average of 10-15 years and costs&#8230;",
+    "url": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+    "date": "2026-07-27T11:40:16+00:00",
+    "pub_date": "2026-07-27",
+    "fetched": "2026-07-28T12:55:42.273192+00:00"
+  },
+  {
+    "id": "d10dbf6ad8c7",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "Building the enterprise environment for agentic AI",
+    "text": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the&#8230;",
+    "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+    "date": "2026-07-27T11:32:58+00:00",
+    "pub_date": "2026-07-27",
+    "fetched": "2026-07-28T12:55:42.273262+00:00"
+  },
+  {
+    "id": "9de6703d2dda",
+    "source": "AlgorithmWatch",
+    "type": "news",
+    "title": "Click, Strip, Repeat: Sex Workers and Digital Violence Amidst the Deepfake Boom",
+    "text": "For victims of targeted, sexualized attacks, searching for redress is not easy: they are blamed for posting pictures of them online, accused of overreacting by the police, and followed for life with the consequences of losing the control over their own body and image.",
+    "url": "https://algorithmwatch.org/en/workers-digital-violence-deepfakes/",
+    "date": "2026-07-28T07:00:00+00:00",
+    "pub_date": "2026-07-28",
+    "fetched": "2026-07-28T12:55:50.220802+00:00"
+  }
+]
