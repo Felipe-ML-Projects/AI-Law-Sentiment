@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f987acd1697b",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+    "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex” spread in right-wing circles. The theory claimed that, under&#8230;",
+    "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+    "date": "2026-08-07T14:20:00+00:00",
+    "pub_date": "2026-08-07",
+    "fetched": "2026-08-09T11:30:14.992662+00:00",
+    "vader_compound": -0.34,
+    "vader_label": "negative",
+    "vader_pos": 0.028,
+    "vader_neg": 0.048,
+    "vader_neu": 0.924,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "67386e3e7d1c",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "AI chatbots have failed people in crisis. Can that be fixed?",
+    "text": "Clinicians and researchers say AI companies need to open up their safety data.",
+    "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
+    "date": "2026-08-07T13:49:37+00:00",
+    "pub_date": "2026-08-07",
+    "fetched": "2026-08-09T11:30:23.853841+00:00",
+    "vader_compound": -0.6808,
+    "vader_label": "negative",
+    "vader_pos": 0.09,
+    "vader_neg": 0.237,
+    "vader_neu": 0.673,
+    "topics": [],
+    "stance": "neutral/mixed"
+  }
+]
