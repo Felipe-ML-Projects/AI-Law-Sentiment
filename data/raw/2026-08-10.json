@@ -1,0 +1,24 @@
+[
+  {
+    "id": "700247b13669",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Anthropic is turning Claude Code’s auto mode on by default",
+    "text": "Programming with Claude Code will soon require even less human oversight.",
+    "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+    "date": "2026-08-09T19:20:32+00:00",
+    "pub_date": "2026-08-09",
+    "fetched": "2026-08-10T11:48:54.108139+00:00"
+  },
+  {
+    "id": "35f6bb826f1d",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "The AI safety test is becoming a safety risk",
+    "text": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+    "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+    "date": "2026-08-09T14:30:00+00:00",
+    "pub_date": "2026-08-09",
+    "fetched": "2026-08-10T11:48:54.108242+00:00"
+  }
+]
