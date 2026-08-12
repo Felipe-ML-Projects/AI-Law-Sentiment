@@ -1,0 +1,81 @@
+[
+  {
+    "id": "7dfe2ff4d329",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "Who (or What) Generates Images for EFF?",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span>We’ve had a few questions from EFF supporters lately, asking whether the images we use on our blog posts, or on <a href=\"https://supporters.eff.org/donate/join-4--wsid\" title=\"Donate to EFF\">donation</a> and <a href=\"https://shopeff.org/\" title=\"EFF shop\">shop</a> items, have been created with AI image generators. We’d like to answer these questions and clarify our internal policy regarding image creation.</span><span> </span></p>\n<p><span>EFF images are all made by human beings, not by automated image generators, with very rare exceptions. This is an internal decision made by our small design team, for the following reasons:</span><span> <br /></span><span> </span><span> </span></p>\n<ol>\n<li><span>Our designers bring knowledge and expertise to the images we create, informed by years of consultation with EFF’s lawyers, technologists and activists. We find that this informed perspective helps make the issues we cover more clear, and more engaging, for our supporters.</span><span> </span></li>\n<li><span>The content on our sites is written by human beings, not by bots, and we feel that the images illustrating these posts should be human</span><span>-</span><span>made as well. Our supporters come to EFF for honest, trustworthy information from expert human beings, and we want our images to communicate that authenticity as well.</span><span> </span></li>\n<li><span>Aesthetic preference: our designers prefer the look, as well as the process, of images made “by hand.” It also gives us </span><span>more control over the images, including producing multiple versions for different posts. While it</span><span> can sometimes take a bit longer, we feel the results are more satisfactory and long-lasting. </span><span> </span></li>\n<li><span>While it is rare, it is possible for image generators to create images that are under copyright, or understood by some to be under copyright. This could conflict with our use of a Creative Commons Attribution license for all our images. By generating our own images, we avoid</span><span> any risk</span><span> of a dispute about copyright infringement, so that we can continue our work promoting digital rights (including the right to fair use of copyrighted materials) without fear of a lawsuit.</span><span> </span></li>\n</ol>\n<p class=\"center-image\"><span><div class=\"caption caption-center\"><div class=\"caption-width-container\"><div class=\"caption-inner\"><img alt=\"EFF pencil sketch and final artwork\" height=\"634\" src=\"https://www.eff.org/files/2026/08/03/eff-shirt-sketch-2.png\" title=\"EFF pencil sketch and final artwork\" width=\"1215\" /><p class=\"caption-text\">An example of EFF artwork process: sketch and final art</p></div></div></div></span></p>\n<p><span>To be as clear as possible, we are now adding a small credit in the lower righthand area of each banner image that will read “Image created by EFF.” As mentioned earlier, there may be rare exceptions, when an EFF designer uses an automatically generated image as a small element in a larger illustration. In these cases, we will indicate that use with additional text, specifying the elements involved, and naming the image generator used.</span><span> </span><span> </span></p>\n<p><span>We hope that by describing our internal design thinking, we are answering the questions we are getting without confusing anyone about EFF's various and nuanced positions on the issues raised by image generators. As with past technological developments, we continue to defend the rights of technologists to develop these powerful tools, as well as the <a href=\"https://www.eff.org/pages/ai-and-fair-use#main-content\" title=\"EFF page on AI and Fair Use\">right of the public</a> to make legal and legitimate use of them.</span><span> Ultimately, EFF's design team has made a choice we feel is consistent with EFF's brand and look, and it's a decision we think every user gets to make for themselves. </span></p>\n<p><span>And don't forget: because all of our images are <a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\" title=\"Creative Commons CC-By page\">CC-By</a>, you are free to use, share or remix our any image we create (we ask that you include a credit to EFF). If you need hi-res versions, you can find some on our <a href=\"https://www.flickr.com/photos/electronicfrontierfoundation/\" title=\"EFF Flickr page\">Flickr page</a>, or you can email us directly with any requests. And you can enjoy some of the art we create on gifts you receive when you donate to EFF!</span></p>\n<p class=\"take-action\"><a href=\"https://supporters.eff.org/donate/join-4--wsid\" title=\"Donate to EFF\"><span>Donate to EFF</span></a></p>\n<p class=\"take-explainer\"><span>Get awesome human-generated art as a thank you gift!</span></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/08/who-or-what-generates-images-eff",
+    "date": "2026-08-11T20:24:25+00:00",
+    "pub_date": "2026-08-11",
+    "fetched": "2026-08-12T11:47:45.418920+00:00",
+    "vader_compound": 0.9892,
+    "vader_label": "positive",
+    "vader_pos": 0.126,
+    "vader_neg": 0.024,
+    "vader_neu": 0.849,
+    "topics": [
+      "copyright_ip"
+    ],
+    "stance": "pro-regulation"
+  },
+  {
+    "id": "85872bc2361f",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Rule of Thumb: Explaining Artificial Intelligence Systems using Partial Information",
+    "text": "Explainable Artificial Intelligence (XAI) seeks to explain how an Artificial Intelligence (AI) system arrived at a particular decision. We propose ''Rule of Thumb'' (RoT) explanations, a new approach to XAI based upon a novel formulation that identifies the most relevant features for predicting the behaviour of an AI system, for a particular datapoint. We show how RoT is well-suited to enable XAI in: (a) zero-shot classification using large language models (LLMs), (b) auditing of opaque AI systems without model access, and (c) the use of AI in scientific discovery. Additionally, RoT meets specific requirements from leading AI regulations, provides a familiar interface and visualisations for XAI practitioners, is model-agnostic, and is substantially faster than alternatives.   Code available at: https://github.com/KaiRawal/Rule-of-Thumb-Explaining-Artificial-Intelligence-Systems-using-Partial-Information",
+    "url": "https://arxiv.org/abs/2608.10766v1",
+    "date": "2026-08-11T10:23:33+00:00",
+    "pub_date": "2026-08-11",
+    "fetched": "2026-08-12T11:47:50.557788+00:00",
+    "vader_compound": 0.891,
+    "vader_label": "positive",
+    "vader_pos": 0.085,
+    "vader_neg": 0.0,
+    "vader_neu": 0.915,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "b572b85d3678",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI",
+    "text": "Enterprises are deploying autonomous AI agents faster than they can govern them, and prevailing approaches stretch a single discipline, typically DevSecOps built for deterministic automation, across every scale of agency. We argue that agentic AI governance is four problems, not one, each with a mature governing science. The CASE framework assigns Control theory to the individual agent (intent as setpoint, guardrails as feedback, evaluation as observation), complex Adaptive systems theory to agent collectives (where emergence makes single-agent assurance non-compositional), Supervisory cybernetics to human-agent teams (where the Law of Requisite Variety shows unaided human oversight fails structurally), and Engineering operations to fleets (extending error budgets to decision quality so autonomy becomes a controlled variable). We formalize each layer, derive cross-layer coupling conditions, including a zero-touch deployment paradox where excellence at one-layer strains the others, and trace twenty-plus enterprise controls to their classical constructs. Three empirical studies validate the thesis: 82 percent of documented production agent failures are multi-layer trajectories; none of 22 ecosystem tools offers full Layer 2 (emergence) coverage; and all 35 scored public deployments fall in the lowest maturity band. We name this mismatch, risk realized at the emergence layer against capability barely offered and practice absent, the Emergence Gap. A five-level maturity model with a non-compensatory bottleneck-weighted index and assessment instrument operationalizes CASE as a scientific rather than process maturity model, grounded in production enterprise agentic platforms. As EU AI Act Article 14 makes effective human oversight a legal requirement, only architectures satisfying requisite variety can make oversight real rather than ceremonial.",
+    "url": "https://arxiv.org/abs/2608.10153v1",
+    "date": "2026-08-10T19:10:31+00:00",
+    "pub_date": "2026-08-10",
+    "fetched": "2026-08-12T11:47:53.246782+00:00",
+    "vader_compound": -0.128,
+    "vader_label": "negative",
+    "vader_pos": 0.067,
+    "vader_neg": 0.075,
+    "vader_neu": 0.858,
+    "topics": [
+      "eu_ai_act",
+      "labor"
+    ],
+    "stance": "pro-regulation"
+  },
+  {
+    "id": "22bb8e145aaf",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Joint Lyapunov Certificates for K-Agent Generative AI Governance: Stochastic Stability, Emergent Ensemble Risk, and Zero-Knowledge Governance Attestation",
+    "text": "We develop a rigorous mathematical framework for the governance of systems of K self-adapting generative AI models under the principles of   Model Risk Management (MRM). When multiple models share a   meta-learning coupling through an interaction matrix, the   per-agent Lyapunov analysis that underpins standard MRM is provably insufficient: individual agents can each satisfy their   declared stability bounds while the joint system is in a   regime of emergent ensemble-level drift. We formalize this gap through the   Joint Lyapunov Proof (JLP)---a cryptographic and stochastic   protocol that attests, without revealing proprietary weights, that the   aggregate dynamics satisfy MRM Ongoing Monitoring standard at every validation epoch.   Our main contributions are the following. We give a complete   characterization of the infinitesimal generator of the joint   quadratic Lyapunov function. We derive the exact critical coupling threshold   above which the system loses mean-square stability. We prove a   Noise-Floor Theorem and identify the correct target for zero-knowledge attestation.   A per-epoch Succinct Non-Interactive Argument of Knowledge (SNARK) on the live weights is derived. All   theoretical claims are validated against five numerical studies using a multi-agent softmax system.",
+    "url": "https://arxiv.org/abs/2608.09087v1",
+    "date": "2026-08-10T03:37:08+00:00",
+    "pub_date": "2026-08-10",
+    "fetched": "2026-08-12T11:47:53.246832+00:00",
+    "vader_compound": -0.0516,
+    "vader_label": "negative",
+    "vader_pos": 0.058,
+    "vader_neg": 0.064,
+    "vader_neu": 0.877,
+    "topics": [
+      "copyright_ip"
+    ],
+    "stance": "neutral/mixed"
+  }
+]
