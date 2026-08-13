@@ -1,0 +1,68 @@
+[
+  {
+    "id": "b77f0ff8e550",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+    "text": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+    "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+    "date": "2026-08-12T17:51:00+00:00",
+    "pub_date": "2026-08-12",
+    "fetched": "2026-08-13T11:48:06.939721+00:00"
+  },
+  {
+    "id": "7dfe2ff4d329",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "Who (or What) Generates Images for EFF?",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span>We’ve had a few questions from EFF supporters lately, asking whether the images we use on our blog posts, or on <a href=\"https://supporters.eff.org/donate/join-4--wsid\" title=\"Donate to EFF\">donation</a> and <a href=\"https://shopeff.org/\" title=\"EFF shop\">shop</a> items, have been created with AI image generators. We’d like to answer these questions and clarify our internal policy regarding image creation.</span><span> </span></p>\n<p><span>EFF images are all made by human beings, not by automated image generators, with very rare exceptions. This is an internal decision made by our small design team, for the following reasons:</span><span> <br /></span><span> </span><span> </span></p>\n<ol>\n<li><span>Our designers bring knowledge and expertise to the images we create, informed by years of consultation with EFF’s lawyers, technologists and activists. We find that this informed perspective helps make the issues we cover more clear, and more engaging, for our supporters.</span><span> </span></li>\n<li><span>The content on our sites is written by human beings, not by bots, and we feel that the images illustrating these posts should be human</span><span>-</span><span>made as well. Our supporters come to EFF for honest, trustworthy information from expert human beings, and we want our images to communicate that authenticity as well.</span><span> </span></li>\n<li><span>Aesthetic preference: our designers prefer the look, as well as the process, of images made “by hand.” It also gives us </span><span>more control over the images, including producing multiple versions for different posts. While it</span><span> can sometimes take a bit longer, we feel the results are more satisfactory and long-lasting. </span><span> </span></li>\n<li><span>While it is rare, it is possible for image generators to create images that are under copyright, or understood by some to be under copyright. This could conflict with our use of a Creative Commons Attribution license for all our images. By generating our own images, we avoid</span><span> any risk</span><span> of a dispute about copyright infringement, so that we can continue our work promoting digital rights (including the right to fair use of copyrighted materials) without fear of a lawsuit.</span><span> </span></li>\n</ol>\n<p class=\"center-image\"><span><div class=\"caption caption-center\"><div class=\"caption-width-container\"><div class=\"caption-inner\"><img alt=\"EFF pencil sketch and final artwork\" height=\"634\" src=\"https://www.eff.org/files/2026/08/03/eff-shirt-sketch-2.png\" title=\"EFF pencil sketch and final artwork\" width=\"1215\" /><p class=\"caption-text\">An example of EFF artwork process: sketch and final art</p></div></div></div></span></p>\n<p><span>To be as clear as possible, we are now adding a small credit in the lower righthand area of each banner image that will read “Image created by EFF.” As mentioned earlier, there may be rare exceptions, when an EFF designer uses an automatically generated image as a small element in a larger illustration. In these cases, we will indicate that use with additional text, specifying the elements involved, and naming the image generator used.</span><span> </span><span> </span></p>\n<p><span>We hope that by describing our internal design thinking, we are answering the questions we are getting without confusing anyone about EFF's various and nuanced positions on the issues raised by image generators. As with past technological developments, we continue to defend the rights of technologists to develop these powerful tools, as well as the <a href=\"https://www.eff.org/pages/ai-and-fair-use#main-content\" title=\"EFF page on AI and Fair Use\">right of the public</a> to make legal and legitimate use of them.</span><span> Ultimately, EFF's design team has made a choice we feel is consistent with EFF's brand and look, and it's a decision we think every user gets to make for themselves. </span></p>\n<p><span>And don't forget: because all of our images are <a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\" title=\"Creative Commons CC-By page\">CC-By</a>, you are free to use, share or remix our any image we create (we ask that you include a credit to EFF). If you need hi-res versions, you can find some on our <a href=\"https://www.flickr.com/photos/electronicfrontierfoundation/\" title=\"EFF Flickr page\">Flickr page</a>, or you can email us directly with any requests. And you can enjoy some of the art we create on gifts you receive when you donate to EFF!</span></p>\n<p class=\"take-action\"><a href=\"https://supporters.eff.org/donate/join-4--wsid\" title=\"Donate to EFF\"><span>Donate to EFF</span></a></p>\n<p class=\"take-explainer\"><span>Get awesome human-generated art as a thank you gift!</span></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/08/who-or-what-generates-images-eff",
+    "date": "2026-08-11T20:24:25+00:00",
+    "pub_date": "2026-08-11",
+    "fetched": "2026-08-13T11:48:10.956294+00:00"
+  },
+  {
+    "id": "85872bc2361f",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Rule of Thumb: Explaining Artificial Intelligence Systems using Partial Information",
+    "text": "Explainable Artificial Intelligence (XAI) seeks to explain how an Artificial Intelligence (AI) system arrived at a particular decision. We propose ''Rule of Thumb'' (RoT) explanations, a new approach to XAI based upon a novel formulation that identifies the most relevant features for predicting the behaviour of an AI system, for a particular datapoint. We show how RoT is well-suited to enable XAI in: (a) zero-shot classification using large language models (LLMs), (b) auditing of opaque AI systems without model access, and (c) the use of AI in scientific discovery. Additionally, RoT meets specific requirements from leading AI regulations, provides a familiar interface and visualisations for XAI practitioners, is model-agnostic, and is substantially faster than alternatives.   Code available at: https://github.com/KaiRawal/Rule-of-Thumb-Explaining-Artificial-Intelligence-Systems-using-Partial-Information",
+    "url": "https://arxiv.org/abs/2608.10766v1",
+    "date": "2026-08-11T10:23:33+00:00",
+    "pub_date": "2026-08-11",
+    "fetched": "2026-08-13T11:48:16.334430+00:00"
+  },
+  {
+    "id": "5b6137576f8c",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Co-constructing sociotechnical AI governance: participatory system mapping using algorithm registers",
+    "text": "Algorithm registers have been championed as a means of providing transparency on the use of algorithms in public services. Yet potential publics differ in their expectations of what should be made transparent and how, as well as in their interest in and ability to parse the information currently published in the registers. Moreover, it remains unclear how these instruments can represent the sociotechnical systems in which these algorithms are embedded, and how system-level transparency can facilitate accountability. In this paper, we ask, what do algorithm registers reveal (and occlude) about the sociotechnical systems governing algorithmic systems, and how can diverse stakeholder perspectives inform a more pluralistic system-theoretic safety analysis? To do this, we probe the municipal algorithm register of a Dutch city through a case study of a decision-support tool for caseworkers' assessment of citizens' welfare benefits eligibility based on legal automation through a business rule engine. Through interviews, surveys, and participatory system mapping workshops (with municipal staff, civil society organisations, and ombudsmen, N=8), we seek to understand to what extent the register allows stakeholders to map the algorithmic system in question. These maps inform a System-Theoretic Process Analysis (STPA) that situates the register within a wider sociotechnical governance structure. Participants' contributions allow us to identify potential safety hazards which would not have been possible to see using the algorithm register alone, including benefits eligibility denial, system performance deterioration, and inability to contest wrongful decisions. By engaging both direct and indirect stakeholders, we reflect on the normative dimensions of algorithm governance efforts and how politics shape the practice of system safety analysis.",
+    "url": "https://arxiv.org/abs/2608.12166v1",
+    "date": "2026-08-12T15:27:45+00:00",
+    "pub_date": "2026-08-12",
+    "fetched": "2026-08-13T11:48:19.018352+00:00"
+  },
+  {
+    "id": "fbbf036f0e99",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Silent Updates: Measuring and Closing the Post-Deployment Disclosure Gap",
+    "text": "Deployed foundation models are often not static systems, with providers able to modify system behavior through fine-tuning, classifier updates, system prompt revisions, retrieval changes, and routing changes. These updates can be made silently -- that is, without public disclosure, a version increment, or re-evaluation. Such silent updates challenge a core assumption behind current AI governance frameworks that an externally verifiable chain of custody links the model referred to in evaluation results or a system card to the model served to users. In this paper, we examine post-deployment disclosure practices across first-party API providers and inference hosts to establish the extent to which a chain of custody exists in practice. We find that providers commonly publish substantial safety documentation, including quantitative evaluations and version-specific reports, but no provider in our sample published information allowing an external party to verify that the artifact being served is the same one referred to in this documentation. We introduce the Silent Updates Scorecard, a public instrument for measuring post-deployment disclosure practices across providers and hosts, and preliminary results for a sample of nine first-party API providers and seven third-party inference hosts. We also propose a Three-Part Behavioral Trigger System for determining when post-deployment modifications to a system motivate disclosure or re-evaluation obligations.",
+    "url": "https://arxiv.org/abs/2608.11803v1",
+    "date": "2026-08-12T08:45:49+00:00",
+    "pub_date": "2026-08-12",
+    "fetched": "2026-08-13T11:48:19.018440+00:00"
+  },
+  {
+    "id": "f90690dd1fea",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Governing Agentic AI in FinTech",
+    "text": "Financial institutions are delegating consequential decisions to agentic AI systems that decompose goals, coordinate models and tools, and act with little oversight. Yet agentic AI governance in FinTech is under-investigated. We argue the binding governance constraint is not capability but verifiability. We define the Verifiability Gap as the shortfall between the verification delegated authority demands and the explainability and reproducibility retained after a decision. It is indexed to a verifier, evidentiary standard, and audit lag. We develop a multilevel governance theory for agentic AI and test its mechanisms in three studies over nine model versions, from a three-billion-parameter local model to a commercial frontier system. Study 1 shows that provider releases alter historical financial actions, and that the controls replay needs belong to the provider: the frontier model rejects temperature, top_p and top_k outright and exposes no random seed. Under the tightest controls each endpoint allows, a local model reproduced 320 of 320 executions, hosted models 319 of 320 and 959 of 960. Study 2 shows that orchestration is a latent policy layer. Architecture changes final actions, and no execution record repeated in any configuration at any scale. The frontier model reproduces its own actions more often than the local ones, its record no better, and loses a comparable share of its differentiation. Capability buys a higher starting point, not auditability. Study 3 shows two deterministic credit-model versions each reproduce their current action perfectly, yet the current cannot recover a historical one. We conceptualize reproducibility as a governance profile, not a scalar, yielding evidence-contingent delegation: authority is defensible only while retained evidence substantiates its exercise. Beyond finance, the framework extends to other high-stakes domains requiring auditability.",
+    "url": "https://arxiv.org/abs/2608.11344v1",
+    "date": "2026-08-11T18:52:09+00:00",
+    "pub_date": "2026-08-11",
+    "fetched": "2026-08-13T11:48:19.018455+00:00"
+  }
+]
