@@ -1,0 +1,46 @@
+[
+  {
+    "id": "459413c05296",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+    "text": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+    "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+    "date": "2026-08-13T19:22:40+00:00",
+    "pub_date": "2026-08-13",
+    "fetched": "2026-08-14T11:44:18.197655+00:00"
+  },
+  {
+    "id": "4f7a500cee94",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+    "text": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+    "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+    "date": "2026-08-13T18:28:14+00:00",
+    "pub_date": "2026-08-13",
+    "fetched": "2026-08-14T11:44:18.197742+00:00"
+  },
+  {
+    "id": "5b6137576f8c",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Co-constructing sociotechnical AI governance: participatory system mapping using algorithm registers",
+    "text": "Algorithm registers have been championed as a means of providing transparency on the use of algorithms in public services. Yet potential publics differ in their expectations of what should be made transparent and how, as well as in their interest in and ability to parse the information currently published in the registers. Moreover, it remains unclear how these instruments can represent the sociotechnical systems in which these algorithms are embedded, and how system-level transparency can facilitate accountability. In this paper, we ask, what do algorithm registers reveal (and occlude) about the sociotechnical systems governing algorithmic systems, and how can diverse stakeholder perspectives inform a more pluralistic system-theoretic safety analysis? To do this, we probe the municipal algorithm register of a Dutch city through a case study of a decision-support tool for caseworkers' assessment of citizens' welfare benefits eligibility based on legal automation through a business rule engine. Through interviews, surveys, and participatory system mapping workshops (with municipal staff, civil society organisations, and ombudsmen, N=8), we seek to understand to what extent the register allows stakeholders to map the algorithmic system in question. These maps inform a System-Theoretic Process Analysis (STPA) that situates the register within a wider sociotechnical governance structure. Participants' contributions allow us to identify potential safety hazards which would not have been possible to see using the algorithm register alone, including benefits eligibility denial, system performance deterioration, and inability to contest wrongful decisions. By engaging both direct and indirect stakeholders, we reflect on the normative dimensions of algorithm governance efforts and how politics shape the practice of system safety analysis.",
+    "url": "https://arxiv.org/abs/2608.12166v1",
+    "date": "2026-08-12T15:27:45+00:00",
+    "pub_date": "2026-08-12",
+    "fetched": "2026-08-14T11:44:30.195000+00:00"
+  },
+  {
+    "id": "fbbf036f0e99",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Silent Updates: Measuring and Closing the Post-Deployment Disclosure Gap",
+    "text": "Deployed foundation models are often not static systems, with providers able to modify system behavior through fine-tuning, classifier updates, system prompt revisions, retrieval changes, and routing changes. These updates can be made silently -- that is, without public disclosure, a version increment, or re-evaluation. Such silent updates challenge a core assumption behind current AI governance frameworks that an externally verifiable chain of custody links the model referred to in evaluation results or a system card to the model served to users. In this paper, we examine post-deployment disclosure practices across first-party API providers and inference hosts to establish the extent to which a chain of custody exists in practice. We find that providers commonly publish substantial safety documentation, including quantitative evaluations and version-specific reports, but no provider in our sample published information allowing an external party to verify that the artifact being served is the same one referred to in this documentation. We introduce the Silent Updates Scorecard, a public instrument for measuring post-deployment disclosure practices across providers and hosts, and preliminary results for a sample of nine first-party API providers and seven third-party inference hosts. We also propose a Three-Part Behavioral Trigger System for determining when post-deployment modifications to a system motivate disclosure or re-evaluation obligations.",
+    "url": "https://arxiv.org/abs/2608.11803v1",
+    "date": "2026-08-12T08:45:49+00:00",
+    "pub_date": "2026-08-12",
+    "fetched": "2026-08-14T11:44:30.195090+00:00"
+  }
+]
