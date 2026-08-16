@@ -1,0 +1,2 @@
+id,source,type,title,text,url,date,pub_date,fetched,vader_compound,vader_label,vader_pos,vader_neg,vader_neu,topics,stance
+9e143ab6925a,Ars Technica Tech Policy,news,"Suspecting court of using AI, man injected prompts in filings to try to win case",Judge warns pro se litigants are using chatbots wrong and getting desperate.,https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/,2026-08-14T17:26:53+00:00,2026-08-14,2026-08-16T11:21:20.421053+00:00,-0.4019,negative,0.111,0.248,0.641,[],neutral/mixed
