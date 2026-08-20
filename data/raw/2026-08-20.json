@@ -1,0 +1,68 @@
+[
+  {
+    "id": "beb2473cc8f3",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "ChatGPT is getting a dedicated mode for teens",
+    "text": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
+    "date": "2026-08-18T11:00:00+00:00",
+    "pub_date": "2026-08-18",
+    "fetched": "2026-08-20T11:27:06.610481+00:00"
+  },
+  {
+    "id": "c4c7cdc85d09",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
+    "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI’s recursive self-improvement might not come so quickly after all The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight.&#8230;",
+    "url": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
+    "date": "2026-08-19T12:10:00+00:00",
+    "pub_date": "2026-08-19",
+    "fetched": "2026-08-20T11:27:07.233323+00:00"
+  },
+  {
+    "id": "89f9a699f7b8",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "AI’s recursive self-improvement might not come so quickly after all",
+    "text": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon.&#160;&#8230;",
+    "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+    "date": "2026-08-18T09:00:00+00:00",
+    "pub_date": "2026-08-18",
+    "fetched": "2026-08-20T11:27:07.233605+00:00"
+  },
+  {
+    "id": "84ecb9a05100",
+    "source": "AlgorithmWatch",
+    "type": "news",
+    "title": "Slow Regulation on AI-Generated CSAM is Failing its Victims",
+    "text": "Artificial intelligence is reshaping the production of child sexual abuse material (CSAM) online, enabling new forms of exploitation that are outpacing the legal and regulatory frameworks designed to contain them.",
+    "url": "https://algorithmwatch.org/en/slow-regulation-ai-csam-victims/",
+    "date": "2026-08-20T05:45:00+00:00",
+    "pub_date": "2026-08-20",
+    "fetched": "2026-08-20T11:27:15.179749+00:00"
+  },
+  {
+    "id": "b79a0b4021f5",
+    "source": "AlgorithmWatch",
+    "type": "news",
+    "title": "How the Dutch Police Clung to Predictive Policing for a Decade Without Evidence",
+    "text": "The Crime Anticipation System was discontinued in early 2026 after a devastating internal report concluded that its 'predictive' capabilities were extremely limited. The police were never able to demonstrate that the algorithm had any measurable impact on reducing crime.",
+    "url": "https://algorithmwatch.org/en/dutch-police-cas-predictive-policing/",
+    "date": "2026-08-18T06:45:00+00:00",
+    "pub_date": "2026-08-18",
+    "fetched": "2026-08-20T11:27:15.179791+00:00"
+  },
+  {
+    "id": "672bfdc299b0",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Capability-Based Planning for AI Crisis Preparedness",
+    "text": "Capability-based planning drives preparedness in defense and homeland security, but has yet to be applied seriously to AI. Government AI preparations follow a predict-then-act paradigm: rank risks by likelihood and impact, then prepare for the highest expected harm. AI resists prediction: expert timelines disagree by orders of magnitude, and official reviews concede that likelihood-based risk assessment fails for exactly this class of risk. Drawing on principles of decision making under deep uncertainty, we propose a methodological framework in three parts: a scenario library sampled systematically across declared axes; a rating procedure that assesses each government capability against each scenario on coarse, gated criteria; and a prioritization step that maps the resulting matrix onto decision rules a government might adopt. Through a pilot across the four most severe AI-enabled threat classes, we illustrate the kind of insight the instrument yields and provide a proof of concept for capability-based planning as a practical tool for AI crisis preparedness.",
+    "url": "https://arxiv.org/abs/2608.18357v1",
+    "date": "2026-08-18T22:20:02+00:00",
+    "pub_date": "2026-08-18",
+    "fetched": "2026-08-20T11:27:19.411467+00:00"
+  }
+]
