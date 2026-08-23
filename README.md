@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-08-22
+## Latest snapshot — 2026-08-23
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 931 |
-| Days with data       | 83 |
-| Historical avg. VADER score | +0.2413 |
-| Latest daily report  | [View report](reports/2026-08-22_report.md) |
+| Total items analyzed | 929 |
+| Days with data       | 84 |
+| Historical avg. VADER score | +0.2448 |
+| Latest daily report  | [View report](reports/2026-08-23_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 35  | +0.020  |
-| Last 30 days | 174 | +0.085 |
-| All-time     | 537 | +0.068 |
+| Last 7 days  | 33  | +0.106  |
+| Last 30 days | 159 | +0.138 |
+| All-time     | 535 | +0.073 |
 
-**Most-discussed regulatory topics (last 30 days):** **Transparency** (28), **Privacy** (25), **Us Legislation** (21), **Bias Fairness** (12), **Labor** (10)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (23), **Transparency** (22), **Us Legislation** (21), **Copyright Ip** (10), **Bias Fairness** (8)
 
-**Stance distribution (last 30 days):** Pro **26%** · Neutral **74%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **27%** · Neutral **73%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-08-22_timeline.png)
-![Topics Over Time](reports/plots/2026-08-22_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-08-22_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-08-23_timeline.png)
+![Topics Over Time](reports/plots/2026-08-23_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-08-23_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-08-22 11:22 UTC by GitHub Actions._
+_Updated automatically on 2026-08-23 11:21 UTC by GitHub Actions._
