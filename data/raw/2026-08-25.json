@@ -1,0 +1,35 @@
+[
+  {
+    "id": "3a86bbd7f634",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+    "text": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+    "date": "2026-08-25T09:15:03+00:00",
+    "pub_date": "2026-08-25",
+    "fetched": "2026-08-25T11:28:26.622075+00:00"
+  },
+  {
+    "id": "32cda19d8db8",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+    "text": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+    "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
+    "date": "2026-08-25T00:23:12+00:00",
+    "pub_date": "2026-08-25",
+    "fetched": "2026-08-25T11:28:27.807838+00:00"
+  },
+  {
+    "id": "a34ef28c4aef",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+    "text": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
+    "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+    "date": "2026-08-24T18:03:55+00:00",
+    "pub_date": "2026-08-24",
+    "fetched": "2026-08-25T11:28:27.808062+00:00"
+  }
+]
