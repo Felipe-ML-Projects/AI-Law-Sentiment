@@ -1,0 +1,24 @@
+[
+  {
+    "id": "c58f9bdfc3e7",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+    "text": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+    "date": "2026-09-04T13:34:12+00:00",
+    "pub_date": "2026-09-04",
+    "fetched": "2026-09-05T13:42:45.998736+00:00"
+  },
+  {
+    "id": "2180a1fa6f13",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+    "text": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+    "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+    "date": "2026-09-04T23:15:11+00:00",
+    "pub_date": "2026-09-04",
+    "fetched": "2026-09-05T13:42:47.276488+00:00"
+  }
+]
