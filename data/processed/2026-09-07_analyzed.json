@@ -1,0 +1,22 @@
+[
+  {
+    "id": "c6a48e7fbd07",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+    "text": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+    "date": "2026-09-06T23:36:04+00:00",
+    "pub_date": "2026-09-06",
+    "fetched": "2026-09-07T16:19:24.715492+00:00",
+    "vader_compound": -0.7783,
+    "vader_label": "negative",
+    "vader_pos": 0.0,
+    "vader_neg": 0.11,
+    "vader_neu": 0.89,
+    "topics": [
+      "copyright_ip"
+    ],
+    "stance": "neutral/mixed"
+  }
+]
