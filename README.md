@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-09-09
+## Latest snapshot — 2026-09-10
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 1,033 |
+| Total items analyzed | 1,040 |
 | Days with data       | 101 |
-| Historical avg. VADER score | +0.2168 |
-| Latest daily report  | [View report](reports/2026-09-09_report.md) |
+| Historical avg. VADER score | +0.2187 |
+| Latest daily report  | [View report](reports/2026-09-10_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 35  | -0.152  |
-| Last 30 days | 155 | +0.041 |
-| All-time     | 639 | +0.056 |
+| Last 7 days  | 25  | +0.052  |
+| Last 30 days | 159 | +0.064 |
+| All-time     | 646 | +0.061 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (22), **Copyright Ip** (20), **Transparency** (18), **National Security** (16), **Healthcare** (14)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (26), **Transparency** (20), **Copyright Ip** (19), **National Security** (18), **Healthcare** (15)
 
-**Stance distribution (last 30 days):** Pro **17%** · Neutral **83%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **19%** · Neutral **81%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-09-09_timeline.png)
-![Topics Over Time](reports/plots/2026-09-09_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-09-09_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-09-10_timeline.png)
+![Topics Over Time](reports/plots/2026-09-10_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-09-10_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-09-09 15:03 UTC by GitHub Actions._
+_Updated automatically on 2026-09-10 14:54 UTC by GitHub Actions._
