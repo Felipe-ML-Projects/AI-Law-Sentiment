@@ -1,0 +1,80 @@
+[
+  {
+    "id": "423571cd7c5d",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+    "text": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+    "date": "2026-09-12T16:23:40+00:00",
+    "pub_date": "2026-09-12",
+    "fetched": "2026-09-13T14:50:31.644678+00:00",
+    "vader_compound": 0.8779,
+    "vader_label": "positive",
+    "vader_pos": 0.163,
+    "vader_neg": 0.0,
+    "vader_neu": 0.837,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "bcfea4b7b186",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Trump is giving data centers a pass to pollute",
+    "text": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+    "date": "2026-09-12T14:41:27+00:00",
+    "pub_date": "2026-09-12",
+    "fetched": "2026-09-13T14:50:31.644728+00:00",
+    "vader_compound": -0.5574,
+    "vader_label": "negative",
+    "vader_pos": 0.057,
+    "vader_neg": 0.107,
+    "vader_neu": 0.836,
+    "topics": [
+      "healthcare"
+    ],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "c71016307bb8",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+    "text": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons $5,000 and held him in contempt for failing to \"verify the factual claims and legal [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
+    "date": "2026-09-11T20:44:02+00:00",
+    "pub_date": "2026-09-11",
+    "fetched": "2026-09-13T14:50:31.644804+00:00",
+    "vader_compound": -0.9643,
+    "vader_label": "negative",
+    "vader_pos": 0.059,
+    "vader_neg": 0.269,
+    "vader_neu": 0.672,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "8edde78550cc",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "Governor Newsom Signs Student-Backed Digital Literacy Bills Alongside Misguided Bans",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span>Governor Newsom signed a package of 12 bills yesterday aimed at “protecting children” online. One of them was </span><a href=\"https://www.eff.org/press/releases/we-all-deserve-better-internet-not-smaller-one\"><span>AB 1709</span></a><span>, which EFF has opposed this legislative session and serves as a functional ban on young people under 16 using social media. However, EFF supported two of the bills signed into law, </span><a href=\"https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB2071\"><span>AB 2071</span></a><span> and </span><a href=\"https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2298\"><span>AB 2298</span></a><span>, which require that children learn critical digital literacy and cybersecurity topics. The bills are an affirmative and constitutional way for the state to address valid concerns about young people’s internet use </span><a href=\"https://www.eff.org/deeplinks/2025/02/eff-ninth-circuit-young-people-have-first-amendment-right-use-social-media-and-all\"><span>without violating</span></a><span> their </span><a href=\"https://www.eff.org/deeplinks/2025/12/states-tried-censor-kids-online-courts-and-eff-mostly-stopped-them-2025-review\"><span>First Amendment rights</span></a><span>.</span></p>\n<p><span>Unlike </span><a href=\"https://www.eff.org/deeplinks/2026/06/how-and-why-fight-back-against-social-media-bans\"><span>blanket bans</span></a><span>, A.B. 2071 and A.B. 2298 address online safety through education rather than prohibition. Young people rely on the internet not just for entertainment, but for </span><a href=\"https://www.pbs.org/newshour/classroom/classroom-voices/student-voices/2020/11/student-voice-how-young-people-use-social-media-to-engage-civically\"><span>civic engagement</span></a><span>, </span><a href=\"https://www.theguardian.com/australia-news/2026/may/19/australias-social-media-ban-preventing-teens-from-accessing-the-news-research-finds\"><span>education</span></a><span>, </span><a href=\"https://www.eff.org/deeplinks/2024/03/thousands-young-people-told-us-why-kids-online-safety-act-will-be-harmful-minors\"><span>self-expression</span></a><span>, and </span><a href=\"https://news-decoder.com/social-media-bans-shut-door-to-those-who-lack-safe-spaces/\"><span>community</span></a><span>—especially </span><a href=\"https://www.lgbttech.org/post/lgbt-tech-leads-coalition-statement-in-opposition-to-age-minimum-social-media-bans\"><span>vulnerable youth</span></a><span> who may lack support in their physical surroundings. This is why real digital safety comes from preparation, not isolation. Research consistently shows that open, honest conversations about </span><a href=\"https://www.psychologytoday.com/us/blog/positively-media/202305/why-proposed-social-media-bans-wont-keep-your-kids-safe\"><span>digital literacy</span></a><span> and privacy with trusted adults are </span><a href=\"https://www.npr.org/2026/06/26/nx-s1-5843233/a-psychologist-makes-the-case-against-social-media-bans-for-kids\"><span>far more effective</span></a><span> at protecting youth than restrictive censorship laws. Young people themselves recognize this need; in fact, A.B. 2071 was </span><a href=\"https://edsource.org/2026/social-media-ai-mental-health/755990\"><span>co-authored by a group of students</span></a><span> actively seeking better resources to navigate their digital lives safely.</span></p>\n<h3><b>Education vs. Censorship </b></h3>\n<p><span>A.B. 2071 and A.B. 2298 fill critical gaps in California’s school curricula by equipping students with actionable skills. A.B. 2071 integrates digital wellness into middle and high school health classes, teaching students how to identify unhealthy tech habits, protect their personal safety, and evaluate digital content—including AI-generated media—for credibility and bias. Meanwhile, A.B. 2298 adds cybersecurity concepts to recommended school curricula, teaching young people how to safeguard their personal data from online threats.</span></p>\n<p><span>While </span><a href=\"https://www.eff.org/press/releases/we-all-deserve-better-internet-not-smaller-one\"><span>the state’s turn toward social media bans</span></a><span> remains a harmful and misguided policy direction, the passage and signing of A.B. 2071 and A.B. 2298 show there is a better way. Lawmakers must stop treating censorship as a quick fix and instead focus on constitutional, empowering solutions that give youth the tools they need to thrive online. </span></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/09/governor-newsom-signs-student-backed-digital-literacy-bills-alongside-misguided",
+    "date": "2026-09-11T20:25:57+00:00",
+    "pub_date": "2026-09-11",
+    "fetched": "2026-09-13T14:50:36.424184+00:00",
+    "vader_compound": 0.9221,
+    "vader_label": "positive",
+    "vader_pos": 0.092,
+    "vader_neg": 0.036,
+    "vader_neu": 0.872,
+    "topics": [
+      "bias_fairness",
+      "privacy",
+      "healthcare"
+    ],
+    "stance": "pro-regulation"
+  }
+]
