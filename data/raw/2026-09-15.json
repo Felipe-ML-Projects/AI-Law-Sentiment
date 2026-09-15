@@ -1,0 +1,57 @@
+[
+  {
+    "id": "c9c7e7aae937",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+    "text": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+    "date": "2026-09-14T22:59:41+00:00",
+    "pub_date": "2026-09-14",
+    "fetched": "2026-09-15T15:29:34.694944+00:00"
+  },
+  {
+    "id": "de5d887a67d7",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "What execs and politicians are saying about slowing down AI development",
+    "text": "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled \"We Must Pace the Frontier\" detailing why AI development should be slowed down. Other AI leaders and politicians are speaking out in favor of or opposing his points, and we've compiled some of [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+    "date": "2026-09-14T21:21:42+00:00",
+    "pub_date": "2026-09-14",
+    "fetched": "2026-09-15T15:29:34.694972+00:00"
+  },
+  {
+    "id": "3a588dc9c7bf",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+    "text": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify [&#8230;]",
+    "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+    "date": "2026-09-14T13:00:00+00:00",
+    "pub_date": "2026-09-14",
+    "fetched": "2026-09-15T15:29:34.695007+00:00"
+  },
+  {
+    "id": "f3c2d25299c7",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "AI models need more data about biology, and OpenAI is paying to create it",
+    "text": "Last year Ruxandra Teslo, a policy analyst who focuses on clinical trials, posted an idea for supercharging medical AI systems: Use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might be possible to obtain detailed regulatory filings, manufacturing strategies, and safety data—types of information usually considered trade secrets. She&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
+    "date": "2026-09-15T12:00:00+00:00",
+    "pub_date": "2026-09-15",
+    "fetched": "2026-09-15T15:29:35.318643+00:00"
+  },
+  {
+    "id": "8f91eecbb9dc",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+    "text": "Musk stops attacking Apple over ChatGPT integration but not OpenAI.",
+    "url": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
+    "date": "2026-09-14T19:45:13+00:00",
+    "pub_date": "2026-09-14",
+    "fetched": "2026-09-15T15:29:44.139104+00:00"
+  }
+]
