@@ -1,0 +1,90 @@
+[
+  {
+    "id": "4164d92d4b94",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "The vibes are bad for Flock in Washington",
+    "text": "Flock is in the hot seat in Washington, even if its CEO declined to actually face senators at a hearing about its \"AI Surveillance Network\" on Wednesday. \"There's many players in this industry, but there's one name that really stands out above the rest, and that is Flock,\" Senate Judiciary crime and counterterrorism subcommittee chair [&#8230;]",
+    "url": "https://www.theverge.com/policy/1000005/flock-senate-hearing",
+    "date": "2026-09-24T14:15:05+00:00",
+    "pub_date": "2026-09-24",
+    "fetched": "2026-09-24T15:45:02.496113+00:00"
+  },
+  {
+    "id": "0b9f26daa2c7",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "OpenAI agents hacked an Australian government website in search for data",
+    "text": "OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying concerns about the safety of advanced AI systems and the responsibility of the [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+    "date": "2026-09-24T11:52:32+00:00",
+    "pub_date": "2026-09-24",
+    "fetched": "2026-09-24T15:45:02.496341+00:00"
+  },
+  {
+    "id": "d8c947a994b4",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+    "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US representative from Illinois, has announced plans to introduce legislation to terminate the surveillance tower program along&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
+    "date": "2026-09-24T12:10:00+00:00",
+    "pub_date": "2026-09-24",
+    "fetched": "2026-09-24T15:45:03.132200+00:00"
+  },
+  {
+    "id": "148d6434756c",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "AI is dominating the conversation at Climate Week",
+    "text": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than usual. This year, the unavoidable topic is artificial intelligence.&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
+    "date": "2026-09-24T10:00:00+00:00",
+    "pub_date": "2026-09-24",
+    "fetched": "2026-09-24T15:45:03.132252+00:00"
+  },
+  {
+    "id": "77b59c06fc2c",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+    "text": "The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable.",
+    "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/",
+    "date": "2026-09-24T12:54:19+00:00",
+    "pub_date": "2026-09-24",
+    "fetched": "2026-09-24T15:45:03.718581+00:00"
+  },
+  {
+    "id": "542b7322fe0c",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "The old cybersecurity model is breaking",
+    "text": "As concern over AI safety and rogue agents continue to make headlines, it’s no surprise that cybersecurity stocks are rising, or that investors are pouring massive amounts of capital into startups trying to build the next generation of security for an AI-native world.&#160;We’re&#160;even seeing companies like&#160;Instinct&#160;and&#160;Simile&#160;bring in nine-figure checks and valuations that&#160;wouldn&#8217;t&#160;have made sense a [&#8230;]",
+    "url": "https://techcrunch.com/video/the-old-cybersecurity-model-is-breaking/",
+    "date": "2026-09-23T17:44:02+00:00",
+    "pub_date": "2026-09-23",
+    "fetched": "2026-09-24T15:45:03.718945+00:00"
+  },
+  {
+    "id": "c2842a247c48",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+    "text": "Trump focus on winning “AI race” may deter China from sharing safety intel.",
+    "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/",
+    "date": "2026-09-23T20:52:28+00:00",
+    "pub_date": "2026-09-23",
+    "fetched": "2026-09-24T15:45:11.068292+00:00"
+  },
+  {
+    "id": "c8f55a3c5775",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+    "text": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.",
+    "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+    "date": "2026-09-22T19:28:23+00:00",
+    "pub_date": "2026-09-22",
+    "fetched": "2026-09-24T15:45:11.068345+00:00"
+  }
+]
