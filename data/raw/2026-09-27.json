@@ -1,0 +1,46 @@
+[
+  {
+    "id": "c01ce16603fc",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "One company is at the center of a wave of rogue AI attacks",
+    "text": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures implicating numerous AI models trickled out over the past few [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+    "date": "2026-09-25T15:39:48+00:00",
+    "pub_date": "2026-09-25",
+    "fetched": "2026-09-27T15:33:29.788359+00:00"
+  },
+  {
+    "id": "b0fa98e8b274",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+    "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+    "date": "2026-09-25T12:10:00+00:00",
+    "pub_date": "2026-09-25",
+    "fetched": "2026-09-27T15:33:30.479286+00:00"
+  },
+  {
+    "id": "b50925bd3c97",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+    "text": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+    "date": "2026-09-25T09:16:25+00:00",
+    "pub_date": "2026-09-25",
+    "fetched": "2026-09-27T15:33:30.479309+00:00"
+  },
+  {
+    "id": "725b5e9b15c1",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
+    "text": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
+    "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+    "date": "2026-09-25T21:36:20+00:00",
+    "pub_date": "2026-09-25",
+    "fetched": "2026-09-27T15:33:38.757396+00:00"
+  }
+]
