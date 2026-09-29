@@ -1,0 +1,101 @@
+[
+  {
+    "id": "2f0aec144d1e",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Florida seeks a ban on ChatGPT acting like a person",
+    "text": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of language, including first-person pronouns [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+    "date": "2026-09-28T17:00:23+00:00",
+    "pub_date": "2026-09-28",
+    "fetched": "2026-09-29T16:49:56.556131+00:00"
+  },
+  {
+    "id": "b77e9af7e42f",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Download: climate tech companies to watch and AI’s discovery problem",
+    "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tech backpedaling on its climate ambitions,&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+    "date": "2026-09-29T12:10:00+00:00",
+    "pub_date": "2026-09-29",
+    "fetched": "2026-09-29T16:49:57.167116+00:00"
+  },
+  {
+    "id": "fb9f2e819035",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "The Download: rogue agent liability and the AI Hype Index",
+    "text": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Who&#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+    "date": "2026-09-28T12:10:00+00:00",
+    "pub_date": "2026-09-28",
+    "fetched": "2026-09-29T16:49:57.167372+00:00"
+  },
+  {
+    "id": "9df3eed3c7ef",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "Who’s liable when AI agents go rogue?",
+    "text": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
+    "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+    "date": "2026-09-28T08:06:22+00:00",
+    "pub_date": "2026-09-28",
+    "fetched": "2026-09-29T16:49:57.167389+00:00"
+  },
+  {
+    "id": "a7b614b11789",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "OpenAI apologizes to Australia after its AI agents breached government sites",
+    "text": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events.",
+    "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+    "date": "2026-09-29T12:45:05+00:00",
+    "pub_date": "2026-09-29",
+    "fetched": "2026-09-29T16:49:57.811459+00:00"
+  },
+  {
+    "id": "df051edc9234",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "OpenAI reportedly ditches model over safety concerns",
+    "text": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+    "url": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+    "date": "2026-09-28T23:39:20+00:00",
+    "pub_date": "2026-09-28",
+    "fetched": "2026-09-29T16:49:57.811630+00:00"
+  },
+  {
+    "id": "cabae7cdd8db",
+    "source": "Future of Life",
+    "type": "news",
+    "title": "Statement: We must pressure AI companies to immediately limit the use of recursive self improvement",
+    "text": "FLI's Director of Policy Mark Brakel responds to \"A Call for Control of Frontier AI Models\", joint statement by heads of states.",
+    "url": "https://futureoflife.org/statement/statement-we-must-pressure-ai-companies-to-immediately-limit-the-use-of-recursive-self-improvement/",
+    "date": "2026-09-28T13:39:20+00:00",
+    "pub_date": "2026-09-28",
+    "fetched": "2026-09-29T16:50:00.586975+00:00"
+  },
+  {
+    "id": "6c61297814c3",
+    "source": "Future of Life",
+    "type": "news",
+    "title": "Government leaders call for treaty negotiations on autonomous weapons for the first time",
+    "text": "At a New York forum cosponsored by six governments, the ICRC, The Elders and FLI, ministers and UN officials called on states to begin negotiating a legally binding instrument on autonomous weapons at the CCW Review Conference in November.",
+    "url": "https://futureoflife.org/ai-policy/government-leaders-call-for-treaty-negotiations-on-autonomous-weapons-for-the-first-time/",
+    "date": "2026-09-28T13:34:15+00:00",
+    "pub_date": "2026-09-28",
+    "fetched": "2026-09-29T16:50:00.587000+00:00"
+  },
+  {
+    "id": "d88a4f59d84a",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Florida invokes extinction fears in legal bid to halt OpenAI development",
+    "text": "State says LLMs threaten civilization as \"the greatest public nuisance ever created.\"",
+    "url": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
+    "date": "2026-09-28T20:49:39+00:00",
+    "pub_date": "2026-09-28",
+    "fetched": "2026-09-29T16:50:05.472336+00:00"
+  }
+]
