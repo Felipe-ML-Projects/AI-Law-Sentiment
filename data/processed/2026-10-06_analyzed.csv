@@ -1,0 +1,2 @@
+id,source,type,title,text,url,date,pub_date,fetched,vader_compound,vader_label,vader_pos,vader_neg,vader_neu,topics,stance
+212da1d35ed9,TechCrunch,news,OpenAI will start watermarking ChatGPT’s text in the EU,"OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/,2026-10-05T20:36:48+00:00,2026-10-05,2026-10-06T17:04:52.937397+00:00,0.0,neutral,0.0,0.0,1.0,[],neutral/mixed
