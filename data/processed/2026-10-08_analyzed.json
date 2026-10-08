@@ -1,0 +1,99 @@
+[
+  {
+    "id": "780b917e16cf",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+    "text": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+    "date": "2026-10-08T17:00:00+00:00",
+    "pub_date": "2026-10-08",
+    "fetched": "2026-10-08T17:46:56.136967+00:00",
+    "vader_compound": -0.9288,
+    "vader_label": "negative",
+    "vader_pos": 0.034,
+    "vader_neg": 0.199,
+    "vader_neu": 0.766,
+    "topics": [
+      "privacy",
+      "healthcare"
+    ],
+    "stance": "pro-regulation"
+  },
+  {
+    "id": "293e69019701",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "A startup founder who served time in prison is looking to court an untapped market: ex-cons",
+    "text": "Richard Bronson, a former Stratton Oakmont partner who served time in federal prison for securities violations, has launched Commissary Club, a startup that uses AI to help people leaving prison find jobs, housing, community and even dates.",
+    "url": "https://techcrunch.com/2026/10/08/a-startup-founder-who-served-time-in-prison-is-looking-to-court-an-untapped-market-ex-cons/",
+    "date": "2026-10-08T16:45:00+00:00",
+    "pub_date": "2026-10-08",
+    "fetched": "2026-10-08T17:46:57.493006+00:00",
+    "vader_compound": -0.836,
+    "vader_label": "negative",
+    "vader_pos": 0.097,
+    "vader_neg": 0.202,
+    "vader_neu": 0.7,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "ebcd79fc8325",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Hear from Ambrosia Energy and Bloom Energy execs on where the AI infrastructure boom is creating opportunity at TechCrunch Disrupt 2026",
+    "text": "Ambrosia Energy CEO Ben Longmier and Bloom Energy SVP Bill Thayer join the Smart Systems Stage at TechCrunch Disrupt. Register now to save up to $100. Grab a second of the same pass to save 50%.",
+    "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+    "date": "2026-10-08T15:00:00+00:00",
+    "pub_date": "2026-10-08",
+    "fetched": "2026-10-08T17:46:57.493261+00:00",
+    "vader_compound": 0.967,
+    "vader_label": "positive",
+    "vader_pos": 0.344,
+    "vader_neg": 0.0,
+    "vader_neu": 0.656,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "76a0ba1be63c",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "It's DAF Day! Wait...What's a DAF?",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span>Today is DAF Day! This event highlights the millions of donor-advised funds (DAFs) people have set up to make charitable donations and change the world.</span><span> </span><a href=\"https://www.eff.org/daf\"><span>If you have a DAF, consider supporting EFF today.</span></a></p>\n<p><span>Decisions about your privacy, encryption, artificial intelligence, online speech, and digital security will determine whether technology empowers people or concentrates power in the hands of a few. A grant from your DAF to EFF supports our mission to ensure that technology remains a force for freedom, innovation, and human rights.  </span><span> </span><span> </span></p>\n<p><span>If you’ve never heard of a DAF, just think of it as a </span><span>bank account for your giving with some special benefits.</span><span> </span></p>\n<p><span>Grants from DAFs allow you to:</span><span> </span></p>\n<ul>\n<li><b><span>Simplify your taxes</span></b><span> by receiving an upfront single deduction for your multiple charitable donations</span><span> </span></li>\n<li><b><span>Receive immediate tax benefits</span></b><span> of multi-year gifts</span></li>\n<li><b><span>Avoid capital gains tax</span></b><span> on long-term appreciated assets like stocks</span></li>\n<li><b><span>Boost your giving</span></b><span> by investing your DAF funds</span><span> </span></li>\n</ul>\n<p><span>While allowing EFF to:</span><span> </span></p>\n<ul>\n<li><b><span>Defend encryption, privacy, and security </span></b><span>that protect users and developers</span><span> </span></li>\n<li><b><span>Challenge unlawful surveillance and censorship</span></b><span> that threaten democracy</span><span> </span></li>\n<li><b><span>Shape technology policy </span></b><span>to safeguards civil liberties while enabling innovation</span><span> </span></li>\n<li><b><span>Build free privacy-preserving tools</span></b><span> that strengthen digital autonomy</span><span> </span></li>\n<li><b><span>Protect the rights of creators, researchers, and builders</span></b><span> in the digital ecosystem</span><span> </span></li>\n</ul>\n<p><span>Your support helps ensure that the next generation of technology will strengthen our freedom. Consider a DAF gift today.</span><span> </span></p>\n<p class=\"take-action\"><a href=\"https://www.eff.org/daf\">LEARN MORE</a></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/10/its-daf-day-wait-whats-daf",
+    "date": "2026-10-08T16:02:24+00:00",
+    "pub_date": "2026-10-08",
+    "fetched": "2026-10-08T17:47:01.243726+00:00",
+    "vader_compound": 0.9969,
+    "vader_label": "positive",
+    "vader_pos": 0.255,
+    "vader_neg": 0.008,
+    "vader_neu": 0.737,
+    "topics": [
+      "privacy"
+    ],
+    "stance": "pro-regulation"
+  },
+  {
+    "id": "c0a49f9a528b",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "Move Fast and Mend Things: Keeping Up with Evolving AI Harms Using Social Media Commentary",
+    "text": "The rapid deployment of AI systems has created socio-technical, psychological, and operational harms that can elude ex-ante threat modelling and ex-post incident tracking. We introduce an LLM-assisted thematic analysis pipeline to dynamically detect, categorise, and track emerging AI harms from large-scale social media data. Applying it to 5.7 million Reddit post summaries over 18 months (01/2025 to 06/2026), we curate and release a dataset of 575,000 AI harm-related posts and a bottom-up AI harm taxonomy of 12 categories and 47 subnodes. The taxonomy reliably covers established expert-defined risks while surfacing granular harms that top-down frameworks overlook, such as distinct forms of AI privacy violations. Temporal analysis surfaces evolving user-centric harms, such as agentic privacy and security breaches, premature AI adoption in the workplace, and grief from AI companion discontinuation. Our pipeline shortens harm-detection timelines and hereby complements efforts towards more participatory and responsive AI governance.",
+    "url": "https://arxiv.org/abs/2610.09082v1",
+    "date": "2026-10-06T20:24:10+00:00",
+    "pub_date": "2026-10-06",
+    "fetched": "2026-10-08T17:47:09.244866+00:00",
+    "vader_compound": -0.9717,
+    "vader_label": "negative",
+    "vader_pos": 0.052,
+    "vader_neg": 0.169,
+    "vader_neu": 0.78,
+    "topics": [
+      "privacy"
+    ],
+    "stance": "neutral/mixed"
+  }
+]
