@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-10-09
+## Latest snapshot — 2026-10-10
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 1,226 |
+| Total items analyzed | 1,231 |
 | Days with data       | 130 |
-| Historical avg. VADER score | +0.2088 |
-| Latest daily report  | [View report](reports/2026-10-09_report.md) |
+| Historical avg. VADER score | +0.2110 |
+| Latest daily report  | [View report](reports/2026-10-10_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 36  | -0.025  |
-| Last 30 days | 199 | +0.147 |
-| All-time     | 832 | +0.082 |
+| Last 7 days  | 35  | +0.135  |
+| Last 30 days | 195 | +0.174 |
+| All-time     | 837 | +0.086 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (40), **National Security** (19), **Transparency** (15), **Healthcare** (13), **Us Legislation** (12)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (37), **National Security** (17), **Transparency** (13), **Healthcare** (12), **Us Legislation** (12)
 
-**Stance distribution (last 30 days):** Pro **21%** · Neutral **79%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **18%** · Neutral **82%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-10-09_timeline.png)
-![Topics Over Time](reports/plots/2026-10-09_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-10-09_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-10-10_timeline.png)
+![Topics Over Time](reports/plots/2026-10-10_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-10-10_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-10-09 17:23 UTC by GitHub Actions._
+_Updated automatically on 2026-10-10 16:08 UTC by GitHub Actions._

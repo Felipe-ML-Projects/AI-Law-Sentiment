@@ -1,0 +1,27 @@
+id,source,type,title,text,url,date,pub_date,fetched,vader_compound,vader_label,vader_pos,vader_neg,vader_neu,topics,stance
+5b834ed3369b,The Verge AI,news,Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide,"An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip,2026-10-09T21:15:38+00:00,2026-10-09,2026-10-10T16:08:33.488156+00:00,-0.2617,negative,0.0,0.03,0.97,[],neutral/mixed
+f54a601ae623,The Verge AI,news,OpenAI doubles down on decision to fire three AI safety researchers,"OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed ""a significant breach of trust."" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita &#8288;Balesni were dismissed for violating ""clear policies on handling sensitive information."" It insisted the decision was [&#8230;]",https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers,2026-10-09T09:48:26+00:00,2026-10-09,2026-10-10T16:08:33.488417+00:00,0.7269,positive,0.188,0.102,0.71,[],neutral/mixed
+e09bca746ce3,TechCrunch,news,An Anthropic AI model sent a false homicide tip to Philadelphia police,Anthropic did not discover this behavior until over two months after its AI submitted the false tip.,https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/,2026-10-09T19:36:56+00:00,2026-10-09,2026-10-10T16:08:34.738937+00:00,0.0,neutral,0.0,0.0,1.0,[],neutral/mixed
+3819199f8639,TechCrunch,news,Amazon and others are done keeping data center deals secret. Is it enough to build trust?,"Amazon says it will&#160;stop using NDAs&#160;when negotiating data center deals with local governments, following&#160;a&#160;similar move from Microsoft&#160;earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to&#160;hundreds of&#160;proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access [&#8230;]",https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/,2026-10-09T16:56:42+00:00,2026-10-09,2026-10-10T16:08:34.739045+00:00,0.836,positive,0.127,0.0,0.873,[],neutral/mixed
+76a0ba1be63c,EFF DeepLinks,news,It's DAF Day! Wait...What's a DAF?,"<div class=""field field--name-body field--type-text-with-summary field--label-hidden""><div class=""field__items""><div class=""field__item even""><p><span>Today is DAF Day! This event highlights the millions of donor-advised funds (DAFs) people have set up to make charitable donations and change the world.</span><span> </span><a href=""https://www.eff.org/daf""><span>If you have a DAF, consider supporting EFF today.</span></a></p>
+<p><span>Decisions about your privacy, encryption, artificial intelligence, online speech, and digital security will determine whether technology empowers people or concentrates power in the hands of a few. A grant from your DAF to EFF supports our mission to ensure that technology remains a force for freedom, innovation, and human rights.  </span><span> </span><span> </span></p>
+<p><span>If you’ve never heard of a DAF, just think of it as a </span><span>bank account for your giving with some special benefits.</span><span> </span></p>
+<p><span>Grants from DAFs allow you to:</span><span> </span></p>
+<ul>
+<li><b><span>Simplify your taxes</span></b><span> by receiving an upfront single deduction for your multiple charitable donations</span><span> </span></li>
+<li><b><span>Receive immediate tax benefits</span></b><span> of multi-year gifts</span></li>
+<li><b><span>Avoid capital gains tax</span></b><span> on long-term appreciated assets like stocks</span></li>
+<li><b><span>Boost your giving</span></b><span> by investing your DAF funds</span><span> </span></li>
+</ul>
+<p><span>While allowing EFF to:</span><span> </span></p>
+<ul>
+<li><b><span>Defend encryption, privacy, and security </span></b><span>that protect users and developers</span><span> </span></li>
+<li><b><span>Challenge unlawful surveillance and censorship</span></b><span> that threaten democracy</span><span> </span></li>
+<li><b><span>Shape technology policy </span></b><span>to safeguards civil liberties while enabling innovation</span><span> </span></li>
+<li><b><span>Build free privacy-preserving tools</span></b><span> that strengthen digital autonomy</span><span> </span></li>
+<li><b><span>Protect the rights of creators, researchers, and builders</span></b><span> in the digital ecosystem</span><span> </span></li>
+</ul>
+<p><span>Your support helps ensure that the next generation of technology will strengthen our freedom. Consider a DAF gift today.</span><span> </span></p>
+<p class=""take-action""><a href=""https://www.eff.org/daf"">LEARN MORE</a></p>
+
+</div></div></div>",https://www.eff.org/deeplinks/2026/10/its-daf-day-wait-whats-daf,2026-10-08T16:02:24+00:00,2026-10-08,2026-10-10T16:08:38.739364+00:00,0.9969,positive,0.255,0.008,0.737,['privacy'],pro-regulation
