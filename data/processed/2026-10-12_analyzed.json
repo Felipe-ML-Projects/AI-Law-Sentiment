@@ -1,0 +1,38 @@
+[
+  {
+    "id": "6cf45b6f27ca",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+    "text": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an \"AI-slop pipeline.\" Artists are saying that [&#8230;]",
+    "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+    "date": "2026-10-10T18:52:07+00:00",
+    "pub_date": "2026-10-10",
+    "fetched": "2026-10-12T20:09:16.210384+00:00",
+    "vader_compound": -0.5106,
+    "vader_label": "negative",
+    "vader_pos": 0.028,
+    "vader_neg": 0.087,
+    "vader_neu": 0.885,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "e9c9ac8e21ac",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Microsoft president says UK is best placed to drive AI regulation",
+    "text": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+    "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+    "date": "2026-10-12T15:31:19+00:00",
+    "pub_date": "2026-10-12",
+    "fetched": "2026-10-12T20:09:17.535627+00:00",
+    "vader_compound": 0.7184,
+    "vader_label": "positive",
+    "vader_pos": 0.171,
+    "vader_neg": 0.0,
+    "vader_neu": 0.829,
+    "topics": [],
+    "stance": "neutral/mixed"
+  }
+]
