@@ -1,0 +1,102 @@
+[
+  {
+    "id": "b72f25cbab4b",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+    "text": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+    "date": "2026-10-14T21:11:28+00:00",
+    "pub_date": "2026-10-14",
+    "fetched": "2026-10-15T15:31:59.615253+00:00",
+    "vader_compound": 0.2732,
+    "vader_label": "positive",
+    "vader_pos": 0.143,
+    "vader_neg": 0.142,
+    "vader_neu": 0.715,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "9bdb5eeae001",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
+    "text": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among 40 bipartisan AGs who filed a notice of interest in Character.AI's bankruptcy case \"to put all parties on notice of the regulatory issues that [&#8230;]",
+    "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+    "date": "2026-10-14T18:47:54+00:00",
+    "pub_date": "2026-10-14",
+    "fetched": "2026-10-15T15:31:59.615332+00:00",
+    "vader_compound": 0.2732,
+    "vader_label": "positive",
+    "vader_pos": 0.075,
+    "vader_neg": 0.047,
+    "vader_neu": 0.878,
+    "topics": [],
+    "stance": "pro-regulation"
+  },
+  {
+    "id": "05b9ab0e05e0",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "🗣 A Victory for Freedom of Speech Online | EFFector 38.18",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span><span>No one should have to think twice before criticizing the government online. But a mass surveillance program known as \"Catch and Revoke\" was created to make millions do just that. EFF and other defenders of free speech are fighting back. In <a href=\"https://www.eff.org/effector/38/18\">our latest EFFector newsletter</a>, we're talking about a key court win for our lawsuit <a href=\"https://www.eff.org/press/releases/victory-court-rejects-government-effort-dismiss-social-media-surveillance-lawsuit?utm_source=effector\">challenging this unconstitutional surveillance program</a>.</span></span><span><br /></span></p>\n<p class=\"take-action\"><a href=\"https://www.eff.org/effector/\">JOIN OUR NEWSLETTER</a></p>\n<p><span>For over 35 years, <a href=\"https://eff.org/effector\">EFFector</a> has been your guide to understanding the intersection of technology, civil liberties, and the law. This issue covers our Opt Out October <a href=\"https://assets-usa.mkt.dynamics.com/94400758-7964-ef11-a66d-6045bd003934/digitalassets/standaloneforms/4a1a4f18-6a86-ef11-ac21-0022480ae97e\">guides for ditching Big Tech</a>, a win in <a href=\"https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility?utm_source=effector\">the fight against anti-VPN laws</a>, and </span><span>a court ruling allowing <a href=\"https://www.eff.org/press/releases/victory-court-rejects-government-effort-dismiss-social-media-surveillance-lawsuit?utm_source=effector\">the lawsuit against \"Catch and Revoke\"</a> to move forward.<br /></span></p>\n<p>Prefer to listen in? EFFector is now available on all major podcast platforms. This time we're talking to EFF's Lisa Femia about how the government is using AI to suppress protected speech online—and the important lawsuit she and others are working on to stop it. You can find the episode and subscribe<span> </span><a href=\"https://effector.simplecast.com/\">on your podcast platform of choice</a>:</p>\n<p><div class=\"mytube\" style=\"width: 100%px;\">\n  <div class=\"mytubetrigger\" tabindex=\"0\">\n\n    <img alt=\"play\" class=\"mytubeplay\" src=\"https://www.eff.org/sites/all/modules/custom/mytube/play.png\" />\n    <div class=\"mytubeembedcode\" hidden=\"hidden\">%3Ciframe%20height%3D%22200px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2F1f21c2ee-32ed-41ab-b0a8-eb86edda26ed%3Fdark%3Dfalse%22%20allow%3D%22autoplay%22%3E%3C%2Fiframe%3E</div>\n  </div>\n  <div class=\"mytubetext\">\n    <span><a href=\"https://www.eff.org/deeplinks/2008/02/embedded-video-and-your-privacy\" rel=\"noreferrer\" target=\"_blank\">Privacy info.</a></span>\n    <span>This embed will serve content from <em><a href=\"https://player.simplecast.com/1f21c2ee-32ed-41ab-b0a8-eb86edda26ed?dark=false\" rel=\"nofollow\">simplecast.com</a></em><br /></span>\n  </div>\n</div>\n</p>\n<p><span><i><a href=\"https://open.spotify.com/show/6Q48ICplENdQ4ZarUIgfLZ\" rel=\"noopener noreferrer\" target=\"_blank\"><img alt=\"Listen on Spotify Podcasts Badge\" height=\"48\" src=\"https://www.eff.org/files/2021/11/01/spotify-podcast-badge-blk-wht-330x80.png\" width=\"198\" /></a> <a href=\"https://podcasts.apple.com/us/podcast/effector/id1882562931\" rel=\"noopener noreferrer\" target=\"_blank\"><img alt=\"Listen on Apple Podcasts Badge\" height=\"47\" src=\"https://www.eff.org/files/2021/11/01/applebadge2.png\" width=\"195\" /></a> <a href=\"https://music.amazon.com/podcasts/83be1062-f511-47b3-bd2b-fc44e831c3ad\" rel=\"noopener noreferrer\" target=\"_blank\"><img height=\"47\" src=\"https://eff.org/files/styles/kittens_types_wysiwyg_small/public/2024/02/15/us_listenon_amazonmusic_button_charcoal.png?itok=YFXPE4Ii\" width=\"195\" /></a> <a href=\"https://feeds.eff.org/effector\" rel=\"noopener noreferrer\" target=\"_blank\"><img alt=\"Subscribe via RSS badge\" height=\"50\" src=\"https://www.eff.org/files/2021/11/01/subscriberss.png\" width=\"194\" /></a></i></span></p>\n<p><span>Want to protect your right to digital privacy? Sign up for <a href=\"https://eff.org/effector\">EFF's EFFector newsletter</a> for updates, ways to take action, and new merch drops. You can also fuel the fight for privacy and free speech online when you <a href=\"https://eff.org/join\">support EFF today</a>!</span></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/10/victory-freedom-speech-online-effector-3818",
+    "date": "2026-10-14T16:25:23+00:00",
+    "pub_date": "2026-10-14",
+    "fetched": "2026-10-15T15:32:04.989422+00:00",
+    "vader_compound": 0.9559,
+    "vader_label": "positive",
+    "vader_pos": 0.121,
+    "vader_neg": 0.067,
+    "vader_neu": 0.811,
+    "topics": [
+      "privacy"
+    ],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "2bce856fda72",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "Privacy's Defenders Podcast: No Privacy Without Encryption",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span>When we communicate online today – from your personal emails and DMs to secure international commerce – we usually do so with encryption. Encryption converts readable data into unreadable gibberish to protect our privacy and security. This didn’t just happen organically. Three decades ago, the U.S government treated encryption like a weapon, and it took some unlikely heroes to set it free: a grad student, a junior lawyer, and a fledgling digital rights group who sued the federal government.</span><span> </span></p>\n<p><span>The ruling in </span><a href=\"https://www.eff.org/cases/bernstein-v-us-dept-justice\" rel=\"noopener noreferrer\" target=\"_blank\"><i><span>Bernstein v. Department of Justice</span></i></a><span> held that code is speech and so is protected by the First Amendment – a precedent that underpins the internet as we know it today. This landmark case was led by Cindy Cohn, then a young pro bono lawyer working on behalf of EFF, who went on to become EFF’s legal director and then executive director.</span><span> </span></p>\n<p><span>Welcome to the second episode of “Privacy’s Defenders,” a podcast about the people – lawyers, journalists, hackers, and others – who’ve fought to secure your digital liberties since before most people even knew what the internet was.</span><span> </span></p>\n<p><span></span></p>\n<div class=\"mytube\" style=\"width: 100%px;\">\n  <div class=\"mytubetrigger\" tabindex=\"0\">\n\n    <img alt=\"play\" class=\"mytubeplay\" src=\"https://www.eff.org/sites/all/modules/custom/mytube/play.png\" />\n    <div class=\"mytubeembedcode\" hidden=\"hidden\">%3Ciframe%20height%3D%2252px%22%20width%3D%22100%25%22%20frameborder%3D%22no%22%20scrolling%3D%22no%22%20seamless%3D%22%22%20src%3D%22https%3A%2F%2Fplayer.simplecast.com%2F91542147-6839-46fe-a813-73eb7a5c683c%3Fdark%3Dtrue%26amp%3Bcolor%3D000000%22%20allow%3D%22autoplay%22%3E%3C%2Fiframe%3E</div>\n  </div>\n  <div class=\"mytubetext\">\n    <span><a href=\"https://www.eff.org/deeplinks/2008/02/embedded-video-and-your-privacy\" rel=\"noreferrer\" target=\"_blank\">Privacy info.</a></span>\n    <span>This embed will serve content from <em><a href=\"https://player.simplecast.com/91542147-6839-46fe-a813-73eb7a5c683c?dark=true&amp;color=000000\" rel=\"nofollow\">simplecast.com</a></em><br /></span>\n  </div>\n</div>\n<p></p>\n<p><span><i><a href=\"https://open.spotify.com/show/4UAplFpPDqE4hWlwsjplgt\" rel=\"noopener noreferrer\" target=\"_blank\"><img alt=\"Listen on Spotify Podcasts Badge\" height=\"48\" src=\"https://www.eff.org/files/2021/11/01/spotify-podcast-badge-blk-wht-330x80.png\" width=\"198\" /></a> <a href=\"https://podcasts.apple.com/us/podcast/effs-how-to-fix-the-internet/id1539719568\" rel=\"noopener noreferrer\" target=\"_blank\"><img alt=\"Listen on Apple Podcasts Badge\" height=\"47\" src=\"https://www.eff.org/files/2021/11/01/applebadge2.png\" width=\"195\" /></a> <a href=\"https://music.amazon.ca/podcasts/bf81f00f-11e1-431f-918d-374ab6ad07cc/how-to-fix-the-internet?ref=dmm_art_us_HTFTI\" rel=\"noopener noreferrer\" target=\"_blank\"><img height=\"47\" src=\"https://www.eff.org/files/styles/kittens_types_wysiwyg_small/public/2024/02/15/us_listenon_amazonmusic_button_charcoal.png?itok=YFXPE4Ii\" width=\"195\" /></a> <a href=\"https://feeds.eff.org/howtofixtheinternet\" rel=\"noopener noreferrer\" target=\"_blank\"><img alt=\"Subscribe via RSS badge\" height=\"50\" src=\"https://www.eff.org/files/2021/11/01/subscriberss.png\" width=\"194\" /></a></i></span></p>\n<p>(You can also find this episode on the <a href=\"https://archive.org/details/privacys-defenders-E2-No-Privacy-Without-Encryption\" rel=\"noopener noreferrer\" target=\"_blank\">Internet Archive</a> and on YouTube.)</p>\n<p><span>In this episode, Cindy – who left EFF in June – speaks with Dan Bernstein, who was a Cal Berkeley grad student when he developed a simple encryption algorithm called “Snuffle.” Because federal law classified encryption as a war munition, publishing Snuffle meant submitting it to the government for review, getting a license as an arms dealer, and being granted a license the government had no intention of granting. Bernstein felt this violated his free-speech rights and in 1995 he sued, represented by Cindy working with EFF.</span><span> </span></p>\n<p><span>Cindy also talks with Tony Coppolino, the Justice Department lawyer she battled in court – who admits she intimidated him from their very first phone call, and who offers a surprising perspective on the case all these years later.</span><span> </span></p>\n<p><span>The “Privacy’s Defenders” podcast (new episodes drop every other Tuesday!) is a follow-up to Cindy’s book, “<a href=\"https://www.eff.org/Privacys-Defender\" rel=\"noopener noreferrer\" target=\"_blank\">Privacy’s Defender: My Thirty-Year Fight Against Digital Surveillance</a>,” bringing to life pivotal moments in the voices of those who fought for your rights. Sales of “Privacy’s Defender” benefit EFF, so </span><a href=\"https://shopeff.org/products/privacys-defender-by-cindy-cohn\" rel=\"noopener noreferrer\" target=\"_blank\"><span>pick up your copy today</span></a><span>!</span></p>\n<p><span>Joanne Elgart Jennings co-produced and created this podcast.  </span><span> </span></p>\n<p><span>Jarod Sport co-produced, mixed, and mastered it.  </span><span> </span></p>\n<p><span>Corinne Ruff is our story editor.</span><span> </span></p>\n<p><span>We had additional help from Rachel Estabrook and Alison Broverman.</span><span> </span></p>\n<p><span>The original music was composed and performed by Nat Keefe of Hot Buttered Rum with Ben Andrews on the fiddle.</span></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/10/privacys-defenders-podcast-no-privacy-without-encryption",
+    "date": "2026-10-13T15:00:03+00:00",
+    "pub_date": "2026-10-13",
+    "fetched": "2026-10-15T15:32:04.989902+00:00",
+    "vader_compound": 0.9631,
+    "vader_label": "positive",
+    "vader_pos": 0.104,
+    "vader_neg": 0.023,
+    "vader_neu": 0.873,
+    "topics": [
+      "privacy",
+      "national_security"
+    ],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "aafd5d13e799",
+    "source": "arXiv",
+    "type": "academic",
+    "title": "inLoRA-MINT: Internal Representations for Auditing Training Data in Domain-adapted LLMs",
+    "text": "This work investigates the application of the Membership Inference Test (MINT) to large language models (LLMs) fine-tuned with LoRA, aiming to determine whether specific samples were used during training and address concerns about data privacy, leakage, and transparency. Building on our previous LoRA-MINT framework, which relies exclusively on perplexity under a strict black-box setting, we propose an approach based on intermediate model representations, including activations and parameter-dependent signals. These representations enable a MINT classifier to distinguish training from non-training samples without requiring full access to model parameters.   We evaluated the method on four LLMs (Qwen, Phi-4, DeepSeek-V3, and LLaMA 3.2-3B) fine-tuned on three datasets covering medical, mathematical, and academic reasoning tasks. Results show consistent performance across architectures and domains, achieving scores between 95% and 98%, with robustness to variations in model configurations and data distributions. The proposed approach enables efficient auditing of sensitive training data and supports data provenance and compliance with emerging privacy and AI governance regulations. Although our experiments focus on LoRA-based fine-tuning, the methodology can be extended to other LLM adaptation techniques and, more broadly, to other AI models.",
+    "url": "https://arxiv.org/abs/2610.18051v1",
+    "date": "2026-10-13T09:40:58+00:00",
+    "pub_date": "2026-10-13",
+    "fetched": "2026-10-15T15:32:14.022816+00:00",
+    "vader_compound": 0.6486,
+    "vader_label": "positive",
+    "vader_pos": 0.027,
+    "vader_neg": 0.0,
+    "vader_neu": 0.973,
+    "topics": [
+      "privacy",
+      "healthcare",
+      "copyright_ip",
+      "transparency"
+    ],
+    "stance": "neutral/mixed"
+  }
+]
