@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-10-16
+## Latest snapshot — 2026-10-17
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 1,252 |
-| Days with data       | 135 |
-| Historical avg. VADER score | +0.2114 |
-| Latest daily report  | [View report](reports/2026-10-16_report.md) |
+| Total items analyzed | 1,257 |
+| Days with data       | 136 |
+| Historical avg. VADER score | +0.2096 |
+| Latest daily report  | [View report](reports/2026-10-17_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 32  | +0.315  |
-| Last 30 days | 190 | +0.164 |
-| All-time     | 858 | +0.089 |
+| Last 7 days  | 28  | +0.195  |
+| Last 30 days | 187 | +0.135 |
+| All-time     | 863 | +0.087 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (42), **National Security** (19), **Transparency** (17), **Us Legislation** (14), **Labor** (10)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (42), **National Security** (17), **Transparency** (16), **Us Legislation** (13), **Labor** (11)
 
 **Stance distribution (last 30 days):** Pro **17%** · Neutral **83%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-10-16_timeline.png)
-![Topics Over Time](reports/plots/2026-10-16_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-10-16_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-10-17_timeline.png)
+![Topics Over Time](reports/plots/2026-10-17_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-10-17_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-10-16 15:16 UTC by GitHub Actions._
+_Updated automatically on 2026-10-17 14:06 UTC by GitHub Actions._
