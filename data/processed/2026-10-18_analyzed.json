@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0ee63cc50f71",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+    "text": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+    "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+    "date": "2026-10-16T16:30:00+00:00",
+    "pub_date": "2026-10-16",
+    "fetched": "2026-10-18T14:21:23.131993+00:00",
+    "vader_compound": 0.5267,
+    "vader_label": "positive",
+    "vader_pos": 0.073,
+    "vader_neg": 0.026,
+    "vader_neu": 0.9,
+    "topics": [],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "284333ed2818",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+    "text": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+    "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+    "date": "2026-10-16T15:41:00+00:00",
+    "pub_date": "2026-10-16",
+    "fetched": "2026-10-18T14:21:31.463345+00:00",
+    "vader_compound": -0.2732,
+    "vader_label": "negative",
+    "vader_pos": 0.052,
+    "vader_neg": 0.124,
+    "vader_neu": 0.825,
+    "topics": [],
+    "stance": "neutral/mixed"
+  }
+]
