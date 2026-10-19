@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1d7aa9cfab7e",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Democrats think cracking down on AI could give them an edge",
+    "text": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee leadership back in their hands. That [&#8230;]",
+    "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+    "date": "2026-10-19T12:00:00+00:00",
+    "pub_date": "2026-10-19",
+    "fetched": "2026-10-19T17:22:26.957952+00:00",
+    "vader_compound": 0.5859,
+    "vader_label": "positive",
+    "vader_pos": 0.054,
+    "vader_neg": 0.0,
+    "vader_neu": 0.946,
+    "topics": [
+      "us_legislation"
+    ],
+    "stance": "neutral/mixed"
+  },
+  {
+    "id": "cc1ff79c0d2e",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "TechCrunch Mobility: Rivian’s next act",
+    "text": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+    "url": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/",
+    "date": "2026-10-18T16:05:00+00:00",
+    "pub_date": "2026-10-18",
+    "fetched": "2026-10-19T17:22:28.186941+00:00",
+    "vader_compound": 0.5859,
+    "vader_label": "positive",
+    "vader_pos": 0.151,
+    "vader_neg": 0.0,
+    "vader_neu": 0.849,
+    "topics": [],
+    "stance": "neutral/mixed"
+  }
+]
