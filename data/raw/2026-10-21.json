@@ -1,0 +1,68 @@
+[
+  {
+    "id": "5afba8050415",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+    "text": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+    "date": "2026-10-21T13:57:43+00:00",
+    "pub_date": "2026-10-21",
+    "fetched": "2026-10-21T15:51:50.956056+00:00"
+  },
+  {
+    "id": "28f03607775f",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+    "text": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+    "date": "2026-10-20T23:04:19+00:00",
+    "pub_date": "2026-10-20",
+    "fetched": "2026-10-21T15:51:50.956086+00:00"
+  },
+  {
+    "id": "d5284706e572",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
+    "text": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesday Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the AI buildout was a private credit bubble. [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+    "date": "2026-10-19T21:28:20+00:00",
+    "pub_date": "2026-10-19",
+    "fetched": "2026-10-21T15:51:50.956400+00:00"
+  },
+  {
+    "id": "d1819ab5c66e",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+    "text": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+    "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+    "date": "2026-10-20T23:01:23+00:00",
+    "pub_date": "2026-10-20",
+    "fetched": "2026-10-21T15:51:52.143173+00:00"
+  },
+  {
+    "id": "488852d7ef3a",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+    "text": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+    "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+    "date": "2026-10-20T20:07:58+00:00",
+    "pub_date": "2026-10-20",
+    "fetched": "2026-10-21T15:51:59.678945+00:00"
+  },
+  {
+    "id": "eca196ee49f4",
+    "source": "Ars Technica Tech Policy",
+    "type": "news",
+    "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+    "text": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
+    "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+    "date": "2026-10-19T20:21:53+00:00",
+    "pub_date": "2026-10-19",
+    "fetched": "2026-10-21T15:51:59.679018+00:00"
+  }
+]
