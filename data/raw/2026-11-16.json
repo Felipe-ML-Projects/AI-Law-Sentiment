@@ -1,0 +1,79 @@
+[
+  {
+    "id": "6bf85be6fa63",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "California sues OpenAI over rogue AI hacking incidents",
+    "text": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [&#8230;]",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+    "date": "2026-11-16T20:46:01+00:00",
+    "pub_date": "2026-11-16",
+    "fetched": "2026-11-16T20:50:31.210524+00:00"
+  },
+  {
+    "id": "365f3b142fa5",
+    "source": "The Verge AI",
+    "type": "news",
+    "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+    "text": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether it's AI-generated. It's also offering [&#8230;]",
+    "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+    "date": "2026-11-16T19:23:45+00:00",
+    "pub_date": "2026-11-16",
+    "fetched": "2026-11-16T20:50:31.210715+00:00"
+  },
+  {
+    "id": "78c3bdf8c94d",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "Building trustworthy AI by fencing it in, not predicting it",
+    "text": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;",
+    "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+    "date": "2026-11-16T16:04:28+00:00",
+    "pub_date": "2026-11-16",
+    "fetched": "2026-11-16T20:50:31.759953+00:00"
+  },
+  {
+    "id": "0f553794f8a7",
+    "source": "MIT Tech Review",
+    "type": "news",
+    "title": "Building AI that can work across the enterprise",
+    "text": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,&#8230;",
+    "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+    "date": "2026-11-16T13:00:00+00:00",
+    "pub_date": "2026-11-16",
+    "fetched": "2026-11-16T20:50:31.760033+00:00"
+  },
+  {
+    "id": "6e394d6d04ab",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "California state AG sues OpenAI over rogue agent incidents",
+    "text": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+    "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "date": "2026-11-16T20:07:13+00:00",
+    "pub_date": "2026-11-16",
+    "fetched": "2026-11-16T20:50:32.294076+00:00"
+  },
+  {
+    "id": "f2c3c92b0ac1",
+    "source": "TechCrunch",
+    "type": "news",
+    "title": "OpenAI will embed safety researchers to investigate AI subversion",
+    "text": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+    "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "date": "2026-11-16T17:02:43+00:00",
+    "pub_date": "2026-11-16",
+    "fetched": "2026-11-16T20:50:32.294303+00:00"
+  },
+  {
+    "id": "624bbcbfde47",
+    "source": "EFF DeepLinks",
+    "type": "news",
+    "title": "Amazon Ring’s New Indoor Surveillance Drone Is Not Compatible with Privacy",
+    "text": "<div class=\"field field--name-body field--type-text-with-summary field--label-hidden\"><div class=\"field__items\"><div class=\"field__item even\"><p><span>Amazon Ring has finally announced their </span><a href=\"https://www.cnbc.com/2020/09/24/amazon-ring-flying-security-camera-drone-announced.html\"><span>long-dreaded indoor drone</span></a><span>, a small </span><a href=\"https://www.nbcnews.com/tech/tech-news/amazons-ring-debuts-security-robots-drone-rcna608538\"><span>flying surveillance device connected to their security suite of products</span></a><span> that can fly around your house filming and recording things. The device is supposedly designed to fly preset paths across your home and will also activate if a sensor or alarm has been triggered. </span><span> </span></p>\n<p><span>Customers should think twice about purchasing these devices for a number of reasons. These devices are problematic in many of the ways </span><a href=\"https://www.eff.org/deeplinks/2025/07/amazon-ring-cashes-techno-authoritarianism-and-mass-surveillance\"><span>we’ve said Ring’s stationary home surveillance products are a problem</span></a><span>, plus some new ways. At a very basic level, they are essentially a window into your house that can be accessed by anyone with access to your account—which has historically included </span><a href=\"https://consumer.ftc.gov/consumer-alerts/2023/05/rings-privacy-failures-led-spying-harassment-through-home-security-cameras\"><span>bad actors looking to embarrass or harass Ring users</span></a><span> and </span><a href=\"https://www.bbc.com/news/technology-51048406\"><span>employees of the company</span></a><span>.</span><span> </span></p>\n<p><span>What’s worse, Ring has </span><a href=\"https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/\"><span>supercharged</span></a><span> the units with its ‘AI Pilot’ to map routes, model the interior of the home, and control movement. This means not only is the footage being sent to corporate servers, but the company is also making inferences about your home to carry out tasks. How much home usage data this is based on, and if it can be used to infer when certain household activities are happening, are both open questions. And presumably, to maintain the preset routes, inferred data about your home will still be held by Ring even after any stored video footage is deleted.</span><span> </span></p>\n<p><span>The risk to your privacy is only compounded once you consider Ring’s </span><a href=\"https://www.wbur.org/hereandnow/2025/09/30/ring-police-partnerships\"><span>renewed partnership with police</span></a><span> through the massive surveillance and taser vendor, Axon. Through this partnership, police have the ability to request camera footage from Ring users with just a few clicks on Axon’s platforms. This includes its </span><a href=\"https://www.youtube.com/watch?v=KfAYNCWsjKg\"><span>Fusus platform</span></a><span>, an interactive surveillance feed and map police use to manage all the surveillance devices they have access to, like </span><a href=\"https://sls.eff.org/technologies/automated-license-plate-readers-alprs/\"><span>automated license plate readers</span></a><span>. It’s unclear exactly what devices police can request footage from, but if this request feature is extended to Ring’s drones, police could easily send requests for footage from inside your house. Sharing is voluntary, but once footage is submitted, it cannot be retracted. Worse still, if your footage is not sitting on Amazon’s servers fully encrypted—and </span><a href=\"https://www.eff.org/deeplinks/2026/09/cold-take-amazons-new-encryption-method-still-doesnt-deliver-real-privacy\"><span>there’s reason to believe their privacy options are not the strongest</span></a><span>—police could serve a warrant straight to the company, instead of to you, to get footage from your devices.</span><span> </span></p>\n<p><span>New problems and questions arise because the camera can fly. For instance: if police serve a warrant on Amazon, can they only get the footage from the camera, or could they also get access to control the drone? If the latter, we could be looking at the first full home search in history where police serve a warrant on a third-party tech company and not the resident. </span><span> </span></p>\n<p><span>The CEO of Ring has pitched this product’s safety benefits in several ways, </span><a href=\"https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html\"><span>including by saying</span></a><span>: “If someone is going around your house at night, and your motion detector goes off on your Ring doorbell, imagine if you see spotlights and something flying across the window...You’re probably not going to go into that house.” But partially justifying a $250 piece of technology that invades your privacy on what an imagined burglar </span><i><span>might</span></i><span> do doesn’t sound like a foundation for safety—it sounds like </span><a href=\"https://en.wikipedia.org/wiki/Security_theater\"><span>security theater</span></a><span> and marketing.</span><span> </span></p>\n<p><span>It isn’t new for Ring to </span><a href=\"https://www.theatlantic.com/ideas/archive/2019/05/amazon-owned-ring-wants-report-crime-news/588394/\"><span>prey on the fears and paranoia</span></a><span> of people and their properties. This is the latest iteration of that: a patrolling drone or rover wouldn't have been possible even in the world's top museums and art galleries a generation ago. Moving this technology into the household as a common consumer product is another example of companies <a href=\"https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again\">attempting to lower the bar</a> on surveillance being normalized.</span><span> </span></p>\n<p><span>With previous Ring products, consumers have had to consider what cameras and </span><a href=\"https://www.consumerreports.org/home-garden/home-security-cameras/video-doorbell-cameras-record-audio-too-a4636115889/\"><span>high-powered microphones</span></a><span> can learn about their home usage from the front door. Autonomous flying drones and rovers </span><i><span>inside</span></i><span> the home add a whole new layer. What can these devices learn about you and your family? And do you really trust that data sitting on a server somewhere? Consumers should consider these risks before subjecting their guests and households to the latest creepy surveillance tool.</span><span> </span></p>\n\n</div></div></div>",
+    "url": "https://www.eff.org/deeplinks/2026/11/amazon-rings-new-indoor-surveillance-drone-not-compatible-privacy",
+    "date": "2026-11-16T17:58:26+00:00",
+    "pub_date": "2026-11-16",
+    "fetched": "2026-11-16T20:50:35.180022+00:00"
+  }
+]
