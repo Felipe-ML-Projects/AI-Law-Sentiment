@@ -4,30 +4,30 @@
 > Data collected from news outlets, arXiv, Reddit, and regulatory sources.
 > Updated every day via GitHub Actions.
 
-## Latest snapshot — 2026-11-25
+## Latest snapshot — 2026-11-26
 
 | Metric | Value |
 |--------|-------|
-| Total items analyzed | 1,480 |
+| Total items analyzed | 1,487 |
 | Days with data       | 171 |
-| Historical avg. VADER score | +0.2008 |
-| Latest daily report  | [View report](reports/2026-11-25_report.md) |
+| Historical avg. VADER score | +0.1980 |
+| Latest daily report  | [View report](reports/2026-11-26_report.md) |
 
 ## Trends Over Time
 
 | Window | Items | Avg. sentiment |
 |--------|-------|----------------|
-| Last 7 days  | 35  | -0.266  |
-| Last 30 days | 175 | +0.090 |
-| All-time     | 1086 | +0.100 |
+| Last 7 days  | 30  | -0.268  |
+| Last 30 days | 168 | +0.088 |
+| All-time     | 1093 | +0.097 |
 
-**Most-discussed regulatory topics (last 30 days):** **Privacy** (42), **Us Legislation** (33), **Transparency** (25), **Copyright Ip** (22), **Healthcare** (15)
+**Most-discussed regulatory topics (last 30 days):** **Privacy** (43), **Us Legislation** (33), **Transparency** (25), **Copyright Ip** (23), **Healthcare** (15)
 
-**Stance distribution (last 30 days):** Pro **25%** · Neutral **75%** · Anti **0%**
+**Stance distribution (last 30 days):** Pro **26%** · Neutral **74%** · Anti **0%**
 
-![Sentiment Timeline](reports/plots/2026-11-25_timeline.png)
-![Topics Over Time](reports/plots/2026-11-25_topics_over_time.png)
-![Stance Over Time](reports/plots/2026-11-25_stance_over_time.png)
+![Sentiment Timeline](reports/plots/2026-11-26_timeline.png)
+![Topics Over Time](reports/plots/2026-11-26_topics_over_time.png)
+![Stance Over Time](reports/plots/2026-11-26_stance_over_time.png)
 
 ## Why this project?
 
@@ -88,4 +88,4 @@ Data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 Code: [MIT](LICENSE)
 
 ---
-_Updated automatically on 2026-11-25 20:24 UTC by GitHub Actions._
+_Updated automatically on 2026-11-26 20:01 UTC by GitHub Actions._
